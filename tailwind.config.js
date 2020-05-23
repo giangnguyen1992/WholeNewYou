@@ -36,6 +36,5 @@ module.exports = {
                 '0 10px 25px rgba(255, 171, 159, .6), 0 5px 10px rgba(255, 171, 159, .3)'
         }
     },
-    variants: {},
     plugins: []
 };

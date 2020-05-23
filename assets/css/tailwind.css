@@ -5,3 +5,11 @@
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
+.scale:hover {
+    transform: scale(1.3);
+}
+
+.scale {
+    transition: all .3s;
+    transform-origin: 50% 50%;
+}

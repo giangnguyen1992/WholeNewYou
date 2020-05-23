@@ -1,16 +1,19 @@
 <template>
     <div>
-        <NavigationLogo />
+        <NavigationSection />
         <nuxt />
+        <FooterSection />
     </div>
 </template>
 
 <script>
-import NavigationLogo from '../components/nav/NavigationLogo';
+import NavigationSection from '../components/nav/NavigationSection';
+import FooterSection from '../components/footer/FooterSection';
 
 export default {
     components: {
-        NavigationLogo
+        NavigationSection,
+        FooterSection
     }
 };
 </script>
