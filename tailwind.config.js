@@ -31,9 +31,9 @@ module.exports = {
         backgroundColor: (theme) => theme('colors'),
         boxShadow: {
             button:
-                '0 20px 25px rgba(255, 171, 159, .3), 0 10px 10px rgba(255, 171, 159, .1)',
+                '0 10px 25px rgba(255, 171, 159, .3), 0 5px 10px rgba(255, 171, 159, .1)',
             hoverButton:
-                '0 20px 25px rgba(255, 171, 159, .6), 0 10px 10px rgba(255, 171, 159, .3)'
+                '0 10px 25px rgba(255, 171, 159, .6), 0 5px 10px rgba(255, 171, 159, .3)'
         }
     },
     variants: {},
