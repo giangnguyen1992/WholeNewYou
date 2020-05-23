@@ -28,7 +28,13 @@ module.exports = {
             lg: { min: '1012px' }
         },
         textColor: (theme) => theme('colors'),
-        backgroundColor: (theme) => theme('colors')
+        backgroundColor: (theme) => theme('colors'),
+        boxShadow: {
+            button:
+                '0 20px 25px rgba(255, 171, 159, .3), 0 10px 10px rgba(255, 171, 159, .1)',
+            hoverButton:
+                '0 20px 25px rgba(255, 171, 159, .6), 0 10px 10px rgba(255, 171, 159, .3)'
+        }
     },
     variants: {},
     plugins: []

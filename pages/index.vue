@@ -1,5 +1,7 @@
 <template>
-    <div class="bg-sec2-light h-screen"></div>
+    <div class="h-screen">
+        <BaseButton button-text="kaufen" button-path="https://www.google.de" />
+    </div>
 </template>
 
 <script>
