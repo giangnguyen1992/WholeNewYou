@@ -16,7 +16,7 @@ module.exports = {
             'sec-base': '#425966',
             'sec-light': '#9db5c4',
             'sec2-base': '#fddf9a',
-            'sec2-light': '#f8edd3'
+            'sec2-light': '#fdf9e7'
         },
         fontFamily: {
             sans: ['Source Sans Pro', 'sans-serif'],

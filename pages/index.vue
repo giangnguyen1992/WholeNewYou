@@ -1,5 +1,5 @@
 <template>
-    <div c></div>
+    <div class="bg-sec2-light h-screen"></div>
 </template>
 
 <script>
