@@ -19,13 +19,11 @@
 </template>
 
 <script>
-import data from '~/data/langdingpage.json';
-
 export default {
-    data() {
-        return {
-            heroSectionData: data.hero ? data.hero : {}
-        };
+    computed: {
+        heroSectionData() {
+            return this.$store.getters.hero;
+        }
     }
 };
 </script>

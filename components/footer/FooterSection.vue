@@ -15,17 +15,11 @@
 </template>
 
 <script>
-import data from '~/data/langdingpage.json';
 import SocialBar from '~/components/footer/SocialBar';
 
 export default {
     components: {
         SocialBar
-    },
-    data() {
-        return {
-            data
-        };
     },
     computed: {
         currentYear() {
@@ -33,8 +27,11 @@ export default {
             const currentYear = date.getFullYear();
             return currentYear;
         },
+        footer() {
+            return this.$store.getters.footer;
+        },
         services() {
-            return data.footer.socials ? data.footer.socials : [];
+            return this.footer.socials ? this.footer.socials : [];
         }
     }
 };
