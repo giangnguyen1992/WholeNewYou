@@ -34,6 +34,9 @@ module.exports = {
                 '0 10px 25px rgba(255, 171, 159, .3), 0 5px 10px rgba(255, 171, 159, .1)',
             hoverButton:
                 '0 10px 25px rgba(255, 171, 159, .6), 0 5px 10px rgba(255, 171, 159, .3)'
+        },
+        height: {
+            hero: '80vh'
         }
     },
     plugins: []

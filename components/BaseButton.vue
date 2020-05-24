@@ -4,9 +4,9 @@
         :href="buttonPath"
     >
         <span class="flex align-middle justify-center tracking-wider"
-            ><span class="font-sans font-bold text-white text-base">{{
-                text
-            }}</span>
+            ><span class="font-sans font-bold text-white text-base"
+                ><slot></slot
+            ></span>
         </span>
     </a>
 </template>
@@ -14,10 +14,6 @@
 <script>
 export default {
     props: {
-        buttonText: {
-            type: String,
-            required: true
-        },
         buttonPath: {
             type: String,
             required: true

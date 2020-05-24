@@ -1,12 +1,15 @@
 <template>
-    <div class="h-screen">
-        <BaseSectionHeadline text="KURS KAUFEN JETZT" />
-        <BaseButton button-text="kaufen" button-path="https://www.google.de" />
-    </div>
+    <HeroSection />
 </template>
 
 <script>
-export default {};
+import HeroSection from '~/components/hero/HeroSection.vue';
+
+export default {
+    components: {
+        HeroSection
+    }
+};
 </script>
 
 <style></style>
