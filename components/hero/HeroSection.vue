@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-sec2-light flex align-middle justify-between p-16 ">
-        <div>
+    <div class="bg-sec2-light flex align-middle justify-between p-32">
+        <div class="self-center">
             <h1 class="text-sec-base flex flex-col mb-8">
                 <span class="font-heading text-5xl leading-tight mb-8">{{
                     heroSectionData.headline

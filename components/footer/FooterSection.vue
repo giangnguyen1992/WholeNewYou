@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-sec2-base pt-10 pb-6">
+    <footer class="bg-sec2-base pt-10 pb-6 px-16">
         <BaseLogo />
         <SocialBar class="my-8" :services="services" />
         <div
