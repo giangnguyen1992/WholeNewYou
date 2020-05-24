@@ -1,0 +1,78 @@
+{
+    "hero": {
+        "headline": "Starte jetzt deine Reise zu einem gesünderen und glücklicheren Leben!",
+        "intro": "Mit diesem 2-wöchigen Health & Wellness Onlinekurs investierst du in dich selbst, deine Gesundheit und dein Wohlbefinden. Werde Teil einer exklusiven Health & Wellness Community. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein gesteigertes Wohlbefinden und ein stärkeres Immunsystem. Dieser Kurs ist keine kurzfristige strenge Diät, sondern dein Start in eine langfristige ganzheitliche Gesundheit.",
+        "buttonText": "Jetzt anmelden!"
+    },
+    "customerMatching": {
+        "headline": "Dieser Kurs ist das richtige für dich, wenn du...",
+        "arguments": [
+            "mehr über gesunde Ernährung lernen, diese langfristig umstellen und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern möchtest", 
+            "nach Tipps und Motivation für eine gesunde Ernährungs- und Lebensweise suchst sowie mehr Entspannung und Wohlbefinden in deinen Alltag bringen möchtest"
+        ]
+    },
+    "benefits": {
+        "headline": "Was dich in den zwei Wochen erwartet",
+        "arguments": [
+            "Informative Kursinhalte in Form von <strong>PDFs</strong>, Videos und begleitenden Mails",
+            "Wöchentliche <strong>Live Q&A-Sessions</strong>, in denen du alle deine Fragen loswerden kannst",
+            "Eine exklusive <strong>Community</strong> mit Austauschmöglichkeiten in unserer privaten Instagram-Gruppe"
+        ],
+        "buttonText": "Ich bin dabei!"
+    },
+    "courseOverview": {
+        "headline": "Kursübersicht",
+        "program": [
+            {
+                "1": "Das richtige Health Mindset: Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern",
+                "2": "Grundlagen einer gesunden Ernährung: Welche Nährstoffe braucht dein Körper? Lerne mehr über die Makro- und Mikronährstoffe",
+                "3": "Gesunde Ernährung im Alltag: Diese Handlungsschritte helfen dir, eine gesunde Ernährung nach und nach in deinen Alltag zu integrieren"
+            },
+            {
+                "1": "Unsere Verdauung: Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist.",
+                "2": "Entgiftung: Erfahre, welche Organe deinen Körper entgiften und wie du sie dabei unterstützen kannst",
+                "3": "Bonus: Mit einer Detox Challenge und einem Ernährungstageuch setzen wir das neue Wissen gleich gemeinsam in die Tat um."
+            }
+        ]
+    },
+    "about": {
+        "headline": "Über mich",
+        "text": "Vor einigen Jahren hatte ich selbst mit gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. In meiner Ausbildung zur Ernährungsberaterin lernte ich, gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Dieses Wissen möchte ich nun mit dir teilen, damit auch du deine Gesundheit selbst in die Hand nehmen kannst.",
+        "quote": "Ich bin fest davon überzeigt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind."
+    },
+    "timer": {
+        "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. Starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
+        "headline": "Verbleibende Zeit für die Anmeldung und bis zum Start des Kurses:",
+        "buttonText": "Melde dich jetzt an!"
+    },
+    "productOverview": {
+        "headline": "Der Whole New You Starter Course auf einen Blick",
+        "includes": [
+            "2 Wochen Health & Wellness Online Coaching", 
+            "6 Lektionen und informatives Lernmaterial in Form von PDFs und Videos", 
+            "2 Live Q&A-Sessions mit Regina",
+            "Zugang zur exklusiven Instagram-Community",
+            "Tägliche Begleitung in unserer Instagram-Community und per E-Mail",
+            "Bonusmaterial: Detox-Challenge, Ernährungstagebuch, Healthy Snacks Rezepte"
+        ],
+        "priceBeforeAndAfter": ["65,90", "55,90"],
+        "priceHeadline": "Jetzt zum Einführungspreis von",
+        "buttonText": "Jetzt anmelden!"
+    },
+    "footer": {
+        "socials": [
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/bloominglife.de/"
+            },
+            {
+                "name": "Youtube",
+                "url": "https://www.youtube.com/channel/UCNGsn-nsqStKzQAr_2-9Kow"
+            },
+            {
+                "name": "Worldwideweb",
+                "url": "https://www.bloominglife.de/"
+            }
+        ]
+    }
+}
