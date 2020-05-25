@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import SocialBar from '~/components/footer/SocialBar';
+import SocialBar from '~/components/SocialBar';
 
 export default {
     components: {

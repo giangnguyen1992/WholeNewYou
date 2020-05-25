@@ -3,7 +3,7 @@
         <BaseSectionHeadline class="mb-8">
             {{ customerMatchingData.headline }}
         </BaseSectionHeadline>
-        <div class="flex align-middle justify-between">
+        <div class="flex align-middle justify-evenly">
             <MatchingPoint
                 v-for="(argument, index) in customerMatchingData.arguments"
                 :key="index"
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import MatchingPoint from './MatchingPoint';
+import MatchingPoint from '~/components/MatchingPoint';
 
 export default {
     components: {
