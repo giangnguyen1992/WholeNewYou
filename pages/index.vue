@@ -7,7 +7,7 @@
 
 <script>
 import HeroSection from '~/components/hero/HeroSection.vue';
-import CustomerMatchingSection from '~/components/customerMatching/CustomerMatchingSection';
+import CustomerMatchingSection from '~/components/customerNeeds/CustomerNeedsSection';
 
 export default {
     components: {

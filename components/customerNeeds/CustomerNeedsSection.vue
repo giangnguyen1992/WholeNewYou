@@ -4,7 +4,7 @@
             {{ customerMatchingData.headline }}
         </BaseSectionHeadline>
         <div class="flex align-middle justify-evenly">
-            <MatchingPoint
+            <Argument
                 v-for="(argument, index) in customerMatchingData.arguments"
                 :key="index"
                 :argument="{ key: index + 1, text: argument }"
@@ -15,11 +15,11 @@
 </template>
 
 <script>
-import MatchingPoint from '~/components/MatchingPoint';
+import Argument from '~/components/Argument';
 
 export default {
     components: {
-        MatchingPoint
+        Argument
     },
     computed: {
         customerMatchingData() {
