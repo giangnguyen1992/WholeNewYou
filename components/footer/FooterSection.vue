@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-sec2-base pt-10 pb-6 px-16">
+    <BaseSection class="bg-sec2-base">
         <BaseLogo />
         <SocialBar class="my-8" :services="services" />
         <div
@@ -11,7 +11,7 @@
         <div class="text-center text-sec-base">
             <p>© {{ currentYear }} Bloominglife. All Rights Reserved.</p>
         </div>
-    </footer>
+    </BaseSection>
 </template>
 
 <script>

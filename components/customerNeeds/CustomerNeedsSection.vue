@@ -1,29 +1,29 @@
 <template>
-    <div class="p-32">
+    <BaseSection>
         <BaseSectionHeadline class="mb-8">
-            {{ customerMatchingData.headline }}
+            {{ customerNeedsData.headline }}
         </BaseSectionHeadline>
         <div class="flex align-middle justify-evenly">
-            <Argument
-                v-for="(argument, index) in customerMatchingData.arguments"
+            <CustomerNeedsArgument
+                v-for="(argument, index) in customerNeedsData.arguments"
                 :key="index"
                 :argument="{ key: index + 1, text: argument }"
                 class="px-4"
             />
         </div>
-    </div>
+    </BaseSection>
 </template>
 
 <script>
-import Argument from '~/components/Argument';
+import CustomerNeedsArgument from '~/components/CustomerNeedsArgument';
 
 export default {
     components: {
-        Argument
+        CustomerNeedsArgument
     },
     computed: {
-        customerMatchingData() {
-            return this.$store.getters.customerMatching;
+        customerNeedsData() {
+            return this.$store.getters.customerNeeds;
         }
     }
 };

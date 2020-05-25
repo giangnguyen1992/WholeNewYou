@@ -10,8 +10,8 @@ const createStore = () =>
             hero(state) {
                 return state.landingpageData.hero;
             },
-            customerMatching(state) {
-                return state.landingpageData.customerMatching;
+            customerNeeds(state) {
+                return state.landingpageData.customerNeeds;
             },
             benefits(state) {
                 return state.landingpageData.benefits;

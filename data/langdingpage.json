@@ -4,7 +4,7 @@
         "intro": "Mit diesem 2-wöchigen Health & Wellness Onlinekurs investierst du in dich selbst, deine Gesundheit und dein Wohlbefinden. Werde Teil einer exklusiven Health & Wellness Community. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein gesteigertes Wohlbefinden und ein stärkeres Immunsystem. Dieser Kurs ist keine kurzfristige strenge Diät, sondern dein Start in eine langfristige ganzheitliche Gesundheit.",
         "buttonText": "Jetzt anmelden!"
     },
-    "customerMatching": {
+    "customerNeeds": {
         "headline": "Dieser Kurs ist das richtige für dich, wenn du...",
         "arguments": [
             "mehr über gesunde Ernährung lernen, diese langfristig umstellen und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern möchtest", 
@@ -14,9 +14,21 @@
     "benefits": {
         "headline": "Was dich in den zwei Wochen erwartet",
         "arguments": [
-            "Informative Kursinhalte in Form von <strong>PDFs</strong>, Videos und begleitenden Mails",
-            "Wöchentliche <strong>Live Q&A-Sessions</strong>, in denen du alle deine Fragen loswerden kannst",
-            "Eine exklusive <strong>Community</strong> mit Austauschmöglichkeiten in unserer privaten Instagram-Gruppe"
+            {
+                "text": "Du erhälst informative Kursinhalte in Form von PDFs, Videos und begleitenden Mails.",
+                "headline": "Begleitende Kursinhalte",
+                "icon": "banana"
+            },
+            {
+                "text": "In diesen Sessions, bekommst du die Möglichkeit alle deine Frage loszuwerden.",
+                "headline": "Wöchentliche Livesessions",
+                "icon": "strawberry"
+            },
+            {
+                "text": "In dieser privaten Gruppe erhälst du tägliche Motivation und Inspiration sowie die Möglichkeit dich mit anderen Kursteilnehmern auszutauschen.",
+                "headline": "Exklusive Instagram - Community",
+                "icon": "lettuce"
+            }
         ],
         "buttonText": "Ich bin dabei!"
     },
