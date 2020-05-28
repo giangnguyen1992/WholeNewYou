@@ -36,14 +36,14 @@
         "headline": "Kursübersicht",
         "program": [
             {
-                "1": "Das richtige Health Mindset: Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern",
-                "2": "Grundlagen einer gesunden Ernährung: Welche Nährstoffe braucht dein Körper? Lerne mehr über die Makro- und Mikronährstoffe",
-                "3": "Gesunde Ernährung im Alltag: Diese Handlungsschritte helfen dir, eine gesunde Ernährung nach und nach in deinen Alltag zu integrieren"
+                "Das richtige Health Mindset": "Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern",
+                "Grundlagen einer gesunden Ernährung": "Welche Nährstoffe braucht dein Körper? Lerne mehr über die Makro- und Mikronährstoffe",
+                "Gesunde Ernährung im Alltag": "Diese Handlungsschritte helfen dir, eine gesunde Ernährung nach und nach in deinen Alltag zu integrieren"
             },
             {
-                "1": "Unsere Verdauung: Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist.",
-                "2": "Entgiftung: Erfahre, welche Organe deinen Körper entgiften und wie du sie dabei unterstützen kannst",
-                "3": "Bonus: Mit einer Detox Challenge und einem Ernährungstageuch setzen wir das neue Wissen gleich gemeinsam in die Tat um."
+                "Unsere Verdauung": "Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist.",
+                "Entgiftung": "Erfahre, welche Organe deinen Körper entgiften und wie du sie dabei unterstützen kannst",
+                "Bonus": "Mit einer Detox Challenge und einem Ernährungstageuch setzen wir das neue Wissen gleich gemeinsam in die Tat um."
             }
         ]
     },

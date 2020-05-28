@@ -39,5 +39,9 @@ module.exports = {
             hero: '80vh'
         }
     },
-    plugins: []
+    plugins: [],
+    variants: {
+        padding: ['responsive', 'hover', 'focus', 'odd', 'even'],
+        margin: ['responsive', 'hover', 'focus', 'odd', 'even']
+    }
 };
