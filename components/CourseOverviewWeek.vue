@@ -5,9 +5,8 @@
         </h3>
         <div class="flex flex-col items-center justify-center">
             <CourseOverviewPoint
-                v-for="(item, key, index) in weekOverview"
+                v-for="(item, index) in weekOverview"
                 :key="index"
-                :week-point-key="key"
                 :week-point-item="item"
                 :week-point="index + 1"
             >

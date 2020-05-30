@@ -35,16 +35,34 @@
     "courseOverview": {
         "headline": "Kursübersicht",
         "program": [
-            {
-                "Das richtige Health Mindset": "Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern",
-                "Grundlagen einer gesunden Ernährung": "Welche Nährstoffe braucht dein Körper? Lerne mehr über die Makro- und Mikronährstoffe",
-                "Gesunde Ernährung im Alltag": "Diese Handlungsschritte helfen dir, eine gesunde Ernährung nach und nach in deinen Alltag zu integrieren"
-            },
-            {
-                "Unsere Verdauung": "Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist.",
-                "Entgiftung": "Erfahre, welche Organe deinen Körper entgiften und wie du sie dabei unterstützen kannst",
-                "Bonus": "Mit einer Detox Challenge und einem Ernährungstageuch setzen wir das neue Wissen gleich gemeinsam in die Tat um."
-            }
+            [
+                {
+                    "headline": "Das richtige Health Mindset",
+                    "description": "Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern"
+                },
+                {
+                    "headline": "Grundlagen einer gesunden Ernährung",
+                    "description": "Welche Nährstoffe braucht dein Körper? Lerne mehr über die Makro- und Mikronährstoffe"
+                },
+                {
+                    "headline": "Gesunde Ernährung im Alltag",
+                    "description": "Diese Handlungsschritte helfen dir, eine gesunde Ernährung nach und nach in deinen Alltag zu integrieren"
+                }
+            ],
+            [
+                {
+                    "headline": "Unsere Verdauung",
+                    "description": "Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist."
+                },
+                {
+                    "headline": "Entgiftung",
+                    "description": "Erfahre, welche Organe deinen Körper entgiften und wie du sie dabei unterstützen kannst"
+                },
+                {
+                    "headline": "Bonus",
+                    "description": "Mit einer Detox Challenge und einem Ernährungstageuch setzen wir das neue Wissen gleich gemeinsam in die Tat um."
+                }
+            ]
         ]
     },
     "about": {

@@ -7,9 +7,11 @@
         </div>
         <div>
             <h4 class="font-sans text-sec-base font-semibold text-lg">
-                {{ weekPointKey }}
+                {{ weekPointItem.headline }}
             </h4>
-            <p class="font-sans text-sec-base">{{ weekPointItem }}</p>
+            <p class="font-sans text-sec-base">
+                {{ weekPointItem.description }}
+            </p>
         </div>
     </div>
 </template>
@@ -18,10 +20,6 @@
 export default {
     props: {
         weekPointItem: {
-            type: String,
-            required: true
-        },
-        weekPointKey: {
             type: String,
             required: true
         },
