@@ -73,7 +73,8 @@
     "timer": {
         "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. Starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
         "headline": "Verbleibende Zeit für die Anmeldung und bis zum Start des Kurses:",
-        "buttonText": "Melde dich jetzt an!"
+        "buttonText": "Melde dich jetzt an!",
+        "expiredDate": "June 30, 2020 23:59:59"
     },
     "productOverview": {
         "headline": "Der Whole New You Starter Course auf einen Blick",

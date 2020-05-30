@@ -24,7 +24,7 @@ export default {
     },
     props: {
         weekOverview: {
-            type: Object,
+            type: Array,
             required: true
         },
         week: {

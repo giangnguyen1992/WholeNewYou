@@ -1,6 +1,6 @@
 <template>
     <div
-        class="bg-white flex w-3/4 items-center justify-center rounded-lg p-4 my-4 even:ml-32"
+        class="bg-white flex w-3/4 items-center justify-start rounded-lg p-4 my-4 even:ml-32"
     >
         <div class="text-primary-base text-3xl font-semibold pr-4">
             {{ `0${weekPoint}` }}
@@ -20,7 +20,7 @@
 export default {
     props: {
         weekPointItem: {
-            type: String,
+            type: Object,
             required: true
         },
         weekPoint: {

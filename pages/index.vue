@@ -3,7 +3,8 @@
         <HeroSection />
         <CustomerMatchingSection />
         <BenefitsSection />
-        <CourseOverview />
+        <CourseOverviewSection />
+        <TimerSection />
     </div>
 </template>
 
@@ -11,14 +12,16 @@
 import HeroSection from '~/components/hero/HeroSection.vue';
 import CustomerMatchingSection from '~/components/customerNeeds/CustomerNeedsSection';
 import BenefitsSection from '~/components/benefits/BenefitsSection';
-import CourseOverview from '~/components/courseOverview/CourseOverview';
+import CourseOverviewSection from '~/components/courseOverview/CourseOverviewSection';
+import TimerSection from '~/components/timer/TimerSection';
 
 export default {
     components: {
         HeroSection,
         CustomerMatchingSection,
         BenefitsSection,
-        CourseOverview
+        CourseOverviewSection,
+        TimerSection
     }
 };
 </script>
