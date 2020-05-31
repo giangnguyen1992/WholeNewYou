@@ -52,15 +52,28 @@ export default {
             return Math.floor((this.timeLeft % (1000 * 60)) / 1000);
         }
     },
-    mounted() {
-        this.startCountdown();
+    watch: {
+        timeLeft: {
+            handler(value) {
+                if (value > 0) {
+                    this.timer = setInterval(() => {
+                        this.startTimer();
+                    }, 1000);
+                } else {
+                    clearInterval(this.timer);
+                    // TODO what should happen if the timer reach 0
+                }
+            },
+            immediate: true
+        }
+    },
+    created() {
+        this.startTimer();
     },
     methods: {
-        startCountdown() {
-            this.timer = setInterval(() => {
-                const now = new Date().getTime();
-                this.timeLeft = this.expiredDateInMilliseconds - now;
-            }, 1000);
+        startTimer() {
+            const now = new Date().getTime();
+            this.timeLeft = this.expiredDateInMilliseconds - now;
         }
     }
 };
