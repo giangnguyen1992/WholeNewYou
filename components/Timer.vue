@@ -1,12 +1,36 @@
 <template>
-    <div>
-        <span>{{ getDaysFromTimeLeft | addLeadingZero }}</span>
-        <span>:</span>
-        <span>{{ getHoursFromTimeLeft | addLeadingZero }}</span>
-        <span>:</span>
-        <span>{{ getMinutesFromTimeLeft | addLeadingZero }}</span>
-        <span>:</span>
-        <span>{{ getSecondsFromTimeLeft | addLeadingZero }}</span>
+    <div class="flex ">
+        <div class="flex flex-col items-center mr-4">
+            <span
+                class="text-5xl text-primary-base font-semibold leading-none"
+                >{{ getDaysFromTimeLeft | addLeadingZero }}</span
+            >
+            <span class="text-sm">Tage</span>
+        </div>
+        <div class="text-5xl text-sec-base leading-none mr-4">:</div>
+        <div class="flex flex-col items-center mr-4">
+            <span
+                class="text-5xl text-primary-base font-semibold leading-none"
+                >{{ getHoursFromTimeLeft | addLeadingZero }}</span
+            >
+            <span class="text-sm">Stunden</span>
+        </div>
+        <div class="text-5xl text-sec-base leading-none mr-4">:</div>
+        <div class="flex flex-col items-center mr-4">
+            <span
+                class="text-5xl text-primary-base font-semibold leading-none"
+                >{{ getMinutesFromTimeLeft | addLeadingZero }}</span
+            >
+            <span class="text-sm">Minuten</span>
+        </div>
+        <div class="text-5xl text-sec-base leading-none mr-4">:</div>
+        <div class="flex flex-col items-center mr-4">
+            <span
+                class="text-5xl text-primary-base font-semibold leading-none"
+                >{{ getSecondsFromTimeLeft | addLeadingZero }}</span
+            >
+            <span class="text-sm">Sekunden</span>
+        </div>
     </div>
 </template>
 
