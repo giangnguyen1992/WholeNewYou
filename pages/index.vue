@@ -5,6 +5,7 @@
         <BenefitsSection />
         <CourseOverviewSection />
         <TimerSection />
+        <AboutSection />
     </div>
 </template>
 
@@ -14,6 +15,7 @@ import CustomerMatchingSection from '~/components/customerNeeds/CustomerNeedsSec
 import BenefitsSection from '~/components/benefits/BenefitsSection';
 import CourseOverviewSection from '~/components/courseOverview/CourseOverviewSection';
 import TimerSection from '~/components/timer/TimerSection';
+import AboutSection from '~/components/about/AboutSection';
 
 export default {
     components: {
@@ -21,7 +23,8 @@ export default {
         CustomerMatchingSection,
         BenefitsSection,
         CourseOverviewSection,
-        TimerSection
+        TimerSection,
+        AboutSection
     }
 };
 </script>
