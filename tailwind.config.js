@@ -20,7 +20,8 @@ module.exports = {
         },
         fontFamily: {
             sans: ['Source Sans Pro', 'sans-serif'],
-            heading: ['Bebas Neue', 'sans-serif']
+            heading: ['Bebas Neue', 'sans-serif'],
+            serif: ['Georgia', 'Cambria', 'Times', 'serif']
         },
         screens: {
             sm: { max: '719px' },

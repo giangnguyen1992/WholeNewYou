@@ -5,6 +5,7 @@
                 <img
                     src="~/assets/images/aboutme.JPG"
                     alt="Regina Kirchmeier"
+                    class="rounded-lg"
                 />
             </div>
             <div>
@@ -12,7 +13,7 @@
                     {{ aboutSectionData.headline }}
                 </BaseSectionHeadline>
                 <p class="text-sec-base mb-8">{{ aboutSectionData.text }}</p>
-                <p class="text-sec-base text-2xl">
+                <p class="text-sec-base font-serif text-2xl">
                     <span class="text-primary-base text-3xl leading-none"
                         >"</span
                     >
