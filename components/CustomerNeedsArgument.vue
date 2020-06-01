@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-1/4">
+    <div class="flex">
         <div class="text-primary-base text-5xl font-semibold leading-none pr-6">
             {{ `0${argument.key}` }}
         </div>

@@ -1,19 +1,21 @@
 <template>
-    <BaseSection class="bg-sec2-light text-center">
-        <BaseSectionHeadline class="mb-8">
-            {{ benefitsSectionData.headline }}
-        </BaseSectionHeadline>
-        <div class="flex align-middle justify-center">
-            <BenefitsArgument
-                v-for="argument in benefitsSectionData.arguments"
-                :key="argument.headline"
-                :argument="argument"
-            >
-            </BenefitsArgument>
+    <BaseSection class="bg-sec2-light">
+        <div class="text-center">
+            <BaseSectionHeadline class="mb-8">
+                {{ benefitsSectionData.headline }}
+            </BaseSectionHeadline>
+            <div class="flex align-middle justify-center">
+                <BenefitsArgument
+                    v-for="argument in benefitsSectionData.arguments"
+                    :key="argument.headline"
+                    :argument="argument"
+                >
+                </BenefitsArgument>
+            </div>
+            <BaseButton button-path="#" class="mt-8">
+                {{ benefitsSectionData.buttonText }}
+            </BaseButton>
         </div>
-        <BaseButton button-path="#" class="mt-8">
-            {{ benefitsSectionData.buttonText }}
-        </BaseButton>
     </BaseSection>
 </template>
 

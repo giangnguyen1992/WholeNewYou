@@ -41,7 +41,7 @@ module.exports = {
     },
     plugins: [],
     variants: {
-        padding: ['responsive', 'hover', 'focus', 'odd', 'even'],
+        padding: ['responsive', 'hover', 'focus', 'odd', 'even', 'last'],
         margin: ['responsive', 'hover', 'focus', 'odd', 'even']
     }
 };

@@ -3,12 +3,11 @@
         <BaseSectionHeadline class="mb-8">
             {{ customerNeedsData.headline }}
         </BaseSectionHeadline>
-        <div class="flex align-middle justify-evenly">
+        <div class="flex align-middle justify-between">
             <CustomerNeedsArgument
                 v-for="(argument, index) in customerNeedsData.arguments"
                 :key="index"
                 :argument="{ key: index + 1, text: argument }"
-                class="px-4"
             />
         </div>
     </BaseSection>

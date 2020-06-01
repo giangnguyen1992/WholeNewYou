@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center flex-1 px-6">
+    <div class="flex flex-col items-center flex-1 pr-6 last:pr-0">
         <div class="w-24 my-8">
             <img :src="iconPath" alt="Banane" />
         </div>
