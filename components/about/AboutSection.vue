@@ -13,14 +13,8 @@
                     {{ aboutSectionData.headline }}
                 </BaseSectionHeadline>
                 <p class="text-sec-base mb-8">{{ aboutSectionData.text }}</p>
-                <p class="text-sec-base font-serif text-2xl">
-                    <span class="text-primary-base text-3xl leading-none"
-                        >"</span
-                    >
+                <p class="text-sec-base font-serif text-2xl quote">
                     {{ aboutSectionData.quote }}
-                    <span class="text-primary-base text-3xl leading-none"
-                        >"</span
-                    >
                 </p>
             </div>
         </div>
@@ -36,3 +30,17 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+.quote::before {
+    content: '"';
+    color: #ffab9f;
+    font-size: 1.875rem;
+}
+
+.quote::after {
+    content: '"';
+    color: #ffab9f;
+    font-size: 1.875rem;
+}
+</style>
