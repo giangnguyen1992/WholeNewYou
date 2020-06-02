@@ -2,31 +2,43 @@
     <div class="flex ">
         <div class="flex flex-col items-center mr-4">
             <span
-                class="text-5xl text-primary-base font-semibold leading-none"
+                class="lg:text-5xl md:text-4xl sm:text-4xl text-primary-base font-semibold leading-none"
                 >{{ getDaysFromTimeLeft | addLeadingZero }}</span
             >
             <span class="text-sm">Tage</span>
         </div>
-        <div class="text-5xl text-sec-base leading-none mr-4">:</div>
+        <div
+            class="lg:text-5xl md:text-4xl sm:text-4xl text-sec-base leading-none mr-4"
+        >
+            :
+        </div>
         <div class="flex flex-col items-center mr-4">
             <span
-                class="text-5xl text-primary-base font-semibold leading-none"
+                class="lg:text-5xl md:text-4xl sm:text-4xl text-primary-base font-semibold leading-none"
                 >{{ getHoursFromTimeLeft | addLeadingZero }}</span
             >
             <span class="text-sm">Stunden</span>
         </div>
-        <div class="text-5xl text-sec-base leading-none mr-4">:</div>
+        <div
+            class="lg:text-5xl md:text-4xl sm:text-4xl text-sec-base leading-none mr-4"
+        >
+            :
+        </div>
         <div class="flex flex-col items-center mr-4">
             <span
-                class="text-5xl text-primary-base font-semibold leading-none"
+                class="lg:text-5xl md:text-4xl sm:text-4xl text-primary-base font-semibold leading-none"
                 >{{ getMinutesFromTimeLeft | addLeadingZero }}</span
             >
             <span class="text-sm">Minuten</span>
         </div>
-        <div class="text-5xl text-sec-base leading-none mr-4">:</div>
+        <div
+            class="lg:text-5xl md:text-4xl sm:text-4xl text-sec-base leading-none mr-4"
+        >
+            :
+        </div>
         <div class="flex flex-col items-center mr-4">
             <span
-                class="text-5xl text-primary-base font-semibold leading-none"
+                class="lg:text-5xl md:text-4xl sm:text-4xl text-primary-base font-semibold leading-none"
                 >{{ getSecondsFromTimeLeft | addLeadingZero }}</span
             >
             <span class="text-sm">Sekunden</span>

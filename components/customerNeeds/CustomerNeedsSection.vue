@@ -1,9 +1,9 @@
 <template>
-    <BaseSection>
-        <BaseSectionHeadline class="mb-8">
+    <BaseSection class="bg-grey-light">
+        <BaseSectionHeadline class="mb-8 text-center">
             {{ customerNeedsData.headline }}
         </BaseSectionHeadline>
-        <div class="flex align-middle justify-between">
+        <div class="flex md:flex-col sm:flex-col items-center justify-between">
             <CustomerNeedsArgument
                 v-for="(argument, index) in customerNeedsData.arguments"
                 :key="index"

@@ -1,10 +1,12 @@
 <template>
-    <BaseSection class="bg-sec2-light">
+    <BaseSection>
         <div class="text-center">
             <BaseSectionHeadline class="mb-8">
                 {{ benefitsSectionData.headline }}
             </BaseSectionHeadline>
-            <div class="flex align-middle justify-center">
+            <div
+                class="flex md:flex-col sm:flex-col align-middle justify-center"
+            >
                 <BenefitsArgument
                     v-for="argument in benefitsSectionData.arguments"
                     :key="argument.headline"
@@ -12,7 +14,7 @@
                 >
                 </BenefitsArgument>
             </div>
-            <BaseButton button-path="#" class="mt-8">
+            <BaseButton button-path="#" class="lg:mt-8">
                 {{ benefitsSectionData.buttonText }}
             </BaseButton>
         </div>

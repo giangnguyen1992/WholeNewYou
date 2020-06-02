@@ -27,6 +27,11 @@ export default {
             {
                 rel: 'stylesheet',
                 href:
+                    'https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap'
+            },
+            {
+                rel: 'stylesheet',
+                href:
                     'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@300;400;600&display=swap'
             }
         ]

@@ -1,5 +1,5 @@
 <template>
-    <nav class="py-8 mx-auto bg-sec2-light" role="banner">
+    <nav class="py-4 mx-auto" role="banner">
         <BaseLogo />
     </nav>
 </template>

@@ -1,7 +1,14 @@
 <template>
-    <BaseSection>
-        <div class="flex items-start justify-center">
-            <div class="w-1/3 flex-shrink-0 mr-12">
+    <BaseSection class="bg-grey-light">
+        <div
+            class="flex md:flex-col sm:flex-col lg:items-start md:items-center sm:items-center justify-center"
+        >
+            <BaseSectionHeadline class="lg:hidden mb-8">
+                {{ aboutSectionData.headline }}
+            </BaseSectionHeadline>
+            <div
+                class="lg:w-1/3 md:w-1/2 sm:w-1/2 flex-shrink-0 lg:mr-12 md:mb-8 sm:mb-8"
+            >
                 <img
                     src="~/assets/images/aboutme.JPG"
                     alt="Regina Kirchmeier"
@@ -9,7 +16,7 @@
                 />
             </div>
             <div>
-                <BaseSectionHeadline class="mb-8">
+                <BaseSectionHeadline class="md:hidden sm:hidden mb-8">
                     {{ aboutSectionData.headline }}
                 </BaseSectionHeadline>
                 <p class="text-sec-base mb-8">{{ aboutSectionData.text }}</p>

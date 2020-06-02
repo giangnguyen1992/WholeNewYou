@@ -16,12 +16,13 @@ module.exports = {
             'sec-base': '#425966',
             'sec-light': '#9db5c4',
             'sec2-base': '#fddf9a',
-            'sec2-light': '#fdf9e7'
+            'sec2-light': '#fdf9e7',
+            'grey-light': '#fafafa'
         },
         fontFamily: {
             sans: ['Source Sans Pro', 'sans-serif'],
             heading: ['Bebas Neue', 'sans-serif'],
-            serif: ['Georgia', 'Cambria', 'Times', 'serif']
+            serif: ['Source Serif Pro', 'serif']
         },
         screens: {
             sm: { max: '719px' },
