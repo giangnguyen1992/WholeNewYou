@@ -6,13 +6,13 @@
             <BaseSectionHeadline class="lg:hidden mb-8">
                 {{ aboutSectionData.headline }}
             </BaseSectionHeadline>
-            <div
-                class="lg:w-1/3 md:w-1/2 sm:w-1/2 flex-shrink-0 lg:mr-12 md:mb-8 sm:mb-8"
-            >
-                <img
-                    src="~/assets/images/aboutme.JPG"
-                    alt="Regina Kirchmeier"
-                    class="rounded-lg"
+            <div class="lg:w-1/3 flex-shrink-0 lg:mr-12 md:mb-8 sm:mb-8">
+                <BasePicture
+                    :image="{
+                        name: 'aboutme',
+                        type: 'JPG',
+                        alt: 'Regina Kirchmeier'
+                    }"
                 />
             </div>
             <div>
@@ -20,7 +20,9 @@
                     {{ aboutSectionData.headline }}
                 </BaseSectionHeadline>
                 <p class="text-sec-base mb-8">{{ aboutSectionData.text }}</p>
-                <p class="text-sec-base font-serif text-2xl quote">
+                <p
+                    class="text-sec-base font-serif lg:text-2xl md:text-2xl sm:text-xl quote"
+                >
                     {{ aboutSectionData.quote }}
                 </p>
             </div>
@@ -43,11 +45,13 @@ export default {
     content: '"';
     color: #ffab9f;
     font-size: 1.875rem;
+    line-height: 1;
 }
 
 .quote::after {
     content: '"';
     color: #ffab9f;
     font-size: 1.875rem;
+    line-height: 1;
 }
 </style>

@@ -1,6 +1,8 @@
 <template>
     <div class="flex flex-col items-center mb-8">
-        <h3 class="text-white font-heading font-semibold text-3xl">
+        <h3
+            class="text-white font-heading font-semibold lg:text-5xl md:text-4xl sm:text-3xl"
+        >
             {{ `Woche ${week}` }}
         </h3>
         <div class="flex flex-col items-center justify-center">

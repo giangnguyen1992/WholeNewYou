@@ -7,7 +7,13 @@
                 {{ productSectionData.headline }}
             </BaseSectionHeadline>
             <div class="max-w-xl mb-8">
-                <img src="~/assets/images/product-overview.png" alt="" />
+                <BasePicture
+                    :image="{
+                        name: 'product',
+                        type: 'png',
+                        alt: 'Produktfoto'
+                    }"
+                />
             </div>
             <ul class="border-b border-solid border-primary-base pb-8 mb-8">
                 <li
@@ -21,7 +27,7 @@
             <p class="text-xl leading-none">
                 {{ productSectionData.priceHeadline }}
             </p>
-            <p class="font-heading text-6xl mb-8">
+            <p class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-8">
                 {{ `${productSectionData.priceBeforeAndAfter} €` }}
             </p>
             <BaseButton button-path="#">
