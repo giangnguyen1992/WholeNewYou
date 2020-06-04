@@ -14,11 +14,12 @@ export default {
             {
                 hid: 'description',
                 name: 'description',
-                content: process.env.npm_package_description || ''
+                content:
+                    'Dein Onlinekurs für gesunde Ernährung und Achtsamkeit! Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
             }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            { rel: 'icon', type: 'image/x-icon', href: '/WNY.ico' },
             {
                 rel: 'stylesheet',
                 href:
