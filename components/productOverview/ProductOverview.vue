@@ -1,7 +1,8 @@
 <template>
     <BaseSection>
         <div
-            class="flex flex-col items-center border-solid border-primary-base border rounded-lg p-8 text-sec-base scale"
+            id="productBox"
+            class="flex flex-col items-center border-solid border-primary-base border rounded-lg p-8 text-sec-base lg:scale"
         >
             <BaseSectionHeadline class="mb-8">
                 {{ productSectionData.headline }}
@@ -30,7 +31,7 @@
             <p class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-8">
                 {{ `${productSectionData.priceBeforeAndAfter} €` }}
             </p>
-            <BaseButton button-path="#">
+            <BaseButton>
                 {{ productSectionData.buttonText }}
             </BaseButton>
         </div>

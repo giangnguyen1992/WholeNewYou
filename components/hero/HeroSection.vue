@@ -14,7 +14,7 @@
                     }}</span>
                 </h1>
 
-                <BaseButton button-path="#" class="md:hidden sm:hidden">{{
+                <BaseButton class="md:hidden sm:hidden">{{
                     heroSectionData.buttonText
                 }}</BaseButton>
             </div>
@@ -30,7 +30,7 @@
             <p class="lg:hidden md:max-w-xl text-sec-base md:mt-12 sm:mt-12">
                 {{ heroSectionData.intro }}
             </p>
-            <BaseButton button-path="#" class="lg:hidden md:mt-12 sm:mt-12">{{
+            <BaseButton class="lg:hidden md:mt-12 sm:mt-12">{{
                 heroSectionData.buttonText
             }}</BaseButton>
         </div>

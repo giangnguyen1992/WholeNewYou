@@ -49,7 +49,8 @@ export default {
      */
     plugins: [
         '~/plugins/global-components.js',
-        '~/plugins/lazysizes.client.js'
+        '~/plugins/lazysizes.client.js',
+        '~/plugins/smoothscrollPolyfill.client.js'
     ],
     /*
      ** Nuxt.js dev-modules

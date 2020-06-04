@@ -8,7 +8,7 @@
                 {{ timerSectionData.headline }}
             </BaseSectionHeadline>
             <Timer :expired-date="timerSectionData.expiredDate" class="mb-8" />
-            <BaseButton button-path="#">
+            <BaseButton>
                 {{ timerSectionData.buttonText }}
             </BaseButton>
         </div>

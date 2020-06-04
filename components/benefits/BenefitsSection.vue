@@ -14,7 +14,7 @@
                 >
                 </BenefitsArgument>
             </div>
-            <BaseButton button-path="#" class="lg:mt-8">
+            <BaseButton class="lg:mt-8">
                 {{ benefitsSectionData.buttonText }}
             </BaseButton>
         </div>

@@ -3,7 +3,3 @@
         <img src="~/assets/images/logo.svg" alt="Logo" class="mx-auto" />
     </figure>
 </template>
-
-<script>
-export default {};
-</script>
