@@ -35,7 +35,8 @@ module.exports = {
             button:
                 '0 10px 25px rgba(255, 171, 159, .3), 0 5px 10px rgba(255, 171, 159, .1)',
             hoverButton:
-                '0 10px 25px rgba(255, 171, 159, .6), 0 5px 10px rgba(255, 171, 159, .3)'
+                '0 10px 25px rgba(255, 171, 159, .6), 0 5px 10px rgba(255, 171, 159, .3)',
+            picture: '-20px -20px 0px -5px rgba(255,171,159,1)'
         },
         height: {
             hero: '80vh'

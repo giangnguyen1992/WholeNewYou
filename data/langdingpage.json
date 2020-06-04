@@ -1,31 +1,31 @@
 {
     "hero": {
-        "headline": "Deine Reise zu einem gesünderen und glücklicheren Leben!",
-        "intro": "Mit diesem 2-wöchigen Health & Wellness Onlinekurs investierst du in dich selbst, deine Gesundheit und dein Wohlbefinden. Werde Teil einer exklusiven Health & Wellness Community. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein gesteigertes Wohlbefinden und ein stärkeres Immunsystem.",
+        "headline": "Dein Onlinekurs für gesunde Ernährung und Achtsamkeit!",
+        "intro": "Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
         "buttonText": "Jetzt anmelden!"
     },
     "customerNeeds": {
         "headline": "Dieser Kurs ist das richtige für dich, wenn du...",
         "arguments": [
-            "mehr über gesunde Ernährung lernen und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern möchtest. Dein Ziel ist keine kurzfristige Diät, sondern eine langfristige ganzheitliche Gesundheit.", 
-            "mehr Entspannung und Wohlbefinden in deinen Alltag bringen möchtest und nach Tipps und Motivation für eine gesunde Ernährungs- und Lebensweise suchst. Du möchtest das Thema Gesundheit mit Freude und Leichtigkeit angehen."
+            "mehr über gesunde Ernährung lernen und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern möchtest. Dein Ziel ist keine kurzfristige Diät und kurzfristige Erfolge, sondern deine langfristige ganzheitliche Gesundheit.", 
+            "mehr Entspannung und Wohlbefinden in deinen Alltag bringen möchtest und nach Tipps und Motivation für eine gesunde Ernährungs- und Lebensweise suchst. Du möchtest das Thema Gesundheit mit Freude angehen und dich gut in deinem Körper fühlen."
         ]
     },
     "benefits": {
         "headline": "Was dich in den zwei Wochen erwartet",
         "arguments": [
             {
-                "text": "Du erhälst informative Kursinhalte in Form von PDFs, Videos und begleitenden Mails.",
+                "text": "Du erhältst zu Beginn jeder Woche informative Kursinhalte in Form von PDFs, Videos und begleitenden Mails. Ich begleite dich zudem täglich in Form von Posts und Stories auf Instagram. Vor dem Kurs erhältst du vorbereitende Inhalte und Übungen.",
                 "headline": "Begleitende Kursinhalte",
                 "icon": "banana"
             },
             {
-                "text": "In diesen Sessions, bekommst du die Möglichkeit alle deine Frage loszuwerden.",
+                "text": "Hier hast du die Möglichkeit alle deine Frage loszuwerden. Die Sessions werden wöchentlich am Donnerstag um 19 Uhr stattfinden. Wenn du nicht dabei sein kannst, keine Sorge, die Aufzeichnung wird gespeichert und ist hinterher abrufbar.",
                 "headline": "Wöchentliche Livesessions",
                 "icon": "strawberry"
             },
             {
-                "text": "In dieser privaten Gruppe erhälst du tägliche Motivation und Inspiration sowie die Möglichkeit dich mit anderen Kursteilnehmern auszutauschen.",
+                "text": "In dieser privaten Gruppe bekommst du tägliche Inhalte, Motivation und Inspiration sowie die Möglichkeit, dich mit anderen Kursteilnehmern auszutauschen. Hier triffst du Gleichgesinnte, die an ihrer Gesundheit und ihrem Wohlbefinden arbeiten wollen.",
                 "headline": "Instagram - Community",
                 "icon": "lettuce"
             }
@@ -38,36 +38,37 @@
             [
                 {
                     "headline": "Das richtige Health Mindset",
-                    "description": "Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern"
+                    "description": "Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern."
                 },
                 {
                     "headline": "Grundlagen einer gesunden Ernährung",
-                    "description": "Welche Nährstoffe braucht dein Körper? Lerne mehr über die Makro- und Mikronährstoffe"
+                    "description": "Wie sieht die optimale Ernährung aus? Lerne mehr über die Makro- und Mikronährstoffe und was dein Körper wirklich braucht."
                 },
                 {
                     "headline": "Gesunde Ernährung im Alltag",
-                    "description": "Diese Handlungsschritte helfen dir, eine gesunde Ernährung nach und nach in deinen Alltag zu integrieren"
+                    "description": "Ganzheitliche Handlungsempfehlungen helfen dir dabei, eine gesunde Ernährung Schritt für Schritt in deinen Alltag zu integrieren und dein Leben langfristig gesünder zu gestalten."
                 }
             ],
             [
                 {
-                    "headline": "Unsere Verdauung",
-                    "description": "Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist."
+                    "headline": "Verdauung",
+                    "description": "Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist und wie Darm und Psyche zusammenhängen."
                 },
                 {
                     "headline": "Entgiftung",
-                    "description": "Erfahre, welche Organe deinen Körper entgiften und wie du sie dabei unterstützen kannst"
+                    "description": "Erfahre, welche Organe deinen Körper entgiften und wie du deine Entgiftungsprozesse ganzheitlich und natürlich unterstützen kannst. So kannst du deinen Körper auf natürlichem Wege von Abfällen befreien."
                 },
                 {
-                    "headline": "Bonus",
-                    "description": "Mit einer Detox Challenge und einem Ernährungstageuch setzen wir das neue Wissen gleich gemeinsam in die Tat um."
+                    "headline": "Bonusmaterial",
+                    "description": "Mit einer Detox Challenge und einem Ernährungstagebuch setzen wir das neue Wissen gleich gemeinsam in die Tat um. Nun bist du bereit mit einer kleinen Herausforderung in eine gesündere Ernährung zu starten."
                 }
             ]
         ]
     },
     "about": {
         "headline": "Über mich",
-        "text": "Vor einigen Jahren hatte ich selbst mit gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. In meiner Ausbildung zur Ernährungsberaterin lernte ich, gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Dieses Wissen möchte ich nun mit dir teilen, damit auch du deine Gesundheit selbst in die Hand nehmen kannst.",
+        "intro": "Hi, ich bin Regina und ganzheitliche Ernährungsberaterin.",
+        "text": "Vor einigen Jahren hatte ich selbst mit verschiedenen gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. Wenig Energie, Infektanfälligkeit, chronischer Stress sowie Probleme mit Gewicht, Hormonen und der Verdauung sind heute leider keine Seltenheit. In meiner Ausbildung zur Ernährungsberaterin lernte ich, diesen gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Dieses Wissen möchte ich nun mit dir teilen, damit auch du deine Gesundheit selbst in die Hand nehmen kannst.",
         "quote": "Ich bin fest davon überzeigt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind."
     },
     "timer": {

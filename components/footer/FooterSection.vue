@@ -5,8 +5,20 @@
         <div
             class="flex justify-center align-middle font-sans text-sec-base mb-8"
         >
-            <p class="mr-10 hover:text-sec-light">Datenschutz</p>
-            <p class="hover:text-sec-light">Impressum</p>
+            <a
+                href="https://www.bloominglife.de/datenschutzerklaerung/"
+                class="mr-10 hover:text-sec-light"
+                target="_blank"
+                rel="noopener"
+                >Datenschutz</a
+            >
+            <a
+                href="https://www.bloominglife.de/impressum/"
+                class="hover:text-sec-light"
+                target="_blank"
+                rel="noopener"
+                >Impressum</a
+            >
         </div>
         <div class="text-center text-sec-base">
             <p>© {{ currentYear }} Bloominglife. All Rights Reserved.</p>

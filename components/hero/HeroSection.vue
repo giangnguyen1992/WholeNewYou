@@ -18,7 +18,7 @@
                     heroSectionData.buttonText
                 }}</BaseButton>
             </div>
-            <div class="lg:max-w-xl md:max-w-xl">
+            <div class="lg:max-w-xl md:max-w-xl rounded-lg shadow-picture mx-4">
                 <BasePicture
                     :image="{
                         name: 'regina-hero',

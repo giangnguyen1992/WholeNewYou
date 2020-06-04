@@ -2,7 +2,7 @@
     <BaseSection>
         <div
             id="productBox"
-            class="flex flex-col items-center border-solid border-primary-base border rounded-lg p-8 text-sec-base lg:scale"
+            class="flex flex-col items-center border-solid border-primary-base border rounded-lg lg:p-8 md:p-8 sm:p-4 text-sec-base lg:scale"
         >
             <BaseSectionHeadline class="mb-8">
                 {{ productSectionData.headline }}
@@ -31,9 +31,16 @@
             <p class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-8">
                 {{ `${productSectionData.priceBeforeAndAfter} €` }}
             </p>
-            <BaseButton>
-                {{ productSectionData.buttonText }}
-            </BaseButton>
+            <a
+                href="#"
+                class="inline-block bg-primary-base rounded-md shadow-button hover:shadow-hoverButton py-3 px-12"
+            >
+                <span class="flex align-middle justify-center tracking-wider"
+                    ><span class="font-sans font-bold text-white text-base">
+                        {{ productSectionData.buttonText }}
+                    </span>
+                </span>
+            </a>
         </div>
     </BaseSection>
 </template>
