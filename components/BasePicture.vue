@@ -5,6 +5,7 @@
             :data-srcset="
                 `${require(`~/assets/images/${image.name}-desktop.${image.type}`)}`
             "
+            :srcset="imgPlaceholder"
             :src="imgPlaceholder"
             :type="`image/${image.type}`"
         />
@@ -13,6 +14,7 @@
             :data-srcset="
                 `${require(`~/assets/images/${image.name}-retina.${image.type}`)}`
             "
+            :srcset="imgPlaceholder"
             :src="imgPlaceholder"
             :type="`image/${image.type}`"
         />
@@ -21,6 +23,7 @@
             :data-srcset="
                 `${require(`~/assets/images/${image.name}-mobile.${image.type}`)} 1x, ${require(`~/assets/images/${image.name}-retina.${image.type}`)} 2x`
             "
+            :srcset="imgPlaceholder"
             :src="imgPlaceholder"
             :type="`image/${image.type}`"
         />
