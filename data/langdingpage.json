@@ -34,6 +34,7 @@
     },
     "courseOverview": {
         "headline": "Kursübersicht",
+        "programHeadline": ["Grundlagen der gesunden Ernährung", "Verdauung und Entgiftung"],
         "program": [
             [
                 {

@@ -1,9 +1,9 @@
 <template>
     <div class="flex flex-col items-center mb-8">
         <h3
-            class="text-white font-heading font-semibold lg:text-5xl md:text-4xl sm:text-3xl"
+            class="text-white font-heading font-semibold lg:text-2xl md:text-2xl sm:text-2xl"
         >
-            {{ `Woche ${week}` }}
+            {{ `Woche ${week + 1}: ${programHeadline[week]}` }}
         </h3>
         <div class="flex flex-col items-center justify-center">
             <CourseOverviewPoint
@@ -31,6 +31,10 @@ export default {
         },
         week: {
             type: Number,
+            required: true
+        },
+        programHeadline: {
+            type: Array,
             required: true
         }
     }

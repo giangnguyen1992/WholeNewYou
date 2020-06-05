@@ -1,6 +1,6 @@
 <template>
     <li class="px-6">
-        <figure class="w-6 scale">
+        <figure class="w-6 lg:scale">
             <a :href="service.url" target="_blank" rel="noopener">
                 <img :src="socialIconPath" :alt="service.name" />
             </a>

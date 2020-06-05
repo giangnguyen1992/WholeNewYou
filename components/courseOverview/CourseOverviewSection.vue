@@ -8,7 +8,8 @@
                 v-for="(courseWeek, index) in courseOverviewSectionData.program"
                 :key="index"
                 :week-overview="courseWeek"
-                :week="index + 1"
+                :week="index"
+                :program-headline="courseOverviewSectionData.programHeadline"
             />
         </div>
     </BaseSection>
