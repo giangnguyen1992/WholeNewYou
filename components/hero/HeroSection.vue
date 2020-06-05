@@ -25,7 +25,8 @@
                     :image="{
                         name: 'regina-hero',
                         type: 'jpg',
-                        alt: 'Ein Bild von Regina Kirchmeier mit 2 Papayas'
+                        alt: 'Ein Bild von Regina Kirchmeier mit 2 Papayas',
+                        lazyload: false
                     }"
                 />
             </div>

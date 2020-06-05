@@ -13,7 +13,8 @@
                     :image="{
                         name: 'aboutme',
                         type: 'JPG',
-                        alt: 'Regina Kirchmeier'
+                        alt: 'Regina Kirchmeier',
+                        lazyload: true
                     }"
                 />
             </div>

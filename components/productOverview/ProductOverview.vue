@@ -12,7 +12,8 @@
                     :image="{
                         name: 'product',
                         type: 'png',
-                        alt: 'Produktfoto'
+                        alt: 'Produktfoto',
+                        lazyload: true
                     }"
                 />
             </div>
