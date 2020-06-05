@@ -1,6 +1,6 @@
 <template>
     <button
-        class="inline-block bg-primary-base rounded-md shadow-button lg:hover:shadow-hoverButton py-3 px-12"
+        class="inline-block bg-primary-base rounded-md shadow-button lg:hover:shadow-hoverButton focus:shadow-outline outline-none py-3 px-12"
         @click="scrollToProdcutBox"
     >
         <span class="flex align-middle justify-center tracking-wider"
