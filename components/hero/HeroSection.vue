@@ -23,7 +23,7 @@
                     :image="{
                         name: 'regina-hero',
                         type: 'jpg',
-                        alt: 'Mädchen auf einem Küchentresen'
+                        alt: 'Ein Bild von Regina Kirchmeier mit 2 Papayas'
                     }"
                 />
             </div>

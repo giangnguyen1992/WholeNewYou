@@ -34,6 +34,7 @@
             <a
                 href="#"
                 class="inline-block bg-primary-base rounded-md shadow-button hover:shadow-hoverButton py-3 px-12"
+                role="button"
             >
                 <span class="flex align-middle justify-center tracking-wider"
                     ><span class="font-sans font-bold text-white text-base">

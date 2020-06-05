@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <main>
         <HeroSection />
         <CustomerMatchingSection />
         <BenefitsSection />
@@ -7,7 +7,7 @@
         <TimerSection />
         <AboutSection />
         <ProductOverview />
-    </div>
+    </main>
 </template>
 
 <script>

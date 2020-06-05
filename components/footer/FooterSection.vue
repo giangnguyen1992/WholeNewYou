@@ -1,29 +1,33 @@
 <template>
-    <BaseSection class="bg-sec2-base">
-        <BaseLogo />
-        <SocialBar class="my-8" :services="services" />
-        <div
-            class="flex justify-center align-middle font-sans text-sec-base mb-8"
-        >
-            <a
-                href="https://www.bloominglife.de/datenschutzerklaerung/"
-                class="mr-10 hover:text-sec-light"
-                target="_blank"
-                rel="noopener"
-                >Datenschutz</a
+    <footer
+        class="w-full lg:px-8 md:px-8 sm:px-4 lg:py-24 md:py-16 sm:py-12 bg-sec2-base"
+    >
+        <div class="mx-auto max-w-5xl">
+            <BaseLogo />
+            <SocialBar class="my-8" :services="services" />
+            <div
+                class="flex justify-center align-middle font-sans text-sec-base mb-8"
             >
-            <a
-                href="https://www.bloominglife.de/impressum/"
-                class="hover:text-sec-light"
-                target="_blank"
-                rel="noopener"
-                >Impressum</a
-            >
+                <a
+                    href="https://www.bloominglife.de/datenschutzerklaerung/"
+                    class="mr-10 hover:text-sec-light"
+                    target="_blank"
+                    rel="noopener"
+                    >Datenschutz</a
+                >
+                <a
+                    href="https://www.bloominglife.de/impressum/"
+                    class="hover:text-sec-light"
+                    target="_blank"
+                    rel="noopener"
+                    >Impressum</a
+                >
+            </div>
+            <div class="text-center text-sec-base">
+                <p>© {{ currentYear }} Bloominglife. All Rights Reserved.</p>
+            </div>
         </div>
-        <div class="text-center text-sec-base">
-            <p>© {{ currentYear }} Bloominglife. All Rights Reserved.</p>
-        </div>
-    </BaseSection>
+    </footer>
 </template>
 
 <script>

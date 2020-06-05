@@ -5,6 +5,9 @@ export default {
      */
     head: {
         title: 'Whole New You',
+        htmlAttrs: {
+            lang: 'de'
+        },
         meta: [
             { charset: 'utf-8' },
             {
