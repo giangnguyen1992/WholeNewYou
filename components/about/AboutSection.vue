@@ -6,7 +6,7 @@
             <BaseSectionHeadline class="lg:hidden mb-8">
                 {{ aboutSectionData.headline }}
             </BaseSectionHeadline>
-            <div
+            <figure
                 class="lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 rounded-lg shadow-picture mx-4 min-h-62"
             >
                 <BasePicture
@@ -17,7 +17,7 @@
                         lazyload: true
                     }"
                 />
-            </div>
+            </figure>
             <div class="lg:ml-12 ">
                 <BaseSectionHeadline class="md:hidden sm:hidden mb-8">
                     {{ aboutSectionData.headline }}

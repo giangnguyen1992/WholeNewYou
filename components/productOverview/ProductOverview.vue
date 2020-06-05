@@ -7,7 +7,7 @@
             <BaseSectionHeadline class="mb-8">
                 {{ productSectionData.headline }}
             </BaseSectionHeadline>
-            <div class="max-w-xl mb-8">
+            <figure class="max-w-xl mb-8">
                 <BasePicture
                     :image="{
                         name: 'product',
@@ -16,7 +16,7 @@
                         lazyload: true
                     }"
                 />
-            </div>
+            </figure>
             <ul class="border-b border-solid border-primary-base pb-8 mb-8">
                 <li
                     v-for="(product, index) in productSectionData.includes"

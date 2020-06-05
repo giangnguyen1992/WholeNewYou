@@ -18,7 +18,7 @@
                     heroSectionData.buttonText
                 }}</BaseButton>
             </div>
-            <div
+            <figure
                 class="lg:max-w-xl md:max-w-xl rounded-lg shadow-picture mx-4 min-h-62"
             >
                 <BasePicture
@@ -29,7 +29,7 @@
                         lazyload: false
                     }"
                 />
-            </div>
+            </figure>
             <p class="lg:hidden md:max-w-xl text-sec-base md:mt-12 sm:mt-12">
                 {{ heroSectionData.intro }}
             </p>
