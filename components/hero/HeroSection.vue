@@ -18,15 +18,18 @@
                     heroSectionData.buttonText
                 }}</BaseButton>
             </div>
-            <div class="lg:max-w-xl md:max-w-xl rounded-lg shadow-picture mx-4">
+            <figure
+                class="lg:max-w-xl md:max-w-xl rounded-lg shadow-picture mx-4 min-h-62"
+            >
                 <BasePicture
                     :image="{
                         name: 'regina-hero',
                         type: 'jpg',
-                        alt: 'Ein Bild von Regina Kirchmeier mit 2 Papayas'
+                        alt: 'Ein Bild von Regina Kirchmeier mit 2 Papayas',
+                        lazyload: false
                     }"
                 />
-            </div>
+            </figure>
             <p class="lg:hidden md:max-w-xl text-sec-base md:mt-12 sm:mt-12">
                 {{ heroSectionData.intro }}
             </p>

@@ -5,8 +5,11 @@
             :data-srcset="
                 `${require(`~/assets/images/${image.name}-desktop.${image.type}`)}`
             "
-            :srcset="imgPlaceholder"
-            :src="imgPlaceholder"
+            :srcset="
+                image.lazyload
+                    ? imgPlaceholder
+                    : `${require(`~/assets/images/${image.name}-desktop.${image.type}`)}`
+            "
             :type="`image/${image.type}`"
         />
         <source
@@ -14,8 +17,11 @@
             :data-srcset="
                 `${require(`~/assets/images/${image.name}-retina.${image.type}`)}`
             "
-            :srcset="imgPlaceholder"
-            :src="imgPlaceholder"
+            :srcset="
+                image.lazyload
+                    ? imgPlaceholder
+                    : `${require(`~/assets/images/${image.name}-retina.${image.type}`)}`
+            "
             :type="`image/${image.type}`"
         />
         <source
@@ -23,17 +29,25 @@
             :data-srcset="
                 `${require(`~/assets/images/${image.name}-mobile.${image.type}`)} 1x, ${require(`~/assets/images/${image.name}-retina.${image.type}`)} 2x`
             "
-            :srcset="imgPlaceholder"
-            :src="imgPlaceholder"
+            :srcset="
+                image.lazyload
+                    ? imgPlaceholder
+                    : `${require(`~/assets/images/${image.name}-mobile.${image.type}`)} 1x, ${require(`~/assets/images/${image.name}-retina.${image.type}`)} 2x`
+            "
             :type="`image/${image.type}`"
         />
         <img
             :data-src="
-                `${require(`~/assets/images/${image.name}-retina.${image.type}`)}`
+                `${require(`~/assets/images/${image.name}-desktop.${image.type}`)}`
             "
-            :src="imgPlaceholder"
+            :src="
+                image.lazyload
+                    ? imgPlaceholder
+                    : `${require(`~/assets/images/${image.name}-desktop.${image.type}`)}`
+            "
             :alt="image.alt"
-            class="rounded-lg lazyload"
+            class="rounded-lg"
+            :class="{ lazyload: image.lazyload }"
         />
     </picture>
 </template>
