@@ -7,7 +7,7 @@
                 {{ aboutSectionData.headline }}
             </BaseSectionHeadline>
             <div
-                class="lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 rounded-lg shadow-picture mx-4"
+                class="lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 rounded-lg shadow-picture mx-4 min-h-62"
             >
                 <BasePicture
                     :image="{

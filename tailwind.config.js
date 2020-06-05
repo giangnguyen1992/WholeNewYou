@@ -29,6 +29,9 @@ module.exports = {
             md: { min: '720px', max: '1011px' },
             lg: { min: '1012px' }
         },
+        minHeight: {
+            '62': '256px'
+        },
         textColor: (theme) => theme('colors'),
         backgroundColor: (theme) => theme('colors'),
         boxShadow: {
@@ -37,9 +40,6 @@ module.exports = {
             hoverButton:
                 '0 10px 25px rgba(255, 171, 159, .6), 0 5px 10px rgba(255, 171, 159, .3)',
             picture: '-20px -20px 0px -5px rgba(255,171,159,1)'
-        },
-        height: {
-            hero: '80vh'
         }
     },
     plugins: [],
