@@ -1,13 +1,13 @@
 <template>
     <section
-        class="w-full lg:px-8 md:px-8 sm:px-4 lg:py-24 md:py-12 sm:pb-12 sm:pt-4"
+        class="w-full lg:px-8 md:px-8 sm:px-4 lg:py-24 md:py-12 sm:pb-12 sm:pt-12"
     >
         <div class="flex md:flex-col sm:flex-col items-center justify-center">
             <div class="lg:self-center lg:max-w-xl md:max-w-xl lg:mr-24 mb-8">
                 <h1 class="text-sec-base flex flex-col lg:mb-8">
                     <span
                         class="font-heading lg:text-4xl md:text-4xl sm:text-3xl leading-tight lg:mb-8"
-                        >{{ heroSectionData.headline }}</span
+                        >{{ sectionHeadline }}</span
                     >
                     <span class="md:hidden sm:hidden">{{
                         heroSectionData.intro
@@ -19,7 +19,7 @@
                 }}</BaseButton>
             </div>
             <figure
-                class="lg:max-w-xl md:max-w-xl rounded-lg shadow-picture mx-4 min-h-62"
+                class="lg:max-w-lg md:max-w-lg rounded-image shadow-picture mx-4 min-h-62"
             >
                 <BasePicture
                     :image="{
@@ -45,6 +45,9 @@ export default {
     computed: {
         heroSectionData() {
             return this.$store.getters.hero;
+        },
+        sectionHeadline() {
+            return this.heroSectionData.headline.toUpperCase();
         }
     }
 };

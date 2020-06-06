@@ -4,10 +4,10 @@
             class="flex md:flex-col sm:flex-col lg:items-end md:items-center sm:items-center justify-center"
         >
             <BaseSectionHeadline class="lg:hidden mb-8">
-                {{ aboutSectionData.headline }}
+                {{ sectionHeadline }}
             </BaseSectionHeadline>
             <figure
-                class="lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 rounded-lg shadow-picture mx-4 min-h-62"
+                class="lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 rounded-image shadow-picture mx-4 min-h-62"
             >
                 <BasePicture
                     :image="{
@@ -20,16 +20,16 @@
             </figure>
             <div class="lg:ml-12 ">
                 <BaseSectionHeadline class="md:hidden sm:hidden mb-8">
-                    {{ aboutSectionData.headline }}
+                    {{ sectionHeadline }}
                 </BaseSectionHeadline>
                 <h4 class="font-sans text-sec-base font-semibold text-lg mb-8">
-                    {{ aboutSectionData.intro }}
+                    {{ about.intro }}
                 </h4>
-                <p class="text-sec-base mb-8">{{ aboutSectionData.text }}</p>
+                <p class="text-sec-base mb-8">{{ about.text }}</p>
                 <p
                     class="text-sec-base font-serif lg:text-2xl md:text-2xl sm:text-xl quote"
                 >
-                    {{ aboutSectionData.quote }}
+                    {{ about.quote }}
                 </p>
             </div>
         </div>
@@ -39,8 +39,11 @@
 <script>
 export default {
     computed: {
-        aboutSectionData() {
+        about() {
             return this.$store.getters.about;
+        },
+        sectionHeadline() {
+            return this.about.headline.toUpperCase();
         }
     }
 };

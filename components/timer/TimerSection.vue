@@ -2,14 +2,14 @@
     <BaseSection>
         <div class="flex flex-col items-center">
             <p class="text-sec-base text-center max-w-2xl mb-8">
-                {{ timerSectionData.text }}
+                {{ timer.text }}
             </p>
             <BaseSectionHeadline class="lg:mb-8 md:mb-4 sm:mb-4">
-                {{ timerSectionData.headline }}
+                {{ sectionHeadline }}
             </BaseSectionHeadline>
-            <Timer :expired-date="timerSectionData.expiredDate" class="mb-8" />
+            <Timer :expired-date="timer.expiredDate" class="mb-8" />
             <BaseButton>
-                {{ timerSectionData.buttonText }}
+                {{ timer.buttonText }}
             </BaseButton>
         </div>
     </BaseSection>
@@ -23,8 +23,11 @@ export default {
         Timer
     },
     computed: {
-        timerSectionData() {
+        timer() {
             return this.$store.getters.timer;
+        },
+        sectionHeadline() {
+            return this.timer.headline.toUpperCase();
         }
     }
 };
