@@ -29,9 +29,17 @@
             <p class="text-xl leading-none">
                 {{ productOverview.priceHeadline }}
             </p>
-            <p class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-8">
-                {{ `${productOverview.priceBeforeAndAfter} €` }}
-            </p>
+            <div
+                class="flex flex-col text-sec-base leading-none items-center justify-center lg:my-8 md:my-8 sm:my-8"
+            >
+                <p
+                    class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-2"
+                >
+                    {{ `${productOverview.earlyBirdPrice} €` }}
+                </p>
+
+                <p>{{ `anstatt ${productOverview.price}€` }}</p>
+            </div>
             <a
                 :href="productOverview.productUrl"
                 target="_blank"

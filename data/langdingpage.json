@@ -89,8 +89,9 @@
             "Tägliche Begleitung in unserer Instagram-Community und per E-Mail",
             "Bonusmaterial: Detox-Challenge, Ernährungstagebuch, Healthy Snacks Rezepte"
         ],
-        "priceBeforeAndAfter": "55,90",
-        "priceHeadline": "Jetzt zum Einführungspreis von",
+        "price": "65,90",
+        "earlyBirdPrice": "55,90",
+        "priceHeadline": "Bis 22.06.20 zum Early-Bird-Preis",
         "buttonText": "Jetzt anmelden!",
         "productUrl": "https://www.digistore24.com/product/330298"
     },
