@@ -42,6 +42,10 @@ module.exports = {
         minHeight: {
             '62': '256px'
         },
+        borderRadius: {
+            lg: '0.5rem',
+            image: '0.7rem'
+        },
         textColor: (theme) => theme('colors'),
         backgroundColor: (theme) => theme('colors'),
         boxShadow: {

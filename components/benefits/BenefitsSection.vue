@@ -2,20 +2,20 @@
     <BaseSection>
         <div class="text-center">
             <BaseSectionHeadline class="mb-8">
-                {{ benefitsSectionData.headline }}
+                {{ sectionHeadline }}
             </BaseSectionHeadline>
             <div
                 class="flex md:flex-col sm:flex-col align-middle justify-center"
             >
                 <BenefitsArgument
-                    v-for="argument in benefitsSectionData.arguments"
+                    v-for="argument in benefits.arguments"
                     :key="argument.headline"
                     :argument="argument"
                 >
                 </BenefitsArgument>
             </div>
             <BaseButton class="lg:mt-8">
-                {{ benefitsSectionData.buttonText }}
+                {{ benefits.buttonText }}
             </BaseButton>
         </div>
     </BaseSection>
@@ -29,8 +29,11 @@ export default {
         BenefitsArgument
     },
     computed: {
-        benefitsSectionData() {
+        benefits() {
             return this.$store.getters.benefits;
+        },
+        sectionHeadline() {
+            return this.benefits.headline.toUpperCase();
         }
     }
 };

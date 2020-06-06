@@ -1,6 +1,6 @@
 {
     "hero": {
-        "headline": "Dein Onlinekurs für gesunde Ernährung und Achtsamkeit!",
+        "headline": "Dein Onlinekurs fÜr gesunde ErnÄhrung und Achtsamkeit!",
         "intro": "Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
         "buttonText": "Jetzt anmelden!"
     },
@@ -84,14 +84,15 @@
             "2 Wochen begleitetes Health & Wellness Online Coaching vom 06.07.2020 – 19.07.2020", 
             "2 Module mit informativem Lernmaterial in Form von PDFs und Videos", 
             "2 Live Q&A-Sessions mit Regina",
-            "1 Vorbereitungswoche mit erstem Input und Übungen",
+            "1 Vorbereitungsmodul mit erstem Input und Übungen",
             "Zugang zur exklusiven Instagram-Community",
             "Tägliche Begleitung in unserer Instagram-Community und per E-Mail",
             "Bonusmaterial: Detox-Challenge, Ernährungstagebuch, Healthy Snacks Rezepte"
         ],
         "priceBeforeAndAfter": "55,90",
         "priceHeadline": "Jetzt zum Einführungspreis von",
-        "buttonText": "Jetzt anmelden!"
+        "buttonText": "Jetzt anmelden!",
+        "productUrl": "https://www.digistore24.com/product/330298"
     },
     "footer": {
         "socials": [

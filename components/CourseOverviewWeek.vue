@@ -3,7 +3,7 @@
         <h3
             class="text-white font-heading font-semibold lg:text-2xl md:text-2xl sm:text-2xl"
         >
-            {{ `Woche ${week + 1}: ${programHeadline[week]}` }}
+            {{ `Woche ${week + 1}: ${programHeadline[week].toUpperCase()}` }}
         </h3>
         <div class="flex flex-col items-center justify-center">
             <CourseOverviewPoint

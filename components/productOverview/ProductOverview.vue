@@ -5,7 +5,7 @@
             class="flex flex-col items-center border-solid border-primary-base border rounded-lg lg:p-8 md:p-8 sm:p-4 text-sec-base lg:scale"
         >
             <BaseSectionHeadline class="mb-8">
-                {{ productSectionData.headline }}
+                {{ sectionHeadline }}
             </BaseSectionHeadline>
             <figure class="max-w-xl mb-8">
                 <BasePicture
@@ -19,7 +19,7 @@
             </figure>
             <ul class="border-b border-solid border-primary-base pb-8 mb-8">
                 <li
-                    v-for="(product, index) in productSectionData.includes"
+                    v-for="(product, index) in productOverview.includes"
                     :key="index"
                     class="productList mb-2 last:mb-0"
                 >
@@ -27,19 +27,21 @@
                 </li>
             </ul>
             <p class="text-xl leading-none">
-                {{ productSectionData.priceHeadline }}
+                {{ productOverview.priceHeadline }}
             </p>
             <p class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-8">
-                {{ `${productSectionData.priceBeforeAndAfter} €` }}
+                {{ `${productOverview.priceBeforeAndAfter} €` }}
             </p>
             <a
-                href="#"
+                :href="productOverview.productUrl"
+                target="_blank"
+                rel="noopener"
                 class="inline-block bg-primary-base rounded-md shadow-button hover:shadow-hoverButton py-3 px-12"
                 role="button"
             >
                 <span class="flex align-middle justify-center tracking-wider"
                     ><span class="font-sans font-bold text-white text-base">
-                        {{ productSectionData.buttonText }}
+                        {{ productOverview.buttonText }}
                     </span>
                 </span>
             </a>
@@ -50,8 +52,11 @@
 <script>
 export default {
     computed: {
-        productSectionData() {
+        productOverview() {
             return this.$store.getters.productOverview;
+        },
+        sectionHeadline() {
+            return this.productOverview.headline.toUpperCase();
         }
     }
 };

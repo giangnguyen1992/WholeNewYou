@@ -1,15 +1,15 @@
 <template>
     <BaseSection class="bg-sec-light">
         <h2 class="text-center font-heading text-4xl text-white mb-8">
-            {{ courseOverviewSectionData.headline }}
+            {{ sectionHeadline }}
         </h2>
         <div class="flex flex-col justify-center">
             <CourseOverviewWeek
-                v-for="(courseWeek, index) in courseOverviewSectionData.program"
+                v-for="(courseWeek, index) in courseOverview.program"
                 :key="index"
                 :week-overview="courseWeek"
                 :week="index"
-                :program-headline="courseOverviewSectionData.programHeadline"
+                :program-headline="courseOverview.programHeadline"
             />
         </div>
     </BaseSection>
@@ -23,8 +23,11 @@ export default {
         CourseOverviewWeek
     },
     computed: {
-        courseOverviewSectionData() {
+        courseOverview() {
             return this.$store.getters.courseOverview;
+        },
+        sectionHeadline() {
+            return this.courseOverview.headline.toUpperCase();
         }
     }
 };
