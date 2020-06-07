@@ -6,18 +6,24 @@
             <BaseSectionHeadline class="lg:hidden mb-8">
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
-            <figure
-                class="lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 rounded-image shadow-picture mx-4 min-h-62"
+            <div
+                class="flex flex-col lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 mx-4"
             >
-                <BasePicture
-                    :image="{
-                        name: 'aboutme',
-                        type: 'JPG',
-                        alt: 'Regina Kirchmeier',
-                        lazyload: true
-                    }"
+                <figure class="rounded-image shadow-picture min-h-62">
+                    <BasePicture
+                        :image="{
+                            name: 'aboutme',
+                            type: 'JPG',
+                            alt: 'Regina Kirchmeier',
+                            lazyload: true
+                        }"
+                    />
+                </figure>
+                <SocialBar
+                    class="md:hidden sm:hidden mt-6"
+                    :services="services"
                 />
-            </figure>
+            </div>
             <div class="lg:ml-12 ">
                 <BaseSectionHeadline class="md:hidden sm:hidden mb-8">
                     {{ sectionHeadline }}
@@ -31,19 +37,31 @@
                 >
                     {{ about.quote }}
                 </p>
+                <SocialBar class="lg:hidden mt-8" :services="services" />
             </div>
         </div>
     </BaseSection>
 </template>
 
 <script>
+import SocialBar from '~/components/SocialBar';
+
 export default {
+    components: {
+        SocialBar
+    },
     computed: {
         about() {
             return this.$store.getters.about;
         },
         sectionHeadline() {
             return this.about.headline.toUpperCase();
+        },
+        footer() {
+            return this.$store.getters.footer;
+        },
+        services() {
+            return this.footer.socials ? this.footer.socials : [];
         }
     }
 };

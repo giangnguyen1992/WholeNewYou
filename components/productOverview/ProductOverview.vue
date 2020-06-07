@@ -38,7 +38,7 @@
                     {{ `${productOverview.earlyBirdPrice} €` }}
                 </p>
 
-                <p>{{ `anstatt ${productOverview.price}€` }}</p>
+                <p class="text-lg">{{ `danach ${productOverview.price}€` }}</p>
             </div>
             <a
                 :href="productOverview.productUrl"
