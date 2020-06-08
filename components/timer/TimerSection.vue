@@ -1,14 +1,24 @@
 <template>
     <BaseSection>
         <div class="flex flex-col items-center">
-            <p class="text-sec-base text-center max-w-2xl mb-8">
+            <p
+                v-if="timer.text"
+                class="text-sec-base text-center max-w-2xl mb-8"
+            >
                 {{ timer.text }}
             </p>
-            <BaseSectionHeadline class="lg:mb-8 md:mb-4 sm:mb-4">
+            <BaseSectionHeadline
+                v-if="sectionHeadline"
+                class="lg:mb-8 md:mb-4 sm:mb-4"
+            >
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
-            <Timer :expired-date="timer.expiredDate" class="mb-8" />
-            <BaseButton>
+            <Timer
+                v-if="timerExpiredDate"
+                :expired-date="timerExpiredDate"
+                class="mb-8"
+            />
+            <BaseButton v-if="timer.buttonText">
                 {{ timer.buttonText }}
             </BaseButton>
         </div>
@@ -23,6 +33,9 @@ export default {
     computed: {
         timer() {
             return this.$store.getters.timer;
+        },
+        timerExpiredDate() {
+            return this.$store.getters.timerExpiredDate;
         },
         sectionHeadline() {
             return this.timer.headline.toUpperCase();

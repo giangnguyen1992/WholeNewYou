@@ -2,7 +2,13 @@
     "hero": {
         "headline": "Dein Onlinekurs fÜr gesunde ErnÄhrung und Achtsamkeit!",
         "intro": "Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
-        "buttonText": "Jetzt anmelden!"
+        "buttonText": "Jetzt anmelden!",
+        "image":{
+            "name": "regina-hero",
+            "type": "jpg",
+            "alt": "Ein Bild von Regina Kirchmeier mit 2 Papayas",
+            "lazyload": false
+        }
     },
     "customerNeeds": {
         "headline": "Für wen ist dieser Kurs?",
@@ -70,13 +76,18 @@
         "headline": "Über mich",
         "intro": "Hi, ich bin Regina und ganzheitliche Ernährungsberaterin.",
         "text": "Vor einigen Jahren hatte ich selbst mit verschiedenen gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. Wenig Energie, Infektanfälligkeit, chronischer Stress sowie Probleme mit Gewicht, Hormonen und der Verdauung sind heute leider keine Seltenheit. In meiner Ausbildung zur Ernährungsberaterin lernte ich, diesen gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Dieses Wissen möchte ich nun mit dir teilen, damit auch du deine Gesundheit selbst in die Hand nehmen kannst.",
-        "quote": "Ich bin fest davon überzeigt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind."
+        "quote": "Ich bin fest davon überzeigt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind.",
+        "image":{
+            "name": "aboutme",
+            "type": "JPG",
+            "alt": "Regina Kirchmeier",
+            "lazyload": true
+        }
     },
     "timer": {
         "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. Starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
         "headline": "Verbleibende Zeit für die Anmeldung",
-        "buttonText": "Melde dich jetzt an!",
-        "expiredDate": "June 30, 2020 23:59:59"
+        "buttonText": "Melde dich jetzt an!"
     },
     "productOverview": {
         "headline": "Der Whole New You Starter Course auf einen Blick",
@@ -93,7 +104,13 @@
         "earlyBirdPrice": "57,90",
         "priceHeadline": "Jetzt zum Early-Bird-Preis von",
         "buttonText": "Jetzt anmelden!",
-        "productUrl": "https://www.digistore24.com/product/330298"
+        "productUrl": "https://www.digistore24.com/product/330298",
+        "image":{
+            "name": "product",
+            "type": "png",
+            "alt": "Produktfoto",
+            "lazyload": true
+        }
     },
     "footer": {
         "socials": [
@@ -109,6 +126,9 @@
                 "name": "Worldwideweb",
                 "url": "https://www.bloominglife.de/"
             }
-        ]
+        ],
+        "privacy": "https://www.bloominglife.de/datenschutzerklaerung/",
+        "impressum": "https://www.bloominglife.de/impressum/"
+
     }
 }

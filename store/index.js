@@ -4,7 +4,8 @@ import data from '~/data/langdingpage.json';
 const createStore = () =>
     new Vuex.Store({
         state: {
-            landingpageData: data
+            landingpageData: data,
+            timerExpiredDate: 'June 30, 2020 23:59:59'
         },
         getters: {
             hero(state) {
@@ -30,6 +31,9 @@ const createStore = () =>
             },
             footer(state) {
                 return state.landingpageData.footer;
+            },
+            timerExpiredDate(state) {
+                return state.timerExpiredDate;
             }
         }
     });

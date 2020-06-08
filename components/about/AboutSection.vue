@@ -3,41 +3,49 @@
         <div
             class="flex md:flex-col sm:flex-col lg:items-end md:items-center sm:items-center justify-center"
         >
-            <BaseSectionHeadline class="lg:hidden mb-8">
+            <BaseSectionHeadline v-if="sectionHeadline" class="lg:hidden mb-8">
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
             <div
+                v-if="about.image"
                 class="flex flex-col lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 mx-4"
             >
                 <figure class="rounded-image shadow-picture min-h-62">
-                    <BasePicture
-                        :image="{
-                            name: 'aboutme',
-                            type: 'JPG',
-                            alt: 'Regina Kirchmeier',
-                            lazyload: true
-                        }"
-                    />
+                    <BasePicture :image="about.image" />
                 </figure>
                 <SocialBar
+                    v-if="services"
                     class="md:hidden sm:hidden mt-6"
                     :services="services"
                 />
             </div>
             <div class="lg:ml-12 ">
-                <BaseSectionHeadline class="md:hidden sm:hidden mb-8">
+                <BaseSectionHeadline
+                    v-if="sectionHeadline"
+                    class="md:hidden sm:hidden mb-8"
+                >
                     {{ sectionHeadline }}
                 </BaseSectionHeadline>
-                <h4 class="font-sans text-sec-base font-semibold text-lg mb-8">
+                <h4
+                    v-if="about.intro"
+                    class="font-sans text-sec-base font-semibold text-lg mb-8"
+                >
                     {{ about.intro }}
                 </h4>
-                <p class="text-sec-base mb-8">{{ about.text }}</p>
+                <p v-if="about.text" class="text-sec-base mb-8">
+                    {{ about.text }}
+                </p>
                 <p
+                    v-if="about.quote"
                     class="text-sec-base font-serif lg:text-2xl md:text-2xl sm:text-xl quote"
                 >
                     {{ about.quote }}
                 </p>
-                <SocialBar class="lg:hidden mt-8" :services="services" />
+                <SocialBar
+                    v-if="services"
+                    class="lg:hidden mt-8"
+                    :services="services"
+                />
             </div>
         </div>
     </BaseSection>
@@ -57,11 +65,10 @@ export default {
         sectionHeadline() {
             return this.about.headline.toUpperCase();
         },
-        footer() {
-            return this.$store.getters.footer;
-        },
         services() {
-            return this.footer.socials ? this.footer.socials : [];
+            return this.$store.getters.footer.socials
+                ? this.$store.getters.footer.socials
+                : [];
         }
     }
 };
