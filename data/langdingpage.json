@@ -1,7 +1,7 @@
 {
     "hero": {
         "headline": "Dein Onlinekurs fÜr gesunde ErnÄhrung und Achtsamkeit!",
-        "intro": "Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
+        "intro": "Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
         "buttonText": "Jetzt anmelden!",
         "image":{
             "name": "regina-hero",
@@ -26,8 +26,8 @@
                 "icon": "banana"
             },
             {
-                "text": "Hier hast du die Möglichkeit alle deine Frage loszuwerden. Die Sessions werden wöchentlich am Donnerstag um 19 Uhr stattfinden. Wenn du nicht dabei sein kannst, keine Sorge, die Aufzeichnung wird gespeichert und ist hinterher abrufbar.",
-                "headline": "Wöchentliche Livesessions",
+                "text": "Hier besprechen wir das Wochenthema und du hast die Möglichkeit, alle deine Fragen loszuwerden. Wenn du nicht dabei sein kannst, keine Sorge, die Session wird gespeichert und ist hinterher abrufbar.",
+                "headline": "Wöchentliche Live-Sessions",
                 "icon": "strawberry"
             },
             {
@@ -94,11 +94,11 @@
         "includes": [
             "2 Wochen begleitetes Health & Wellness Online Coaching vom 06.07.2020 – 19.07.2020", 
             "2 Module mit informativem Lernmaterial in Form von PDFs und Videos", 
-            "2 Live Q&A-Sessions mit Regina",
+            "2 Live-Q&A-Sessions mit Regina",
             "1 Vorbereitungsmodul mit erstem Input und Übungen",
             "Zugang zur exklusiven Instagram-Community",
             "Tägliche Begleitung in unserer Instagram-Community und per E-Mail",
-            "Bonusmaterial: Detox-Challenge, Ernährungstagebuch, Healthy Snacks Rezepte"
+            "Bonusmaterial: Detox-Challenge und Ernährungstagebuch"
         ],
         "price": "79,90",
         "earlyBirdPrice": "57,90",
@@ -129,6 +129,5 @@
         ],
         "privacy": "https://www.bloominglife.de/datenschutzerklaerung/",
         "impressum": "https://www.bloominglife.de/impressum/"
-
     }
 }
