@@ -18,7 +18,56 @@ export default {
                 hid: 'description',
                 name: 'description',
                 content:
-                    'Dein Onlinekurs für gesunde Ernährung und Achtsamkeit! Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
+                    'Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
+            },
+            {
+                name: 'title',
+                content:
+                    'Dein Onlinekurs für gesunde Ernährung und Achtsamkeit!'
+            },
+            {
+                property: 'og:type',
+                content: 'website'
+            },
+            {
+                property: 'og:url',
+                content: 'https://wholenewyou.de/'
+            },
+            {
+                property: 'og:title',
+                content:
+                    'Dein Onlinekurs für gesunde Ernährung und Achtsamkeit!'
+            },
+            {
+                property: 'og:description',
+                content:
+                    'Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
+            },
+            {
+                property: 'og:image',
+                content: '~/assets/images/meta.png'
+            },
+            {
+                property: 'twitter:card',
+                content: 'summary_large_image'
+            },
+            {
+                property: 'twitter:url',
+                content: 'https://wholenewyou.de/'
+            },
+            {
+                property: 'twitter:title',
+                content:
+                    'Dein Onlinekurs für gesunde Ernährung und Achtsamkeit!'
+            },
+            {
+                property: 'twitter:description',
+                content:
+                    'Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
+            },
+            {
+                property: 'twitter:image',
+                content: '~/assets/images/meta.png'
             }
         ],
         link: [
