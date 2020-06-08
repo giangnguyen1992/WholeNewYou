@@ -45,7 +45,7 @@ export default {
             },
             {
                 property: 'og:image',
-                content: '~/assets/images/meta.png'
+                content: '/meta.png'
             },
             {
                 property: 'twitter:card',
@@ -67,7 +67,7 @@ export default {
             },
             {
                 property: 'twitter:image',
-                content: '~/assets/images/meta.png'
+                content: '/meta.png'
             }
         ],
         link: [
