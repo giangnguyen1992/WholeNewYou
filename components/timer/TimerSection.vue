@@ -16,11 +16,9 @@
 </template>
 
 <script>
-import Timer from '~/components/Timer';
-
 export default {
     components: {
-        Timer
+        Timer: () => import('~/components/Timer')
     },
     computed: {
         timer() {
