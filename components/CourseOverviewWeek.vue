@@ -1,16 +1,19 @@
 <template>
     <div class="flex flex-col items-center mb-8">
         <h3
+            v-if="weekHeadline"
             class="text-white font-heading font-semibold lg:text-2xl md:text-2xl sm:text-2xl"
         >
-            {{ `Woche ${week + 1}: ${programHeadline[week].toUpperCase()}` }}
+            {{ weekHeadline }}
         </h3>
-        <div class="flex flex-col items-center justify-center">
+        <div
+            v-if="program.weekOverview"
+            class="flex flex-col items-center justify-center"
+        >
             <CourseOverviewPoint
-                v-for="(item, index) in weekOverview"
+                v-for="(item, index) in program.weekOverview"
                 :key="index"
-                :week-point-item="item"
-                :week-point="index + 1"
+                :week-overview="{ item, index: index + 1 }"
             >
             </CourseOverviewPoint>
         </div>
@@ -25,17 +28,20 @@ export default {
         CourseOverviewPoint
     },
     props: {
-        weekOverview: {
-            type: Array,
-            required: true
-        },
-        week: {
-            type: Number,
+        program: {
+            type: Object,
             required: true
         },
         programHeadline: {
             type: Array,
             required: true
+        }
+    },
+    computed: {
+        weekHeadline() {
+            return `Woche ${this.program.index + 1}: ${this.programHeadline[
+                this.program.index
+            ].toUpperCase()}`;
         }
     }
 };

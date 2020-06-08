@@ -4,20 +4,16 @@
             id="productBox"
             class="flex flex-col items-center border-solid border-primary-base border rounded-lg lg:p-8 md:p-8 sm:p-4 text-sec-base lg:scale"
         >
-            <BaseSectionHeadline class="mb-8">
+            <BaseSectionHeadline v-if="sectionHeadline" class="mb-8">
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
-            <figure class="max-w-xl mb-8">
-                <BasePicture
-                    :image="{
-                        name: 'product',
-                        type: 'png',
-                        alt: 'Produktfoto',
-                        lazyload: true
-                    }"
-                />
+            <figure v-if="productOverview.image" class="max-w-xl mb-8">
+                <BasePicture :image="productOverview.image" />
             </figure>
-            <ul class="border-b border-solid border-primary-base pb-8 mb-8">
+            <ul
+                v-if="productOverview.includes"
+                class="border-b border-solid border-primary-base pb-8 mb-8"
+            >
                 <li
                     v-for="(product, index) in productOverview.includes"
                     :key="index"
@@ -26,10 +22,14 @@
                     {{ product }}
                 </li>
             </ul>
-            <p class="text-xl leading-none">
+            <p
+                v-if="productOverview.priceHeadline"
+                class="text-xl leading-none"
+            >
                 {{ productOverview.priceHeadline }}
             </p>
             <div
+                v-if="productOverview.earlyBirdPrice"
                 class="flex flex-col text-sec-base leading-none items-center justify-center lg:my-8 md:my-8 sm:my-8"
             >
                 <p
@@ -38,9 +38,12 @@
                     {{ `${productOverview.earlyBirdPrice} €` }}
                 </p>
 
-                <p class="text-lg">{{ `danach ${productOverview.price}€` }}</p>
+                <p v-if="productOverview.price" class="text-lg">
+                    {{ `danach ${productOverview.price}€` }}
+                </p>
             </div>
             <a
+                v-if="productOverview.productUrl"
                 :href="productOverview.productUrl"
                 target="_blank"
                 rel="noopener"

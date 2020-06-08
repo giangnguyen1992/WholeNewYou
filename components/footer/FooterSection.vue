@@ -4,19 +4,21 @@
     >
         <div class="mx-auto max-w-5xl">
             <BaseLogo />
-            <SocialBar class="my-8" :services="services" />
+            <SocialBar v-if="services" class="my-8" :services="services" />
             <div
                 class="flex justify-center align-middle font-sans text-sec-base mb-8"
             >
                 <a
-                    href="https://www.bloominglife.de/datenschutzerklaerung/"
+                    v-if="footer.privacy"
+                    :href="footer.privacy"
                     class="mr-10 hover:text-sec-light"
                     target="_blank"
                     rel="noopener"
                     >Datenschutz</a
                 >
                 <a
-                    href="https://www.bloominglife.de/impressum/"
+                    v-if="footer.impressum"
+                    :href="footer.impressum"
                     class="hover:text-sec-light"
                     target="_blank"
                     rel="noopener"

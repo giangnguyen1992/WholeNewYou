@@ -1,5 +1,5 @@
 <template>
-    <picture>
+    <picture v-if="image.name && image.type">
         <source
             media="(min-width: 1012px)"
             :data-srcset="
@@ -45,9 +45,11 @@
                     ? imgPlaceholder
                     : `${require(`~/assets/images/${image.name}-desktop.${image.type}`)}`
             "
-            :alt="image.alt"
+            :alt="image.alt ? image.alt : ''"
             class="rounded-lg"
-            :class="{ lazyload: image.lazyload }"
+            :class="{
+                lazyload: image.lazyload
+            }"
         />
     </picture>
 </template>

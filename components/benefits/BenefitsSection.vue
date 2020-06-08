@@ -1,10 +1,11 @@
 <template>
     <BaseSection>
         <div class="text-center">
-            <BaseSectionHeadline class="mb-8">
+            <BaseSectionHeadline v-if="sectionHeadline" class="mb-8">
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
             <div
+                v-if="benefits.arguments"
                 class="flex md:flex-col sm:flex-col align-middle justify-center"
             >
                 <BenefitsArgument
@@ -14,7 +15,7 @@
                 >
                 </BenefitsArgument>
             </div>
-            <BaseButton class="lg:mt-8">
+            <BaseButton v-if="benefits.buttonText" class="lg:mt-8">
                 {{ benefits.buttonText }}
             </BaseButton>
         </div>

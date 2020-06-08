@@ -2,15 +2,24 @@
     <div
         class="bg-white flex w-full items-center justify-start rounded-lg lg:py-8 md:py-8 sm:py-4 px-4 my-4 lg:even:ml-32 lg:-pl-32"
     >
-        <div class="text-primary-base text-3xl font-semibold pr-4">
-            {{ `0${weekPoint}` }}
+        <div
+            v-if="weekOverview.index"
+            class="text-primary-base text-3xl font-semibold pr-4"
+        >
+            {{ `0${weekOverview.index}` }}
         </div>
         <div>
-            <h4 class="font-sans text-sec-base font-semibold text-lg">
-                {{ weekPointItem.headline }}
+            <h4
+                v-if="weekOverview.item.headline"
+                class="font-sans text-sec-base font-semibold text-lg"
+            >
+                {{ weekOverview.item.headline }}
             </h4>
-            <p class="font-sans text-sec-base">
-                {{ weekPointItem.description }}
+            <p
+                v-if="weekOverview.item.description"
+                class="font-sans text-sec-base"
+            >
+                {{ weekOverview.item.description }}
             </p>
         </div>
     </div>
@@ -19,12 +28,8 @@
 <script>
 export default {
     props: {
-        weekPointItem: {
+        weekOverview: {
             type: Object,
-            required: true
-        },
-        weekPoint: {
-            type: Number,
             required: true
         }
     }

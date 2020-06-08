@@ -1,9 +1,12 @@
 <template>
     <BaseSection class="bg-grey-light">
-        <BaseSectionHeadline class="mb-8 text-center">
+        <BaseSectionHeadline v-if="sectionHeadline" class="text-center">
             {{ sectionHeadline }}
         </BaseSectionHeadline>
-        <div class="flex md:flex-col sm:flex-col items-center justify-between">
+        <div
+            v-if="customerNeeds.arguments && customerNeeds.arguments.length > 0"
+            class="flex md:flex-col sm:flex-col items-center justify-between mt-8"
+        >
             <CustomerNeedsArgument
                 v-for="(argument, index) in customerNeeds.arguments"
                 :key="index"
