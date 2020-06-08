@@ -17,8 +17,8 @@
                     >Datenschutz</a
                 >
                 <a
-                    v-if="footer.Impressum"
-                    :href="footer.Impressum"
+                    v-if="footer.impressum"
+                    :href="footer.impressum"
                     class="hover:text-sec-light"
                     target="_blank"
                     rel="noopener"
