@@ -8,7 +8,7 @@
         <h3 class="font-sans text-sec-base font-semibold text-2xl mb-2">
             {{ argument.headline }}
         </h3>
-        <p class="font-sans text-sec-base text-center">{{ argument.text }}</p>
+        <p class="font-sans text-sec-base text-left">{{ argument.text }}</p>
     </div>
 </template>
 
