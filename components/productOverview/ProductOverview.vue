@@ -1,5 +1,5 @@
 <template>
-    <BaseSection>
+    <BaseSection v-if="productOverview">
         <div
             id="productBox"
             class="flex flex-col items-center border-solid border-primary-base border rounded-lg lg:p-8 md:p-8 sm:p-4 text-sec-base lg:scale"
@@ -67,7 +67,9 @@ export default {
             return this.$store.getters.productOverview;
         },
         sectionHeadline() {
-            return this.productOverview.headline.toUpperCase();
+            return this.productOverview
+                ? this.productOverview.headline.toUpperCase()
+                : '';
         }
     }
 };

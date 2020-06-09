@@ -1,5 +1,5 @@
 <template>
-    <BaseSection class="bg-grey-light">
+    <BaseSection v-if="about" class="bg-grey-light">
         <div
             class="flex md:flex-col sm:flex-col lg:items-end md:items-center sm:items-center justify-center"
         >
@@ -63,7 +63,7 @@ export default {
             return this.$store.getters.about;
         },
         sectionHeadline() {
-            return this.about.headline.toUpperCase();
+            return this.about ? this.about.headline.toUpperCase() : '';
         },
         services() {
             return this.$store.getters.footer.socials

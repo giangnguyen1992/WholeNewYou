@@ -1,5 +1,5 @@
 <template>
-    <BaseSection>
+    <BaseSection v-if="timer">
         <div class="flex flex-col items-center">
             <p
                 v-if="timer.text"
@@ -38,7 +38,7 @@ export default {
             return this.$store.getters.timerExpiredDate;
         },
         sectionHeadline() {
-            return this.timer.headline.toUpperCase();
+            return this.timer ? this.timer.headline.toUpperCase() : '';
         }
     }
 };

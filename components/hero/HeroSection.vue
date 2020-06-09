@@ -1,5 +1,6 @@
 <template>
     <section
+        v-if="hero"
         class="w-full lg:px-8 md:px-8 sm:px-4 lg:py-24 md:py-12 sm:pb-12 sm:pt-12"
     >
         <div class="flex md:flex-col sm:flex-col items-center justify-center">
@@ -54,7 +55,7 @@ export default {
             return this.$store.getters.hero;
         },
         sectionHeadline() {
-            return this.hero.headline.toUpperCase();
+            return this.hero ? this.hero.headline.toUpperCase() : '';
         }
     }
 };
