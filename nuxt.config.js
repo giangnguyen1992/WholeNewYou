@@ -70,29 +70,12 @@ export default {
                 content: '/meta.png'
             }
         ],
-        link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/WNY.ico' },
-            {
-                rel: 'stylesheet',
-                href:
-                    'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap'
-            },
-            {
-                rel: 'stylesheet',
-                href:
-                    'https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap'
-            },
-            {
-                rel: 'stylesheet',
-                href:
-                    'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro:wght@300;400;600&display=swap'
-            }
-        ]
+        link: [{ rel: 'icon', type: 'image/x-icon', href: '/WNY.ico' }]
     },
     /*
      ** Customize the progress-bar color
      */
-    loading: { color: '#fff' },
+    loading: {},
     /*
      ** Global CSS
      */
