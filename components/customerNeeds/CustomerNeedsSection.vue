@@ -1,5 +1,5 @@
 <template>
-    <BaseSection class="bg-grey-light">
+    <BaseSection v-if="customerNeeds" class="bg-grey-light">
         <BaseSectionHeadline v-if="sectionHeadline" class="text-center">
             {{ sectionHeadline }}
         </BaseSectionHeadline>
@@ -28,7 +28,9 @@ export default {
             return this.$store.getters.customerNeeds;
         },
         sectionHeadline() {
-            return this.customerNeeds.headline.toUpperCase();
+            return this.customerNeeds
+                ? this.customerNeeds.headline.toUpperCase()
+                : '';
         }
     }
 };

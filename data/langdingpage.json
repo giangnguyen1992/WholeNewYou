@@ -109,6 +109,7 @@
             "name": "product",
             "type": "png",
             "alt": "Produktfoto",
+            "isProduct": true,
             "lazyload": true
         }
     },

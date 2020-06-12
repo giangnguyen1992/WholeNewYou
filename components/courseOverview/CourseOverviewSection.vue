@@ -1,5 +1,5 @@
 <template>
-    <BaseSection class="bg-sec-light">
+    <BaseSection v-if="courseOverview" class="bg-sec-light">
         <h2
             v-if="sectionHeadline"
             class="text-center font-heading text-4xl text-white mb-8"
@@ -33,7 +33,9 @@ export default {
             return this.$store.getters.courseOverview;
         },
         sectionHeadline() {
-            return this.courseOverview.headline.toUpperCase();
+            return this.courseOverview
+                ? this.courseOverview.headline.toUpperCase()
+                : '';
         }
     }
 };
