@@ -68,6 +68,10 @@ export default {
             {
                 property: 'twitter:image',
                 content: '/meta.png'
+            },
+            {
+                name: 'google-site-verification',
+                content: 'xIjosFBrzasXaVKsRF7ZJXyoGs5NsHqvTgsmfH73ZP0'
             }
         ],
         link: [{ rel: 'icon', type: 'image/x-icon', href: '/WNY.ico' }]
