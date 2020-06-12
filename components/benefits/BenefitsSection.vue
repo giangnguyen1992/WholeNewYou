@@ -1,5 +1,5 @@
 <template>
-    <BaseSection>
+    <BaseSection v-if="benefits">
         <div class="text-center">
             <BaseSectionHeadline v-if="sectionHeadline" class="mb-8">
                 {{ sectionHeadline }}
@@ -34,7 +34,7 @@ export default {
             return this.$store.getters.benefits;
         },
         sectionHeadline() {
-            return this.benefits.headline.toUpperCase();
+            return this.benefits ? this.benefits.headline.toUpperCase() : '';
         }
     }
 };
