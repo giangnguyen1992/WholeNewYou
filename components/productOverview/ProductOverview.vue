@@ -7,7 +7,7 @@
             <BaseSectionHeadline v-if="sectionHeadline" class="mb-8">
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
-            <figure v-if="productOverview.image" class="max-w-xl mb-8">
+            <figure v-if="productOverview.image" class="w-full mb-8">
                 <BasePicture :image="productOverview.image" />
             </figure>
             <ul

@@ -1,18 +1,20 @@
 <template>
     <BaseSection v-if="about" class="bg-grey-light">
-        <div
-            class="flex md:flex-col sm:flex-col lg:items-end md:items-center sm:items-center justify-center"
-        >
+        <div class="flex md:flex-col sm:flex-col items-center justify-center">
             <BaseSectionHeadline v-if="sectionHeadline" class="lg:hidden mb-8">
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
             <div
-                v-if="about.image"
-                class="flex flex-col lg:w-1/3 flex-shrink-0 md:mb-8 sm:mb-8 mx-4"
+                class="flex flex-col lg:w-1/3 md:w-full sm:w-full flex-shrink-0 md:mb-8 sm:mb-8 mx-4"
             >
-                <figure class="rounded-image shadow-picture min-h-62">
-                    <BasePicture :image="about.image" />
-                </figure>
+                <div class="w-full sm:px-4">
+                    <figure
+                        v-if="about.image"
+                        class="rounded-image shadow-picture"
+                    >
+                        <BasePicture :image="about.image" />
+                    </figure>
+                </div>
                 <SocialBar
                     v-if="services"
                     class="md:hidden sm:hidden mt-6"

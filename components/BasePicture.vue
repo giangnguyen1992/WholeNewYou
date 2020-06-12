@@ -1,5 +1,9 @@
 <template>
-    <picture v-if="image.name && image.type">
+    <picture
+        v-if="image.name && image.type"
+        class="block relative h-0 overflow-hidden fixed-ratio-padding"
+        :style="image.isProduct ? inlinePadding6by4 : ''"
+    >
         <source
             media="(min-width: 1012px)"
             :data-srcset="
@@ -46,7 +50,7 @@
                     : `${require(`~/assets/images/${image.name}-desktop.${image.type}`)}`
             "
             :alt="image.alt ? image.alt : ''"
-            class="rounded-lg"
+            class="rounded-lg absolute top-0 left-0 w-full h-full"
             :class="{
                 lazyload: image.lazyload
             }"
@@ -62,6 +66,13 @@ export default {
             required: true
         }
     },
+    data() {
+        return {
+            inlinePadding6by4: {
+                paddingBottom: '66.67%'
+            }
+        };
+    },
     computed: {
         imgPlaceholder() {
             return 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
@@ -69,3 +80,19 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+@media (min-width: 1012px) {
+    .fixed-ratio-padding {
+        /* ratio: 100% / (9 / 6) = */
+        padding-bottom: 150%;
+    }
+}
+
+@media (max-width: 1011px) {
+    .fixed-ratio-padding {
+        /* ratio: 100% / (3 / 4) = */
+        padding-bottom: 75%;
+    }
+}
+</style>
