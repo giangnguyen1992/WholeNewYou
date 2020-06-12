@@ -1,7 +1,7 @@
 {
     "hero": {
         "headline": "Dein Onlinekurs fÜr gesunde ErnÄhrung und Achtsamkeit!",
-        "intro": "Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
+        "intro": "Investiere jetzt in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
         "buttonText": "Jetzt anmelden!",
         "image":{
             "name": "regina-hero",
@@ -18,21 +18,21 @@
         ]
     },
     "benefits": {
-        "headline": "Was dich in den zwei Wochen erwartet",
+        "headline": "Was dich in diesem Kurs erwartet",
         "arguments": [
             {
-                "text": "Du erhältst zu Beginn jeder Woche informative Kursinhalte in Form von PDFs, Videos und begleitenden Mails. Ich begleite dich zudem täglich in Form von Posts und Stories auf Instagram. Vor dem Kurs erhältst du vorbereitende Inhalte und Übungen.",
+                "text": "Der zweiwöchige Kurs findet vom 06.07 - 19.07.2020 statt. Vor Kursbeginn erhältst du ein Vorbereitungsmodul mit ersten Infos und Übungen. Im Kurszeitraum erhältst du jeweils montags ein Modul mit über 20 Seiten Lernmaterial per Mail. Dieses kannst du dir über die Woche zeitlich frei einteilen, sodass du es an deinen Alltag anpassen kannst.",
                 "headline": "Begleitende Kursinhalte",
                 "icon": "banana"
             },
             {
-                "text": "Hier besprechen wir das Wochenthema und du hast die Möglichkeit, alle deine Fragen loszuwerden. Wenn du nicht dabei sein kannst, keine Sorge, die Session wird gespeichert und ist hinterher abrufbar.",
-                "headline": "Wöchentliche Live-Sessions",
+                "text": "Ich begleite dich zudem in Form von Posts und Stories auf Instagram. In unserer privaten Instagram-Gruppe findest du tägliche Inhalte, Motivation und Inspiration. Du hast zudem die Möglichkeit, dich mit anderen Kursteilnehmern auszutauschen. Hier triffst du Gleichgesinnte, die an ihrer Gesundheit und ihrem Wohlbefinden arbeiten wollen.",
+                "headline": "Instagram - Community",
                 "icon": "strawberry"
             },
             {
-                "text": "In dieser privaten Gruppe bekommst du tägliche Inhalte, Motivation und Inspiration sowie die Möglichkeit, dich mit anderen Kursteilnehmern auszutauschen. Hier triffst du Gleichgesinnte, die an ihrer Gesundheit und ihrem Wohlbefinden arbeiten wollen.",
-                "headline": "Instagram - Community",
+                "text": "Jeden Donnerstag findet eine Live-Q&A-Session statt. Wir besprechen gemeinsam das Wochenthema und du hast die Möglichkeit, alle deine Fragen loszuwerden. Die Sessions werden um 19 Uhr auf Instagram stattfinden. Wenn du nicht live dabei sein kannst, keine Sorge, die Aufzeichnung wird gespeichert und ist hinterher abrufbar.",
+                "headline": "Wöchentliche Live-Sessions",
                 "icon": "lettuce"
             }
         ],
