@@ -31,7 +31,7 @@ export default {
     },
     computed: {
         benefits() {
-            return this.$store.getters.benefits;
+            return this.$store.state.landingpage.data.benefits;
         },
         sectionHeadline() {
             return this.benefits ? this.benefits.headline.toUpperCase() : '';
