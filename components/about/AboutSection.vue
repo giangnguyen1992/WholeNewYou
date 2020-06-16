@@ -62,14 +62,14 @@ export default {
     },
     computed: {
         about() {
-            return this.$store.getters.about;
+            return this.$store.state.landingpage.data.about;
         },
         sectionHeadline() {
             return this.about ? this.about.headline.toUpperCase() : '';
         },
         services() {
-            return this.$store.getters.footer.socials
-                ? this.$store.getters.footer.socials
+            return this.$store.state.landingpage.data.footer.socials
+                ? this.$store.state.landingpage.data.footer.socials
                 : [];
         }
     }

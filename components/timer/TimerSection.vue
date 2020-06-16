@@ -32,10 +32,10 @@ export default {
     },
     computed: {
         timer() {
-            return this.$store.getters.timer;
+            return this.$store.state.landingpage.data.timer;
         },
         timerExpiredDate() {
-            return this.$store.getters.timerExpiredDate;
+            return this.$store.state.landingpage.timerExpiredDate;
         },
         sectionHeadline() {
             return this.timer ? this.timer.headline.toUpperCase() : '';

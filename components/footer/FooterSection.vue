@@ -47,10 +47,12 @@ export default {
             return currentYear;
         },
         footer() {
-            return this.$store.getters.footer;
+            return this.$store.state.landingpage.data.footer;
         },
         services() {
-            return this.footer.socials ? this.footer.socials : [];
+            return this.$store.state.landingpage.data.footer.socials
+                ? this.$store.state.landingpage.data.footer.socials
+                : [];
         }
     }
 };

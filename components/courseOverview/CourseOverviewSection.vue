@@ -30,7 +30,7 @@ export default {
     },
     computed: {
         courseOverview() {
-            return this.$store.getters.courseOverview;
+            return this.$store.state.landingpage.data.courseOverview;
         },
         sectionHeadline() {
             return this.courseOverview

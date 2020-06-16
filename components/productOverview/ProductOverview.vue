@@ -64,7 +64,7 @@
 export default {
     computed: {
         productOverview() {
-            return this.$store.getters.productOverview;
+            return this.$store.state.landingpage.data.productOverview;
         },
         sectionHeadline() {
             return this.productOverview

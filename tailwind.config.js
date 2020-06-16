@@ -53,7 +53,11 @@ module.exports = {
                 '0 10px 25px rgba(255, 171, 159, .3), 0 5px 10px rgba(255, 171, 159, .1)',
             hoverButton:
                 '0 10px 25px rgba(255, 171, 159, .6), 0 5px 10px rgba(255, 171, 159, .3)',
-            picture: '-20px -20px 0px -5px rgba(255,171,159,1)'
+            picture: '-20px -20px 0px -5px rgba(255,171,159,1)',
+            md:
+                '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+            lg:
+                '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)'
         }
     },
     plugins: [],

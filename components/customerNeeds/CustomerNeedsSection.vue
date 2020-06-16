@@ -25,7 +25,7 @@ export default {
     },
     computed: {
         customerNeeds() {
-            return this.$store.getters.customerNeeds;
+            return this.$store.state.landingpage.data.customerNeeds;
         },
         sectionHeadline() {
             return this.customerNeeds
