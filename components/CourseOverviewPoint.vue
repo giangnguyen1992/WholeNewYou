@@ -1,6 +1,6 @@
 <template>
     <div
-        class="bg-white flex w-full items-center justify-start rounded-lg lg:py-8 md:py-8 sm:py-4 px-4 my-4 lg:even:ml-32 lg:-pl-32"
+        class="bg-white flex w-full items-center justify-start rounded-lg lg:py-8 md:py-8 sm:py-4 px-4 my-4 lg:even:ml-32 lg:-pl-32 shadow-lg"
     >
         <div
             v-if="weekOverview.index"

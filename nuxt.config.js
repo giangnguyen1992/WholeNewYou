@@ -104,7 +104,17 @@ export default {
     /*
      ** Nuxt.js modules
      */
-    modules: [],
+    modules: [
+        [
+            'nuxt-facebook-pixel-module',
+            {
+                /* module options */
+                track: 'PageView',
+                pixelId: '3111615902287636',
+                disabled: true
+            }
+        ]
+    ],
     /*
      ** Build configuration
      */
