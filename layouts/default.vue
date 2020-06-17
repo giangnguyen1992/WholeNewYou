@@ -29,13 +29,17 @@ export default {
                 typeof this.$fb.enable === 'function'
             ) {
                 this.$fb.enable();
+                this.userHasAcceptedCookie();
             }
         } else {
             this.setCookieStatus();
         }
     },
     methods: {
-        ...mapActions({ setCookieStatus: 'user/userAcceptCookies' }),
+        ...mapActions({
+            setCookieStatus: 'user/userAcceptCookies',
+            userHasAcceptedCookie: 'user/userHasAcceptedCookie'
+        }),
         getLocalStorage(key) {
             if (typeof key !== 'string') {
                 return undefined;

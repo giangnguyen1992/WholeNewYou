@@ -49,6 +49,7 @@
                 rel="noopener"
                 class="inline-block bg-primary-base rounded-md shadow-button hover:shadow-hoverButton py-3 px-12"
                 role="button"
+                @click="fbTrackAddToCart"
             >
                 <span class="flex align-middle justify-center tracking-wider"
                     ><span class="font-sans font-bold text-white text-base">
@@ -61,8 +62,11 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
     computed: {
+        ...mapGetters('user', ['showCookieBanner']),
         productOverview() {
             return this.$store.state.landingpage.data.productOverview;
         },
@@ -70,6 +74,19 @@ export default {
             return this.productOverview
                 ? this.productOverview.headline.toUpperCase()
                 : '';
+        }
+    },
+    methods: {
+        fbTrackAddToCart() {
+            if (
+                this.showCookieBanner ||
+                typeof this.$fb !== 'object' ||
+                typeof this.$fb.track !== 'function'
+            ) {
+                return;
+            }
+
+            this.$fb.track('AddToCart');
         }
     }
 };

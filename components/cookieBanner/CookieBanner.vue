@@ -45,10 +45,14 @@ export default {
         }
     },
     methods: {
-        ...mapActions({ setCookieStatus: 'user/userAcceptCookies' }),
+        ...mapActions({
+            setCookieStatus: 'user/userAcceptCookies',
+            userHasAcceptedCookie: 'user/userHasAcceptedCookie'
+        }),
         acceptCookie() {
             if (this.setLocalStorage('accept_wny_cookie', 'true')) {
                 this.$fb.enable();
+                this.userHasAcceptedCookie();
                 this.isHidden = true;
             }
         },

@@ -5,12 +5,18 @@ export const state = () => ({
 export const mutations = {
     userAcceptCookies(state) {
         state.showCookieBanner = true;
+    },
+    userHasAcceptedCookie(state) {
+        state.showCookieBanner = false;
     }
 };
 
 export const actions = {
     userAcceptCookies({ commit }) {
         commit('userAcceptCookies');
+    },
+    userHasAcceptedCookie({ commit }) {
+        commit('userHasAcceptedCookie');
     }
 };
 
