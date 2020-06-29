@@ -32,8 +32,10 @@
 
 <script>
 import { mapActions } from 'vuex';
+import localStorageFunction from '~/mixins/localstorage';
 
 export default {
+    mixins: [localStorageFunction],
     data() {
         return {
             isHidden: false
@@ -58,23 +60,6 @@ export default {
         },
         declineCookie() {
             this.isHidden = true;
-        },
-        setLocalStorage(key, value) {
-            if (typeof key !== 'string' || typeof value === 'undefined') {
-                return false;
-            }
-            let storage;
-            try {
-                storage = window.localStorage;
-            } catch (e) {
-                return false;
-            }
-            if (storage) {
-                const valueJSON = JSON.stringify(value);
-                storage.setItem(key, valueJSON);
-                return true;
-            }
-            return false;
         }
     }
 };
