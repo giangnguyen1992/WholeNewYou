@@ -1,6 +1,6 @@
-import data from '~/data/landingpage.json';
+import data from '~/static/landingpage.json';
 
 export const state = () => ({
     data,
-    timerExpiredDate: 'June 30, 2020 23:59:59'
+    timerExpiredDate: 'July 01, 2020 23:59:59'
 });

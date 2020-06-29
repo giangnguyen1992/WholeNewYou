@@ -13,12 +13,15 @@ import NavigationSection from '../components/nav/NavigationSection';
 import FooterSection from '../components/footer/FooterSection';
 import CookieBanner from '../components/cookieBanner/CookieBanner';
 
+import localStorageFunction from '~/mixins/localstorage';
+
 export default {
     components: {
         NavigationSection,
         FooterSection,
         CookieBanner
     },
+    mixins: [localStorageFunction],
     computed: {
         ...mapGetters('user', ['showCookieBanner'])
     },
@@ -39,23 +42,7 @@ export default {
         ...mapActions({
             setCookieStatus: 'user/userAcceptCookies',
             userHasAcceptedCookie: 'user/userHasAcceptedCookie'
-        }),
-        getLocalStorage(key) {
-            if (typeof key !== 'string') {
-                return undefined;
-            }
-            let storage;
-            try {
-                storage = window.localStorage;
-            } catch (e) {
-                return undefined;
-            }
-            if (storage && storage.getItem(key)) {
-                const parsedValue = JSON.parse(storage.getItem(key));
-                return parsedValue;
-            }
-            return undefined;
-        }
+        })
     }
 };
 </script>
