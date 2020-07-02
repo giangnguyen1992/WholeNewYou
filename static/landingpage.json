@@ -86,7 +86,7 @@
     },
     "timer": {
         "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. Starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
-        "headline": "Verbleibende Zeit für die Anmeldung",
+        "headline": "Zeit bis zum Kursstart",
         "buttonText": "Melde dich jetzt an!"
     },
     "productOverview": {
@@ -101,8 +101,8 @@
             "Bonusmaterial: Detox-Challenge und Ernährungstagebuch"
         ],
         "price": "79,90",
-        "earlyBirdPrice": "57,90",
-        "priceHeadline": "Jetzt zum Early-Bird-Preis von",
+        "earlyBirdPrice": "79,90",
+        "priceHeadline": "Jetzt zum Preis von",
         "buttonText": "Jetzt anmelden!",
         "productUrl": "https://www.digistore24.com/product/330298",
         "image":{

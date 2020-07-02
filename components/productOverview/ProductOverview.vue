@@ -38,9 +38,9 @@
                     {{ `${productOverview.earlyBirdPrice} €` }}
                 </p>
 
-                <p v-if="productOverview.price" class="text-lg">
+                <!-- <p v-if="productOverview.price" class="text-lg">
                     {{ `danach ${productOverview.price}€` }}
-                </p>
+                </p> -->
             </div>
             <a
                 v-if="productOverview.productUrl"
