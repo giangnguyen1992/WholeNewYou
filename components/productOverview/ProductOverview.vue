@@ -10,10 +10,7 @@
             <figure v-if="productOverview.image" class="w-full mb-8">
                 <BasePicture :image="productOverview.image" />
             </figure>
-            <ul
-                v-if="productOverview.includes"
-                class="border-b border-solid border-primary-base pb-8 mb-8"
-            >
+            <ul v-if="productOverview.includes">
                 <li
                     v-for="(product, index) in productOverview.includes"
                     :key="index"
@@ -22,6 +19,7 @@
                     {{ product }}
                 </li>
             </ul>
+            <!-- 
             <p
                 v-if="productOverview.priceHeadline"
                 class="text-xl leading-none"
@@ -38,25 +36,26 @@
                     {{ `${productOverview.earlyBirdPrice} €` }}
                 </p>
 
-                <!-- <p v-if="productOverview.price" class="text-lg">
+                <p v-if="productOverview.price" class="text-lg">
                     {{ `danach ${productOverview.price}€` }}
-                </p> -->
+                </p>
             </div>
             <a
                 v-if="productOverview.productUrl"
                 :href="productOverview.productUrl"
                 target="_blank"
                 rel="noopener"
-                class="inline-block bg-primary-base rounded-md shadow-button hover:shadow-hoverButton py-3 px-12"
+                class="inline-block bg-primary-base rounded-lg shadow-button hover:shadow-hoverButton py-3 px-12"
                 role="button"
                 @click="fbTrackAddToCart"
-            >
+            > 
                 <span class="flex align-middle justify-center tracking-wider"
                     ><span class="font-sans font-bold text-white text-base">
                         {{ productOverview.buttonText }}
                     </span>
                 </span>
-            </a>
+            </a> 
+            -->
         </div>
     </BaseSection>
 </template>
