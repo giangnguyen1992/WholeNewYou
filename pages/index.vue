@@ -7,6 +7,7 @@
         <TimerSection />
         <AboutSection />
         <ProductOverview />
+        <NewsletterSection />
     </main>
 </template>
 
@@ -15,9 +16,9 @@ import HeroSection from '~/components/hero/HeroSection.vue';
 import CustomerMatchingSection from '~/components/customerNeeds/CustomerNeedsSection';
 import BenefitsSection from '~/components/benefits/BenefitsSection';
 import CourseOverviewSection from '~/components/courseOverview/CourseOverviewSection';
-import TimerSection from '~/components/timer/TimerSection';
 import AboutSection from '~/components/about/AboutSection';
 import ProductOverview from '~/components/productOverview/ProductOverview';
+import NewsletterSection from '~/components/newsletter/NewsletterSection';
 
 export default {
     components: {
@@ -25,9 +26,9 @@ export default {
         CustomerMatchingSection,
         BenefitsSection,
         CourseOverviewSection,
-        TimerSection,
         AboutSection,
-        ProductOverview
+        ProductOverview,
+        NewsletterSection
     }
 };
 </script>

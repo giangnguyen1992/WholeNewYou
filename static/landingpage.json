@@ -21,7 +21,7 @@
         "headline": "Was dich in diesem Kurs erwartet",
         "arguments": [
             {
-                "text": "Der zweiwöchige Kurs findet vom 06.07 - 19.07.2020 statt. Vor Kursbeginn erhältst du ein Vorbereitungsmodul mit ersten Infos und Übungen. Im Kurszeitraum erhältst du jeweils montags ein Modul mit über 20 Seiten Lernmaterial per Mail. Dieses kannst du dir über die Woche zeitlich frei einteilen, sodass du es an deinen Alltag anpassen kannst.",
+                "text": "Der Kurs dauert 2 Wochen und vor Kursbeginn erhältst du ein Vorbereitungsmodul mit ersten Infos und Übungen. Im Kurszeitraum erhältst du jeweils montags ein Modul mit über 20 Seiten Lernmaterial per Mail. Dieses kannst du dir über die Woche zeitlich frei einteilen, sodass du es an deinen Alltag anpassen kannst.",
                 "headline": "Begleitende Kursinhalte",
                 "icon": "banana"
             },
@@ -92,7 +92,7 @@
     "productOverview": {
         "headline": "Der Whole New You Starter Course auf einen Blick",
         "includes": [
-            "2 Wochen begleitetes Health & Wellness Online Coaching vom 06.07.2020 – 19.07.2020", 
+            "2 Wochen begleitetes Health & Wellness Online Coaching", 
             "2 Module mit informativem Lernmaterial in Form von PDFs und Videos", 
             "2 Live-Q&A-Sessions mit Regina",
             "1 Vorbereitungsmodul mit erstem Input und Übungen",
@@ -112,6 +112,12 @@
             "isProduct": true,
             "lazyload": true
         }
+    },
+    "newsletter": {
+        "headline": "Die Anmeldung ist geschlossen",
+        "text": "Der Whole New You Starter Course hat bereits begonnen. Du möchtest in der nächsten Runden dabei sein? Melde dich jetzt für den Blooming life Newsletter an und wir informieren dich, wenn die Anmeldung für die nächste Runde wieder öffnet.",
+        "buttonText": "Jetzt anmelden!",
+        "signupUrl": "http://eepurl.com/g6scZP"
     },
     "footer": {
         "socials": [
