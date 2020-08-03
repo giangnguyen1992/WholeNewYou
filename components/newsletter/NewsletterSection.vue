@@ -17,7 +17,6 @@
                 v-if="newsletter.buttonText"
                 :href="newsletter.signupUrl"
                 target="_blank"
-                rel="noopener"
                 class="inline-block bg-primary-base rounded-lg shadow-button hover:shadow-hoverButton py-3 px-12"
                 role="button"
             >
