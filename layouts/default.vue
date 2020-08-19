@@ -2,23 +2,20 @@
     <div>
         <NavigationSection />
         <nuxt />
-        <FooterSection />
         <CookieBanner v-if="showCookieBanner" />
     </div>
 </template>
 
 <script>
 import { mapGetters, mapActions } from 'vuex';
-import NavigationSection from '../components/nav/NavigationSection';
-import FooterSection from '../components/footer/FooterSection';
-import CookieBanner from '../components/cookieBanner/CookieBanner';
+import NavigationSection from '~/components/nav/NavigationSection';
+import CookieBanner from '~/components/cookieBanner/CookieBanner';
 
 import localStorageFunction from '~/mixins/localstorage';
 
 export default {
     components: {
         NavigationSection,
-        FooterSection,
         CookieBanner
     },
     mixins: [localStorageFunction],

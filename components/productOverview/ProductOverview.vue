@@ -64,11 +64,14 @@
 import { mapGetters } from 'vuex';
 
 export default {
+    props: {
+        productOverview: {
+            type: Object,
+            required: true
+        }
+    },
     computed: {
         ...mapGetters('user', ['showCookieBanner']),
-        productOverview() {
-            return this.$store.state.landingpage.data.productOverview;
-        },
         sectionHeadline() {
             return this.productOverview
                 ? this.productOverview.headline.toUpperCase()

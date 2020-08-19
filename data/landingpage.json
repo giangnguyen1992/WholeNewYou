@@ -1,6 +1,6 @@
 {
     "hero": {
-        "headline": "Dein Onlinekurs fÜr gesunde ErnÄhrung und Achtsamkeit!",
+        "headline": "Dein Onlinekurs fÜr gesunde Ernährung und Achtsamkeit!",
         "intro": "Investiere jetzt in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
         "buttonText": "Jetzt anmelden!",
         "image":{
@@ -120,21 +120,21 @@
         "signupUrl": "http://eepurl.com/g6scZP"
     },
     "footer": {
-        "socials": [
-            {
-                "name": "Instagram",
-                "url": "https://www.instagram.com/bloominglife.de/"
-            },
-            {
-                "name": "Youtube",
-                "url": "https://www.youtube.com/channel/UCNGsn-nsqStKzQAr_2-9Kow"
-            },
-            {
-                "name": "Worldwideweb",
-                "url": "https://www.bloominglife.de/"
-            }
-        ],
         "privacy": "https://www.bloominglife.de/datenschutzerklaerung/",
         "impressum": "https://www.bloominglife.de/impressum/"
-    }
+    },
+    "socials": [
+        {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/bloominglife.de/"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://www.youtube.com/channel/UCNGsn-nsqStKzQAr_2-9Kow"
+        },
+        {
+            "name": "Worldwideweb",
+            "url": "https://www.bloominglife.de/"
+        }
+    ]
 }
