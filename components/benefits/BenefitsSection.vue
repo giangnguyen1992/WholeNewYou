@@ -29,10 +29,13 @@ export default {
     components: {
         BenefitsArgument
     },
+    props: {
+        benefits: {
+            type: Object,
+            required: true
+        }
+    },
     computed: {
-        benefits() {
-            return this.$store.state.landingpage.data.benefits;
-        },
         sectionHeadline() {
             return this.benefits ? this.benefits.headline.toUpperCase() : '';
         }

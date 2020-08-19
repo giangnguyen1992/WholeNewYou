@@ -1,3 +1,10 @@
+require('dotenv').config();
+
+const baseURL =
+    process.env.NODE_ENV === 'development'
+        ? process.env.DEV_BASEURL
+        : process.env.PROD_BASEURL;
+
 export default {
     mode: 'universal',
     /*
@@ -105,6 +112,8 @@ export default {
      ** Nuxt.js modules
      */
     modules: [
+        '@nuxtjs/axios',
+        '@nuxtjs/dotenv',
         [
             'nuxt-facebook-pixel-module',
             {
@@ -123,5 +132,8 @@ export default {
          ** You can extend webpack config here
          */
         extend(config, ctx) {}
+    },
+    axios: {
+        baseURL
     }
 };

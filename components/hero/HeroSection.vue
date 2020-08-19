@@ -51,10 +51,13 @@
 
 <script>
 export default {
+    props: {
+        hero: {
+            type: Object,
+            required: true
+        }
+    },
     computed: {
-        hero() {
-            return this.$store.state.landingpage.data.hero;
-        },
         sectionHeadline() {
             return this.hero ? this.hero.headline.toUpperCase() : '';
         }

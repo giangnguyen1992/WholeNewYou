@@ -33,10 +33,13 @@
 
 <script>
 export default {
+    props: {
+        newsletter: {
+            type: Object,
+            required: true
+        }
+    },
     computed: {
-        newsletter() {
-            return this.$store.state.landingpage.data.newsletter;
-        },
         sectionHeadline() {
             return this.newsletter
                 ? this.newsletter.headline.toUpperCase()
