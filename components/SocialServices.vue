@@ -1,8 +1,8 @@
 <template>
     <li class="px-6">
         <figure class="w-6 lg:scale">
-            <a :href="service.url" target="_blank" rel="noopener">
-                <img :src="socialIconPath" :alt="service.name" />
+            <a :href="social.url" target="_blank" rel="noopener">
+                <img :src="socialIconPath" :alt="social.name" />
             </a>
         </figure>
     </li>
@@ -11,14 +11,14 @@
 <script>
 export default {
     props: {
-        service: {
+        social: {
             type: Object,
             required: true
         }
     },
     computed: {
         socialIconPath() {
-            const iconName = this.service.name.toLowerCase();
+            const iconName = this.social.name.toLowerCase();
             return require(`~/assets/images/icons/${iconName}.svg`);
         }
     }

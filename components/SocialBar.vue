@@ -1,9 +1,9 @@
 <template>
     <ul class="flex justify-center align-middle">
         <SocialServices
-            v-for="service in services"
-            :key="service.name"
-            :service="service"
+            v-for="social in socials"
+            :key="social.name"
+            :social="social"
         ></SocialServices>
     </ul>
 </template>
@@ -16,7 +16,7 @@ export default {
         SocialServices
     },
     props: {
-        services: {
+        socials: {
             type: Array,
             required: true
         }

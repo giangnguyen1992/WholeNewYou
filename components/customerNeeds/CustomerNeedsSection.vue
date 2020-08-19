@@ -23,10 +23,13 @@ export default {
     components: {
         CustomerNeedsArgument
     },
+    props: {
+        customerNeeds: {
+            type: Object,
+            required: true
+        }
+    },
     computed: {
-        customerNeeds() {
-            return this.$store.state.landingpage.data.customerNeeds;
-        },
         sectionHeadline() {
             return this.customerNeeds
                 ? this.customerNeeds.headline.toUpperCase()

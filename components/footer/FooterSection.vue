@@ -5,7 +5,7 @@
     >
         <div class="mx-auto max-w-5xl">
             <BaseLogo />
-            <SocialBar v-if="services" class="my-8" :services="services" />
+            <SocialBar v-if="socials" class="my-8" :socials="socials" />
             <div
                 class="flex justify-center align-middle font-sans text-sec-base mb-8"
             >
@@ -40,19 +40,21 @@ export default {
     components: {
         SocialBar
     },
+    props: {
+        footer: {
+            type: Object,
+            required: true
+        },
+        socials: {
+            type: Array,
+            required: true
+        }
+    },
     computed: {
         currentYear() {
             const date = new Date();
             const currentYear = date.getFullYear();
             return currentYear;
-        },
-        footer() {
-            return this.$store.state.landingpage.data.footer;
-        },
-        services() {
-            return this.$store.state.landingpage.data.footer.socials
-                ? this.$store.state.landingpage.data.footer.socials
-                : [];
         }
     }
 };

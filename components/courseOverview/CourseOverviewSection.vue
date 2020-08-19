@@ -28,10 +28,13 @@ export default {
     components: {
         CourseOverviewWeek
     },
+    props: {
+        courseOverview: {
+            type: Object,
+            required: true
+        }
+    },
     computed: {
-        courseOverview() {
-            return this.$store.state.landingpage.data.courseOverview;
-        },
         sectionHeadline() {
             return this.courseOverview
                 ? this.courseOverview.headline.toUpperCase()

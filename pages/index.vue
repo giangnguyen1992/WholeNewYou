@@ -1,13 +1,19 @@
 <template>
     <main>
-        <HeroSection />
-        <CustomerMatchingSection />
-        <BenefitsSection />
-        <CourseOverviewSection />
-        <TimerSection />
-        <AboutSection />
-        <ProductOverview />
-        <NewsletterSection />
+        <HeroSection :hero="landingpage.hero" />
+        <CustomerMatchingSection :customer-needs="landingpage.customerNeeds" />
+        <BenefitsSection :benefits="landingpage.benefits" />
+        <CourseOverviewSection :course-overview="landingpage.courseOverview" />
+        <AboutSection
+            :about="landingpage.about"
+            :socials="landingpage.socials"
+        />
+        <ProductOverview :product-overview="landingpage.productOverview" />
+        <NewsletterSection :newsletter="landingpage.newsletter" />
+        <FooterSection
+            :footer="landingpage.footer"
+            :socials="landingpage.socials"
+        />
     </main>
 </template>
 
@@ -19,6 +25,7 @@ import CourseOverviewSection from '~/components/courseOverview/CourseOverviewSec
 import AboutSection from '~/components/about/AboutSection';
 import ProductOverview from '~/components/productOverview/ProductOverview';
 import NewsletterSection from '~/components/newsletter/NewsletterSection';
+import FooterSection from '~/components/footer/FooterSection';
 
 export default {
     components: {
@@ -28,7 +35,17 @@ export default {
         CourseOverviewSection,
         AboutSection,
         ProductOverview,
-        NewsletterSection
+        NewsletterSection,
+        FooterSection
+    },
+    async asyncData({ $axios }) {
+        const landingpage = await $axios.get(`/.netlify/functions/landingpage`);
+
+        if (landingpage.data) {
+            return {
+                landingpage: landingpage.data
+            };
+        }
     }
 };
 </script>

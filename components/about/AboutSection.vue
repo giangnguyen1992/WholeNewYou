@@ -16,9 +16,9 @@
                     </figure>
                 </div>
                 <SocialBar
-                    v-if="services"
+                    v-if="socials"
                     class="md:hidden sm:hidden mt-6"
-                    :services="services"
+                    :socials="socials"
                 />
             </div>
             <div class="lg:ml-12 ">
@@ -44,9 +44,9 @@
                     {{ about.quote }}
                 </p>
                 <SocialBar
-                    v-if="services"
+                    v-if="socials"
                     class="lg:hidden mt-8"
-                    :services="services"
+                    :socials="socials"
                 />
             </div>
         </div>
@@ -60,17 +60,19 @@ export default {
     components: {
         SocialBar
     },
-    computed: {
-        about() {
-            return this.$store.state.landingpage.data.about;
+    props: {
+        about: {
+            type: Object,
+            required: true
         },
+        socials: {
+            type: Array,
+            required: true
+        }
+    },
+    computed: {
         sectionHeadline() {
             return this.about ? this.about.headline.toUpperCase() : '';
-        },
-        services() {
-            return this.$store.state.landingpage.data.footer.socials
-                ? this.$store.state.landingpage.data.footer.socials
-                : [];
         }
     }
 };
