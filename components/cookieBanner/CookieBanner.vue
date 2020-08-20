@@ -12,7 +12,9 @@
             Wir geben Informationen zur Nutzung unserer Webseite an Partner für
             soziale Medien und Analysen weiter. Mit einem Klick auf Akzeptieren
             stimmst Du dieser Nutzung zu. Weitere Infos findest Du in unserer
-            <a class="underline hover:text-sec-base" :href="datenschutzUrl"
+            <a
+                class="underline hover:text-sec-base"
+                href="https://www.bloominglife.de/datenschutzerklaerung/"
                 >Datenschutzerklärung</a
             >.
         </p>
@@ -40,11 +42,6 @@ export default {
         return {
             isHidden: false
         };
-    },
-    computed: {
-        datenschutzUrl() {
-            return this.$store.state.landingpage.data.footer.privacy;
-        }
     },
     methods: {
         ...mapActions({
