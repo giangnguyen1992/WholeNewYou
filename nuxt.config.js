@@ -134,6 +134,6 @@ export default {
         extend(config, ctx) {}
     },
     axios: {
-        baseURL: 'https://wholenewyou.de'
+        baseURL
     }
 };
