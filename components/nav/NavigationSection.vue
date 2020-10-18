@@ -6,30 +6,16 @@
     >
         <div class="mx-auto max-w-5xl flex items-center justify-between">
             <BaseLogo />
-            <div id="controls" class="sm:hidden">
-                <div v-if="!isLoggedIn">
-                    <BaseLogInButton class="mr-3" />
-                    <BaseSignInButton />
-                </div>
-                <div v-else>
-                    <BaseLogOutButton />
-                </div>
-            </div>
         </div>
     </nav>
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
-
 export default {
     data() {
         return {
             isCollapsed: false
         };
-    },
-    computed: {
-        ...mapGetters('auth', ['isLoggedIn'])
     },
     mounted() {
         this.$nuxt.$on('ON_SCROLL_DOWN', () => {

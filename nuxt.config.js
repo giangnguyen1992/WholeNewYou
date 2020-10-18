@@ -96,7 +96,6 @@ export default {
      */
     plugins: [
         '~/plugins/global-components.js',
-        '~/plugins/goTrue.client.js',
         '~/plugins/lazysizes.client.js',
         '~/plugins/smoothscrollPolyfill.client.js'
     ],

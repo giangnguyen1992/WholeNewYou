@@ -8,7 +8,6 @@
         <nuxt />
         <FooterSection class="mt-auto" />
         <CookieBanner v-if="showCookieBanner" />
-        <BaseLoadingSpinner />
     </div>
 </template>
 
@@ -28,19 +27,16 @@ export default {
     },
     mixins: [localStorageFunction],
     computed: {
-        ...mapGetters('user', ['showCookieBanner']),
-        ...mapGetters('auth', ['isLoggedIn'])
+        ...mapGetters('user', ['showCookieBanner'])
     },
     mounted() {
         this.initIntersectionObserver();
         this.setConsentStatusOnPageLoad();
-        this.checkForLoggedInUser();
     },
     methods: {
         ...mapActions({
             setCookieStatus: 'user/userAcceptCookies',
-            userHasAcceptedCookie: 'user/userHasAcceptedCookie',
-            setUserLoggedInStatus: 'auth/setUserLoggedInStatus'
+            userHasAcceptedCookie: 'user/userHasAcceptedCookie'
         }),
         initIntersectionObserver() {
             const ioTarget = document.querySelector('#scrollObserver');
@@ -90,14 +86,6 @@ export default {
                 }
             } else {
                 this.setCookieStatus();
-            }
-        },
-        checkForLoggedInUser() {
-            if (
-                !this.isLoggedIn &&
-                this.getLocalStorage('gotrue.user')?.token
-            ) {
-                this.setUserLoggedInStatus(true);
             }
         }
     }
