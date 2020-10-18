@@ -119,10 +119,6 @@
         "buttonText": "Jetzt anmelden!",
         "signupUrl": "http://eepurl.com/g6scZP"
     },
-    "footer": {
-        "privacy": "https://www.bloominglife.de/datenschutzerklaerung/",
-        "impressum": "https://www.bloominglife.de/impressum/"
-    },
     "socials": [
         {
             "name": "Instagram",

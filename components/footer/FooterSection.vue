@@ -1,25 +1,19 @@
 <template>
-    <footer
-        v-if="footer"
-        class="w-full lg:px-8 md:px-8 sm:px-4 lg:py-24 md:py-16 sm:py-12 bg-sec2-base"
-    >
+    <footer class="w-full lg:px-8 md:px-8 sm:px-4 py-8 sm:py-4 bg-sec2-base">
         <div class="mx-auto max-w-5xl">
-            <BaseLogo />
-            <SocialBar v-if="socials" class="my-8" :socials="socials" />
+            <BaseLogo class="mx-auto" />
             <div
-                class="flex justify-center align-middle font-sans text-sec-base mb-8"
+                class="flex justify-center align-middle font-sans text-sec-base mb-4"
             >
                 <a
-                    v-if="footer.privacy"
-                    :href="footer.privacy"
+                    href="https://www.bloominglife.de/datenschutzerklaerung/"
                     class="mr-10 hover:text-sec-light"
                     target="_blank"
                     rel="noopener"
                     >Datenschutz</a
                 >
                 <a
-                    v-if="footer.impressum"
-                    :href="footer.impressum"
+                    href="https://www.bloominglife.de/impressum/"
                     class="hover:text-sec-light"
                     target="_blank"
                     rel="noopener"
@@ -34,22 +28,7 @@
 </template>
 
 <script>
-import SocialBar from '~/components/SocialBar';
-
 export default {
-    components: {
-        SocialBar
-    },
-    props: {
-        footer: {
-            type: Object,
-            required: true
-        },
-        socials: {
-            type: Array,
-            required: true
-        }
-    },
     computed: {
         currentYear() {
             const date = new Date();
