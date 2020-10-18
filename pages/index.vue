@@ -10,10 +10,6 @@
         />
         <ProductOverview :product-overview="landingpage.productOverview" />
         <NewsletterSection :newsletter="landingpage.newsletter" />
-        <FooterSection
-            :footer="landingpage.footer"
-            :socials="landingpage.socials"
-        />
     </main>
 </template>
 
@@ -25,7 +21,6 @@ import CourseOverviewSection from '~/components/courseOverview/CourseOverviewSec
 import AboutSection from '~/components/about/AboutSection';
 import ProductOverview from '~/components/productOverview/ProductOverview';
 import NewsletterSection from '~/components/newsletter/NewsletterSection';
-import FooterSection from '~/components/footer/FooterSection';
 
 export default {
     components: {
@@ -35,8 +30,7 @@ export default {
         CourseOverviewSection,
         AboutSection,
         ProductOverview,
-        NewsletterSection,
-        FooterSection
+        NewsletterSection
     },
     async asyncData({ $axios }) {
         const landingpage = await $axios.get(`/.netlify/functions/landingpage`);

@@ -20,6 +20,7 @@ module.exports = {
             transparent: 'transparent',
             black: '#000000',
             white: '#FFFFFF',
+            alert: '#521822',
             'primary-base': '#ffab9f',
             'primary-light': '#f6d0c4',
             'primary-lighter': '#f6e8e7',
@@ -27,7 +28,8 @@ module.exports = {
             'sec-light': '#9db5c4',
             'sec2-base': '#fddf9a',
             'sec2-light': '#fdf9e7',
-            'grey-light': '#fafafa'
+            'grey-light': '#fafafa',
+            'alert-box': '#faebeb'
         },
         fontFamily: {
             sans: ['Source Sans Pro', 'sans-serif'],
@@ -40,10 +42,12 @@ module.exports = {
             lg: { min: '1012px' }
         },
         minHeight: {
+            screen: '100vh',
             '62': '256px'
         },
         borderRadius: {
             lg: '0.5rem',
+            md: '0.2rem',
             image: '0.7rem'
         },
         textColor: (theme) => theme('colors'),
