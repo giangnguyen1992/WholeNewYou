@@ -1,7 +1,6 @@
 <template>
-    <BaseSection v-if="productOverview">
+    <BaseSection v-if="productOverview" id="productBox">
         <div
-            id="productBox"
             class="flex flex-col items-center border-solid border-primary-base border rounded-lg lg:p-8 md:p-8 sm:p-4 text-sec-base lg:scale"
         >
             <BaseSectionHeadline v-if="sectionHeadline" class="mb-8">
