@@ -1,17 +1,17 @@
 <template>
-    <splide-slide class="flex flex-col items-center justify-center">
+    <li class="flex flex-col items-center justify-center">
         <img
             class="rounded-full sm:w-40 shadow-lg"
             :src="imagePath"
             :alt="testimonial.name"
         />
-        <p class="text-sec-base font-serif mt-8">
+        <p class="text-sec-base font-serif mt-2">
             {{ testimonial.text }}
         </p>
-        <p class="text-sec-light font-heading text-2xl mt-8">
+        <p class="text-sec-light font-heading text-2xl mt-2">
             {{ testimonial.name }}
         </p>
-    </splide-slide>
+    </li>
 </template>
 
 <script>
