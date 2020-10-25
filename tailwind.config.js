@@ -43,7 +43,13 @@ module.exports = {
         },
         borderRadius: {
             lg: '0.5rem',
-            image: '0.7rem'
+            image: '0.7rem',
+            full: '9999px'
+        },
+        inset: {
+            '0': 0,
+            '1/2': '50%',
+            auto: 'auto'
         },
         textColor: (theme) => theme('colors'),
         backgroundColor: (theme) => theme('colors'),

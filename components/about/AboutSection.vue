@@ -1,7 +1,10 @@
 <template>
-    <BaseSection v-if="about" class="bg-grey-light">
+    <BaseSection v-if="about" class="bg-sec2-light">
         <div class="flex md:flex-col sm:flex-col items-center justify-center">
-            <BaseSectionHeadline v-if="sectionHeadline" class="lg:hidden mb-8">
+            <BaseSectionHeadline
+                v-if="sectionHeadline"
+                class="lg:hidden mb-8 text-sec-base"
+            >
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
             <div
@@ -24,7 +27,7 @@
             <div class="lg:ml-12 ">
                 <BaseSectionHeadline
                     v-if="sectionHeadline"
-                    class="md:hidden sm:hidden mb-8"
+                    class="md:hidden sm:hidden mb-8 text-sec-base"
                 >
                     {{ sectionHeadline }}
                 </BaseSectionHeadline>

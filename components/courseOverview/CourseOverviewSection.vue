@@ -1,11 +1,11 @@
 <template>
-    <BaseSection v-if="courseOverview" class="bg-sec-light">
-        <h2
+    <BaseSection v-if="courseOverview" class="bg-sec-light overflow-x-hidden">
+        <BaseSectionHeadline
             v-if="sectionHeadline"
-            class="text-center font-heading text-4xl text-white mb-8"
+            class="text-center text-white mb-8"
         >
             {{ sectionHeadline }}
-        </h2>
+        </BaseSectionHeadline>
         <div v-if="courseOverview.program" class="flex flex-col justify-center">
             <CourseOverviewWeek
                 v-for="(weekOverview, index) in courseOverview.program"

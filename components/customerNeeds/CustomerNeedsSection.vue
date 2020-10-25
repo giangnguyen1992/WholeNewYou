@@ -1,30 +1,75 @@
 <template>
-    <BaseSection v-if="customerNeeds" class="bg-grey-light">
-        <BaseSectionHeadline v-if="sectionHeadline" class="text-center">
-            {{ sectionHeadline }}
-        </BaseSectionHeadline>
-        <div
-            v-if="customerNeeds.arguments && customerNeeds.arguments.length > 0"
-            class="flex md:flex-col sm:flex-col items-center justify-between mt-8"
-        >
-            <CustomerNeedsArgument
-                v-for="(argument, index) in customerNeeds.arguments"
-                :key="index"
-                :argument="{ key: index + 1, text: argument }"
-            />
-        </div>
-    </BaseSection>
+    <div>
+        <BaseSection v-if="customerNeeds" class="relative bg-sec2-light">
+            <BaseSectionHeadline
+                v-if="sectionHeadline"
+                class="text-center text-sec-base"
+            >
+                {{ sectionHeadline }}
+            </BaseSectionHeadline>
+            <div v-if="customerNeeds.text" class="flex flex-col mt-8 sm:pb-24">
+                <ul class="flex flex-col mb-8 space-y-8">
+                    <li
+                        v-for="(row, index) in customerNeeds.text"
+                        :key="index"
+                        class="flex flex-1 items-center"
+                    >
+                        <span
+                            class="text-primary-base lg:text-5xl md:text-4xl sm:text-4xl font-semibold leading-none pr-6"
+                            >{{ `0${index + 1}` }}</span
+                        >
+                        <p class="text-sec-base">
+                            {{ row }}
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div
+                class="bg-white absolute w-4/5 bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 text-center p-4 shadow-lg rounded-lg"
+            >
+                <h3
+                    class="text-sec-base font-heading font-semibold lg:text-2xl md:text-2xl sm:text-2xl"
+                >
+                    {{ experienced.headline }}
+                </h3>
+                <p class="text-sec-base">
+                    {{ experienced.text[0] }}
+                </p>
+            </div>
+        </BaseSection>
+        <BaseSection class="bg-primary-light">
+            <BaseSectionHeadline
+                class="text-center text-sec-base lg:pt-8 md:pt-16 sm:pt-32"
+            >
+                {{ afterlife.headline }}
+            </BaseSectionHeadline>
+            <ul class="flex flex-col items-center mt-8 space-y-8">
+                <li
+                    v-for="(row, index) in afterlife.text"
+                    :key="index"
+                    class="checkmarks flex flex-1 items-center"
+                >
+                    <p class="text-sec-base">
+                        {{ row }}
+                    </p>
+                </li>
+            </ul>
+        </BaseSection>
+    </div>
 </template>
 
 <script>
-import CustomerNeedsArgument from '~/components/CustomerNeedsArgument';
-
 export default {
-    components: {
-        CustomerNeedsArgument
-    },
     props: {
         customerNeeds: {
+            type: Object,
+            required: true
+        },
+        experienced: {
+            type: Object,
+            required: true
+        },
+        afterlife: {
             type: Object,
             required: true
         }
@@ -38,3 +83,16 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+.checkmarks::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: 20px 20px;
+    background-image: url('~assets/images/icons/checkmark.svg');
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+</style>

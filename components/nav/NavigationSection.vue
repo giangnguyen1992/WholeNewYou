@@ -44,19 +44,11 @@ figure {
     transform-origin: left center;
 }
 
-#controls {
-    transition: opacity 0.2s ease-out;
-}
-
 .collapsed {
     transform: translateY(-3rem);
 }
 
 .collapsed figure {
     transform: translateY(1.6rem) scale(0.6);
-}
-
-.collapsed #controls {
-    opacity: 0;
 }
 </style>
