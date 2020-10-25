@@ -7,15 +7,13 @@
             >
                 {{ testimonials.headline }}
             </BaseSectionHeadline>
-            <no-ssr>
-                <splide class="mt-8 w-4/5 mx-auto" :options="slideroptions">
-                    <Testimonial
-                        v-for="testimonial in testimonials.testimonial"
-                        :key="testimonial.name"
-                        :testimonial="testimonial"
-                    />
-                </splide>
-            </no-ssr>
+            <splide class="mt-8 w-4/5 mx-auto" :options="slideroptions">
+                <Testimonial
+                    v-for="testimonial in testimonials.testimonial"
+                    :key="testimonial.name"
+                    :testimonial="testimonial"
+                />
+            </splide>
         </div>
     </BaseSection>
 </template>
