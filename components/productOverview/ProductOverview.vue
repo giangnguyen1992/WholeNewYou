@@ -1,9 +1,12 @@
 <template>
     <BaseSection v-if="productOverview" id="productBox">
         <div
-            class="flex flex-col items-center border-solid border-primary-base border rounded-lg lg:p-8 md:p-8 sm:p-4 text-sec-base lg:scale"
+            class="flex flex-col items-center border-solid border-primary-base border-4 shadow-lg rounded-lg lg:p-8 md:p-8 sm:p-4 text-sec-base lg:scale"
         >
-            <BaseSectionHeadline v-if="sectionHeadline" class="mb-8">
+            <BaseSectionHeadline
+                v-if="sectionHeadline"
+                class="mb-8 text-sec-base"
+            >
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
             <figure v-if="productOverview.image" class="w-full mb-8">
@@ -18,10 +21,10 @@
                     {{ product }}
                 </li>
             </ul>
-            <!-- 
+
             <p
                 v-if="productOverview.priceHeadline"
-                class="text-xl leading-none"
+                class="text-xl leading-none mt-8"
             >
                 {{ productOverview.priceHeadline }}
             </p>
@@ -39,29 +42,14 @@
                     {{ `danach ${productOverview.price}€` }}
                 </p>
             </div>
-            <a
-                v-if="productOverview.productUrl"
-                :href="productOverview.productUrl"
-                target="_blank"
-                rel="noopener"
-                class="inline-block bg-primary-base rounded-lg shadow-button hover:shadow-hoverButton py-3 px-12"
-                role="button"
-                @click="fbTrackAddToCart"
-            > 
-                <span class="flex align-middle justify-center tracking-wider"
-                    ><span class="font-sans font-bold text-white text-base">
-                        {{ productOverview.buttonText }}
-                    </span>
-                </span>
-            </a> 
-            -->
+            <BaseButton v-if="productOverview.buttonText">
+                {{ productOverview.buttonText }}
+            </BaseButton>
         </div>
     </BaseSection>
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
-
 export default {
     props: {
         productOverview: {
@@ -70,24 +58,10 @@ export default {
         }
     },
     computed: {
-        ...mapGetters('user', ['showCookieBanner']),
         sectionHeadline() {
             return this.productOverview
                 ? this.productOverview.headline.toUpperCase()
                 : '';
-        }
-    },
-    methods: {
-        fbTrackAddToCart() {
-            if (
-                this.showCookieBanner ||
-                typeof this.$fb !== 'object' ||
-                typeof this.$fb.track !== 'function'
-            ) {
-                return;
-            }
-
-            this.$fb.track('AddToCart');
         }
     }
 };

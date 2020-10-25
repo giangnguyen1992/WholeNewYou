@@ -10,18 +10,52 @@
             "lazyload": false
         }
     },
+    "empathy": {
+        "headline": "Ich weiß, wie du dich fühlst",
+        "text": [
+            "Du bist verwirrt von vielen Informationen über eine gesunde Ernährung und Lebensweise. Du möchtest körperliche Symptome und Stress loswerden, weißt aber nicht genau, wo und wie du anfangen sollst. Verdauungsbeschwerden, eine unreine Haut, hormonelle Probleme und andere Symptome beeinträchtigen dich in deinem Alltag.",
+            "Du möchtest ein Leben ohne gesundheitliche Probleme, schlechte Gewohnheiten, Unwohlsein und mangelnde Selbstliebe. Genau an diesem Punkt war ich auch. Du bist nicht allein und es gibt einen Weg zu einer langfristigen ganzheitlichen Gesundheit, den wir mit Freude und Leichtigkeit gehen können."  
+        ],
+        "lastline": "JETZT ist die Zeit, in deine Gesundheit und dein Wohlbefinden zu investieren! Du hast deine Probleme lange genug mit dir herumgetragen. Nimm deine Gesundheit selbst in die Hand, treffe eine Gruppe von Gleichgesinnten und gehe endlich den Weg zu einem gesünderen und glücklicheren Leben."
+    },
     "customerNeeds": {
         "headline": "Für wen ist dieser Kurs?",
-        "arguments": [
-            "Du möchtest mehr über gesunde Ernährung lernen und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern. Dein Ziel ist keine kurzfristige Diät und kurzfristige Erfolge, sondern deine langfristige ganzheitliche Gesundheit.", 
-            "Du willst mehr Entspannung und Wohlbefinden in deinen Alltag bringen und suchst nach Tipps und Motivation für eine gesunde Ernährungs- und Lebensweise. Du möchtest das Thema Gesundheit mit Freude angehen und dich gut in deinem Körper fühlen."
+        "text": [
+            "Du möchtest mehr über gesunde Ernährung lernen und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern.", 
+            "Dein Ziel ist keine kurzfristige Diät, du bist nicht an kurzfristigen Erfolgen interessiert, sondern deiner langfristigen ganzheitlichen Gesundheit.",
+            "Du möchtest mehr Entspannung und Wohlbefinden in deinen Alltag bringen und suchst Motivation für eine gesunde Ernährungs und Lebensweise.",
+            "Du möchtest das Thema Gesundheit mit Freude angehen, gesundheitliche Probleme aus dem Weg räumen und dich gut in deinem Körper fühlen."
         ]
+    }, 
+    "experienced": {
+        "headline": "Genau dabei habe ich bereits vielen Frauen geholfen",
+        "text": ["Es gibt einen Weg, um all diese Probleme aus dem Weg zu räumen. Ich weiß, dass du nicht länger mühsam nach den richtigen Antworten für deine Probleme suchen möchtest. Deshalb zeige ich dir innerhalb von zwei Wochen, wie du deine Ernährung und dein Wohlbefinden steigern kannst."]
+    },
+    "afterlife": {
+        "headline": "Dein Leben nach dem Onlinekurs",
+        "text": [
+            "Du gehst selbstbewusst mit deiner Ernährung um und weißt genau, was du brauchst.",
+            "Du kümmerst dich besser um dich selbst und bringst mehr Entspannung in deinen Alltag.",
+            "Du weißt, wie du deinen Beschwerden langfristig entgegenwirken kannst.",
+            "Du arbeitest voller Freude mit dem neuen Wissen an deiner gesunden Ernährung und deinem gesunden Lebensstil."
+        ]
+    },
+    "preview": {
+        "headline": "Der Whole New You Starter Course wird dein Leben positiv verändern",
+        "image":{
+            "name": "preview",
+            "type": "png",
+            "alt": "Produkt Preview",
+            "isProduct": true,
+            "lazyload": true
+        },
+        "buttonText": "Melde dich jetzt an!"
     },
     "benefits": {
         "headline": "Was dich in diesem Kurs erwartet",
         "arguments": [
             {
-                "text": "Der Kurs dauert 2 Wochen und vor Kursbeginn erhältst du ein Vorbereitungsmodul mit ersten Infos und Übungen. Im Kurszeitraum erhältst du jeweils montags ein Modul mit über 20 Seiten Lernmaterial per Mail. Dieses kannst du dir über die Woche zeitlich frei einteilen, sodass du es an deinen Alltag anpassen kannst.",
+                "text": "Der Kurs dauert 2 Wochen und vor Kursbeginn erhältst du ein Vorbereitungsmodul mit ersten Infos und Übungen. Jede Woche gibt es ein neues Modul mit über 20 Seiten Lernmaterial. Dieses kannst du dir über die Woche zeitlich flexibel einteilen und an deinen Alltag anpassen.",
                 "headline": "Begleitende Kursinhalte",
                 "icon": "banana"
             },
@@ -72,44 +106,133 @@
             ]
         ]
     },
-    "about": {
-        "headline": "Über mich",
-        "intro": "Hi, ich bin Regina und ganzheitliche Ernährungsberaterin.",
-        "text": "Vor einigen Jahren hatte ich selbst mit verschiedenen gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. Wenig Energie, Infektanfälligkeit, chronischer Stress sowie Probleme mit Gewicht, Hormonen und der Verdauung sind heute leider keine Seltenheit. In meiner Ausbildung zur Ernährungsberaterin lernte ich, diesen gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Dieses Wissen möchte ich nun mit dir teilen, damit auch du deine Gesundheit selbst in die Hand nehmen kannst.",
-        "quote": "Ich bin fest davon überzeugt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind.",
-        "image":{
-            "name": "aboutme",
-            "type": "JPG",
-            "alt": "Regina Kirchmeier",
-            "lazyload": true
-        }
-    },
     "timer": {
         "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. Starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
         "headline": "Zeit bis zum Kursstart",
+        "timerExpiredDate": "November 01, 2020 23:59:59",
         "buttonText": "Melde dich jetzt an!"
     },
     "productOverview": {
         "headline": "Der Whole New You Starter Course auf einen Blick",
         "includes": [
-            "2 Wochen begleitetes Health & Wellness Online Coaching", 
-            "2 Module mit informativem Lernmaterial in Form von PDFs und Videos", 
-            "2 Live-Q&A-Sessions mit Regina",
-            "1 Vorbereitungsmodul mit erstem Input und Übungen",
+            "2 Wochen begleitetes Health & Wellness Online Coaching vom 02.11.2020 – 15.11.2020", 
+            "2 Module mit informativem Lernmaterial", 
+            "2 Live Q&A-Sessions mit Regina",
             "Zugang zur exklusiven Instagram-Community",
-            "Tägliche Begleitung in unserer Instagram-Community und per E-Mail",
-            "Bonusmaterial: Detox-Challenge und Ernährungstagebuch"
+            "BONUS 1: Vorbereitungsmodul mit Health-Mindset-Übungen",
+            "BONUS 2: Täglich neue Inhalte, Motivation und Übungen in der Instagram-Community",
+            "BONUS 3: Ernährungstagebuch und Detox-Challenge"
         ],
-        "price": "79,90",
-        "earlyBirdPrice": "79,90",
+        "price": "79",
+        "earlyBirdPrice": "47",
         "priceHeadline": "Jetzt zum Preis von",
         "buttonText": "Jetzt anmelden!",
-        "productUrl": "https://www.digistore24.com/product/330298",
         "image":{
             "name": "product",
             "type": "png",
             "alt": "Produktfoto",
             "isProduct": true,
+            "lazyload": true
+        }
+    },
+    "bonusmaterial": {
+        "headline": "Hat jemand Bonusmaterial gesagt?",
+        "modules": [
+            {
+                "headline": "Bonus 1 Vorbereitungsmodul",
+                "text": "In diesem ersten Modul, das du noch vor Kursbeginn erhältst, arbeiten wir an deinem Health Mindset. Die Übungen und Inhalte bereiten dich optimal auf den Kurs vor."
+            },
+            {
+                "headline": "Bonus 2 Exklusive Instagram-Gruppe",
+                "text": "Hier findest du täglich neue Inhalte, Motivation und Inspiration. Du hast zudem die Möglichkeit, dich mit anderen Kursteilnehmern auszutauschen."
+            },
+            {
+                "headline": "Bonus 3 Ernährungstagebuch und Detox-Challenge",
+                "text": "Mit diesen Tools kannst du herausfinden, welche Lebensmittel du gut verträgst und welche weniger gut. So kannst du ganz leicht herausfinde, welche Lebensmittel dir Probleme bereiten."
+            }
+        ]
+    },
+    "testimonials": {
+        "headline": "Was bisherige Teilnehmer über den Kurs sagen",
+        "testimonial": [
+            {
+                "name": "Jule S.",
+                "image": "jule",
+                "text": "Du hast wirklich super guten Input gegeben und ich werde die Informationen nochlange für mich nutzen können."
+            },
+            {
+                "name": "Nadine S.",
+                "image": "nadine",
+                "text": "Ach, liebe Regina, es war so ein toller Kurs mit dir! Danke für dich und dein tolles Wissen. Ich folge dir auf jeden Fall weiterhin mit großer Leidenschaft! Ich habe schon so viele von deinen Tipps in meinen Alltag integrieren können und merke schon, dass es meinem Darm und meinem ganzen Körper bereits viel besser damit geht. Danke für deinen tollen Onlinekurs! Fühl dich gedrückt :)"
+            },
+            {
+                "name": "Christina T.",
+                "image": "christina",
+                "text": "Mir hat der Kurs und die tägliche Begleitung sehr geholfen! Vielen Dank Regina!"
+            },
+            {
+                "name": "Jasmin B.",
+                "image": "jasmin",
+                "text": "Der Wert des Kurses geht wirklich weit über die zwei Wochen hinaus und ich werde immer weitere Handlungsempfehlungen integrieren."
+            },
+            {
+                "name": "Lisa H.",
+                "image": "lisa",
+                "text": "Der Onlinekurs hat mir total gut gefallen und ich konnte sehr viel über Gesundheit im Allgemeinen, ein positives Mindset und Ernährung lernen. Besonders die Live Sessions waren sehr hilfreich und interessant, da hier auch auf individuelle Fragen eingegangen wurde. Ich kann den Kurs sehr weiterempfehlen und möchte mich nochmal ganz herzlich bei Regina bedanken!!"
+            },
+            {
+                "name": "Stephan G.",
+                "image": "stephan",
+                "text": "Regina ist immer meine erste Anlaufstelle, wenn es um Ernährung geht! Ihre Ansätze gefallen mir und sie sind einfach umzusetzen. Sie steckt mich mit ihrer Leidenschaft für eine ganzheitliche Gesundheit einfach an!"
+            },
+            {
+                "name": "Anna K.",
+                "text" : "Ich habe mich sehr auf den Onlinekurs gefreut und konnte es gar nicht abwarten, loszulegen! Ich fand die zwei Wochen begleitetes Coaching mit Regina super und habe viel gelernt.",
+                "image": "anna"
+            }
+
+        ],
+        "buttonText": "Ich bin bereit!"
+    },
+    "faqs": {
+        "headline": "Häufige Fragen",
+        "faq": [
+            {
+                "headline": "Bis passiert, wenn ich mich anmelde?",
+                "text": "Direkt nach der Anmeldung erhältst du eine Mail mit allen Kursunterlagen zum Herunterladen. Du kannst dann direkt mit dem Vorbereitungsmodul starten. Damit du Teil der exklusiven Instagram-Community wirst, sind zwei Schritte notwendig: Du erhältst eine Wilkommensmail, auf die du mit deinem Instagram-Namen antwortest. Anschließend folgst du @wholenewyou.de auf Instagram und wirst in die Gruppe aufgenommen. Am 02. November startet dann der begleitende Kurs und du erhältst zwei Wochen lang täglichen Input in der Instagram-Gruppe und jeden Montag eine E-Mail mit Infos zu den Kursunterlagen der Woche. Jeden Donnerstag um 19 Uhr findet außerdem unsere Live-Session in der Instagram-Gruppe statt."
+            },
+            {
+                "headline": "Wann erhalte ich meine Kursunterlagen?",
+                "text": "Du erhältst alle Module direkt nach deiner Anmeldung per E-Mail und kannst sie ganz bequem herunterladen."
+            },
+            {
+                "headline": "Was unterscheidet den Kurs von anderen Ernährungskursen?",
+                "text": "Whole New You kombiniert eine gesunde Ernährung und Achtsamkeit und geht damit einen Schritt tiefer. Das Health Mindset spielt eine große Rolle und hilft dir, langfristig deine Ernährung umzustellen. Praktische Handlungsempfehlungen sorgen dafür, dass das neue Wissen auch direkt in die Tat umgesetzt wird."
+            },
+            {
+                "headline": "Ist der Kurs das richtige für mich, wenn ich abnehmen möchte?",
+                "text": "Die Methoden führen automatisch dazu, dass dein Körper sein eigenes Idealgewicht findet. Viele Coaching-Klienten haben dank der Handlungsempfehlungen und Rezepte ihr optimales Körpergewicht erreicht und können es auch halten. WNY ist allerdings keine kurzfristige Diät, im Fokus steht immer die langfristige ganzheitliche Gesundheit."
+            },
+            {
+                "headline": "Gibt es zusätzliche 1:1-Beratungen?",
+                "text": "Viele Kursteilnehmer profitieren von einer persönlichen Begleitung neben dem Onlinekurs, um ihre Ziele noch besser in die Tat umzusetzen und individuelle Empfehlungen zu erhalten. Ein Einzelcoaching kannst du spater individuell über Instagram mit mir vereinbaren."
+            },
+            {
+                "headline": "Bis wann kann ich mich anmelden?",
+                "text": "Die Anmeldung schließt am 01.11.20 um 23.59 Uhr."
+            }
+        ],
+        "buttonText": "Yes, ich bin dabei!"
+    },
+    "about": {
+        "headline": "Über mich",
+        "intro": "Hi, ich bin Regina und ganzheitliche Ernährungsberaterin.",
+        "text": "Vor einigen Jahren hatte ich selbst mit verschiedenen gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. Wenig Energie, Infektanfälligkeit, chronischer Stress sowie Probleme mit Gewicht, Hormonen und der Verdauung sind heute leider keine Seltenheit. In meiner Ausbildung zur Ernährungsberaterin lernte ich, diesen gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Und glaube mir, wenn ich es kann, dann kannst du es auch! Heute helfe ich Frauen wie dir, ihre Gesundheit selbst in die Hand zu nehmen, sich gut um sich selbst zu kümmern.",
+        "quote": "Ich bin fest davon überzeugt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind.",
+        "image":{
+            "name": "aboutme",
+            "type": "JPG",
+            "alt": "Regina Kirchmeier",
             "lazyload": true
         }
     },
