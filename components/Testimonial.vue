@@ -1,8 +1,9 @@
 <template>
     <li class="flex flex-col items-center justify-center">
         <img
-            class="rounded-full sm:w-40 shadow-lg"
-            :src="imagePath"
+            class="rounded-full sm:w-40 shadow-lg lazyload"
+            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+            :data-src="imagePath"
             :alt="testimonial.name"
         />
         <p class="text-sec-base font-serif mt-2">

@@ -12,13 +12,17 @@
                 >
                     <img
                         v-if="index % 2 == 0"
-                        class="w-48 sm:mb-4"
-                        :src="iconPath(index)"
+                        class="w-48 sm:mb-4 lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        :data-src="iconPath(index)"
+                        alt="Bonus Material Vorschau"
                     />
                     <img
                         v-if="index % 2 != 0"
-                        class="lg:hidden md:hidden w-48 sm:mb-4"
-                        :src="iconPath(index)"
+                        class="lg:hidden md:hidden w-48 sm:mb-4 lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        :data-src="iconPath(index)"
+                        alt="Bonus Material Vorschau"
                     />
                     <div class="sm:text-center">
                         <h3
@@ -32,8 +36,10 @@
                     </div>
                     <img
                         v-if="index % 2 != 0"
-                        class="w-48 sm:hidden"
-                        :src="iconPath(index)"
+                        class="w-48 sm:hidden lazyload"
+                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                        :data-src="iconPath(index)"
+                        alt="Bonus Material Vorschau"
                     />
                 </li>
             </ul>
