@@ -1,36 +1,59 @@
 <template>
     <main>
         <HeroSection :hero="landingpage.hero" />
-        <CustomerMatchingSection :customer-needs="landingpage.customerNeeds" />
+        <EmpathySection :empathy="landingpage.empathy" />
+        <PreviewSection :preview="landingpage.preview" />
+        <CustomerMatchingSection
+            :customer-needs="landingpage.customerNeeds"
+            :experienced="landingpage.experienced"
+            :afterlife="landingpage.afterlife"
+        />
         <BenefitsSection :benefits="landingpage.benefits" />
         <CourseOverviewSection :course-overview="landingpage.courseOverview" />
+        <TimerSection :timer="landingpage.timer" />
+        <ProductOverview :product-overview="landingpage.productOverview" />
+        <BonusSection :bonus="landingpage.bonusmaterial" />
+        <TestimonialsSection :testimonials="landingpage.testimonials" />
         <AboutSection
             :about="landingpage.about"
             :socials="landingpage.socials"
         />
-        <ProductOverview :product-overview="landingpage.productOverview" />
-        <NewsletterSection :newsletter="landingpage.newsletter" />
+        <FAQSection :faqs="landingpage.faqs" />
     </main>
 </template>
 
 <script>
 import HeroSection from '~/components/hero/HeroSection.vue';
+import EmpathySection from '~/components/EmpathySection.vue';
+// import ImagineSection from '~/components/ImagineSection.vue';
 import CustomerMatchingSection from '~/components/customerNeeds/CustomerNeedsSection';
 import BenefitsSection from '~/components/benefits/BenefitsSection';
 import CourseOverviewSection from '~/components/courseOverview/CourseOverviewSection';
 import AboutSection from '~/components/about/AboutSection';
 import ProductOverview from '~/components/productOverview/ProductOverview';
-import NewsletterSection from '~/components/newsletter/NewsletterSection';
+import TimerSection from '~/components/timer/TimerSection';
+import TestimonialsSection from '~/components/TestimonialsSection';
+import FAQSection from '~/components/FAQSection';
+import PreviewSection from '~/components/PreviewSection';
+import BonusSection from '~/components/BonusSection';
+// import NewsletterSection from '~/components/newsletter/NewsletterSection';
 
 export default {
     components: {
         HeroSection,
+        EmpathySection,
+        // ImagineSection,
         CustomerMatchingSection,
         BenefitsSection,
         CourseOverviewSection,
         AboutSection,
         ProductOverview,
-        NewsletterSection
+        TimerSection,
+        TestimonialsSection,
+        FAQSection,
+        BonusSection,
+        PreviewSection
+        // NewsletterSection
     },
     async asyncData({ $axios }) {
         const landingpage = await $axios.get(`/.netlify/functions/landingpage`);

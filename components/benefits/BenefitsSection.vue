@@ -1,7 +1,10 @@
 <template>
     <BaseSection v-if="benefits">
         <div class="text-center">
-            <BaseSectionHeadline v-if="sectionHeadline" class="mb-8">
+            <BaseSectionHeadline
+                v-if="sectionHeadline"
+                class="mb-8 text-sec-base"
+            >
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
             <div

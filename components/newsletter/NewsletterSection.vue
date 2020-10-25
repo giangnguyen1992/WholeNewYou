@@ -3,7 +3,7 @@
         <div class="flex flex-col items-center">
             <BaseSectionHeadline
                 v-if="sectionHeadline"
-                class="lg:mb-8 md:mb-4 sm:mb-4"
+                class="lg:mb-8 md:mb-4 sm:mb-4 text-sec-base"
             >
                 {{ sectionHeadline }}
             </BaseSectionHeadline>

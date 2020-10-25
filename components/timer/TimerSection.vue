@@ -9,7 +9,7 @@
             </p>
             <BaseSectionHeadline
                 v-if="sectionHeadline"
-                class="lg:mb-8 md:mb-4 sm:mb-4"
+                class="lg:mb-8 md:mb-4 sm:mb-4 text-sec-base"
             >
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
@@ -30,12 +30,15 @@ export default {
     components: {
         Timer: () => import('~/components/Timer')
     },
+    props: {
+        timer: {
+            type: Object,
+            required: true
+        }
+    },
     computed: {
-        timer() {
-            return this.$store.state.landingpage.data.timer;
-        },
         timerExpiredDate() {
-            return this.$store.state.landingpage.timerExpiredDate;
+            return this.timer.timerExpiredDate;
         },
         sectionHeadline() {
             return this.timer ? this.timer.headline.toUpperCase() : '';

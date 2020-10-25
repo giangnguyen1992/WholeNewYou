@@ -11,14 +11,11 @@
         <div>
             <h4
                 v-if="weekOverview.item.headline"
-                class="font-sans text-sec-base font-semibold text-lg"
+                class="font-sans text-sec-base font-semibold text-2xl"
             >
                 {{ weekOverview.item.headline }}
             </h4>
-            <p
-                v-if="weekOverview.item.description"
-                class="font-sans text-sec-base"
-            >
+            <p v-if="weekOverview.item.description" class="text-sec-base">
                 {{ weekOverview.item.description }}
             </p>
         </div>
