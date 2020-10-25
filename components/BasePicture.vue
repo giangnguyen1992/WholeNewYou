@@ -1,7 +1,8 @@
 <template>
     <picture
         v-if="image.name && image.type"
-        class="block relative h-0 overflow-hidden fixed-ratio-padding"
+        class="block relative h-0 overflow-hidden"
+        :class="image.noPadding ? 'hero-padding' : 'fixed-ratio-padding'"
         :style="image.isProduct ? inlinePadding6by4 : ''"
     >
         <source
@@ -93,6 +94,18 @@ export default {
     .fixed-ratio-padding {
         /* ratio: 100% / (3 / 4) = */
         padding-bottom: 75%;
+    }
+}
+
+@media (min-width: 1012px) {
+    .hero-padding {
+        padding-bottom: 150%;
+    }
+}
+
+@media (max-width: 1011px) {
+    .hero-padding {
+        padding-bottom: 117%;
     }
 }
 </style>

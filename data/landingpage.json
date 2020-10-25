@@ -7,7 +7,8 @@
             "name": "regina-hero",
             "type": "jpg",
             "alt": "Ein Bild von Regina Kirchmeier mit 2 Papayas",
-            "lazyload": false
+            "lazyload": false,
+            "noPadding": true
         }
     },
     "empathy": {
@@ -16,7 +17,7 @@
             "Du bist verwirrt von vielen Informationen über eine gesunde Ernährung und Lebensweise. Du möchtest körperliche Symptome und Stress loswerden, weißt aber nicht genau, wo und wie du anfangen sollst. Verdauungsbeschwerden, eine unreine Haut, hormonelle Probleme und andere Symptome beeinträchtigen dich in deinem Alltag.",
             "Du möchtest ein Leben ohne gesundheitliche Probleme, schlechte Gewohnheiten, Unwohlsein und mangelnde Selbstliebe. Genau an diesem Punkt war ich auch. Du bist nicht allein und es gibt einen Weg zu einer langfristigen ganzheitlichen Gesundheit, den wir mit Freude und Leichtigkeit gehen können."  
         ],
-        "lastline": "JETZT ist die Zeit, in deine Gesundheit und dein Wohlbefinden zu investieren! Du hast deine Probleme lange genug mit dir herumgetragen. Nimm deine Gesundheit selbst in die Hand, treffe eine Gruppe von Gleichgesinnten und gehe endlich den Weg zu einem gesünderen und glücklicheren Leben."
+        "lastline": "JETZT ist die Zeit, in deine Gesundheit und dein Wohlbefinden zu investieren! Du hast deine Probleme lange genug mit dir herumgetragen. Nimm deine Gesundheit selbst in die Hand, triff eine Gruppe von Gleichgesinnten und gehe endlich den Weg zu einem gesünderen und glücklicheren Leben."
     },
     "customerNeeds": {
         "headline": "Für wen ist dieser Kurs?",
@@ -227,7 +228,7 @@
     "about": {
         "headline": "Über mich",
         "intro": "Hi, ich bin Regina und ganzheitliche Ernährungsberaterin.",
-        "text": "Vor einigen Jahren hatte ich selbst mit verschiedenen gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. Wenig Energie, Infektanfälligkeit, chronischer Stress sowie Probleme mit Gewicht, Hormonen und der Verdauung sind heute leider keine Seltenheit. In meiner Ausbildung zur Ernährungsberaterin lernte ich, diesen gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Und glaube mir, wenn ich es kann, dann kannst du es auch! Heute helfe ich Frauen wie dir, ihre Gesundheit selbst in die Hand zu nehmen, sich gut um sich selbst zu kümmern.",
+        "text": "Vor einigen Jahren hatte ich selbst mit verschiedenen gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. Wenig Energie, Infektanfälligkeit, chronischer Stress sowie Probleme mit Gewicht, Hormonen und der Verdauung sind heute leider keine Seltenheit. In meiner Ausbildung zur Ernährungsberaterin lernte ich, diesen gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Und glaube mir, wenn ich es kann, dann kannst du es auch! Heute helfe ich Frauen wie dir, ihre Gesundheit selbst in die Hand zu nehmen und sich gut um sich selbst zu kümmern.",
         "quote": "Ich bin fest davon überzeugt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind.",
         "image":{
             "name": "aboutme",

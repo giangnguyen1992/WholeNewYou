@@ -90,15 +90,14 @@ export default {
     /*
      ** Global CSS
      */
-    css: ['@/assets/css/splide.css'],
+    css: [],
     /*
      ** Plugins to load before mounting the App
      */
     plugins: [
         '~/plugins/global-components.js',
         '~/plugins/lazysizes.client.js',
-        '~/plugins/smoothscrollPolyfill.client.js',
-        '~/plugins/vue-splide.client.js'
+        '~/plugins/smoothscrollPolyfill.client.js'
     ],
     /*
      ** Nuxt.js dev-modules
