@@ -7,13 +7,13 @@
             >
                 {{ testimonials.headline }}
             </BaseSectionHeadline>
-            <splide class="mt-8 w-4/5 mx-auto" :options="slideroptions">
+            <ul class="mt-8 w-4/5 mx-auto space-y-10">
                 <Testimonial
                     v-for="testimonial in testimonials.testimonial"
                     :key="testimonial.name"
                     :testimonial="testimonial"
                 />
-            </splide>
+            </ul>
         </div>
     </BaseSection>
 </template>
@@ -30,19 +30,6 @@ export default {
             type: Object,
             required: true
         }
-    },
-    data() {
-        return {
-            slideroptions: {
-                type: 'loop',
-                perPage: 1,
-                perMove: 1,
-                arrows: false,
-                pagination: false,
-                autoplay: true,
-                interval: 4000
-            }
-        };
     }
 };
 </script>
