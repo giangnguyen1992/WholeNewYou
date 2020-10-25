@@ -25,7 +25,6 @@
 <script>
 import HeroSection from '~/components/hero/HeroSection.vue';
 import EmpathySection from '~/components/EmpathySection.vue';
-// import ImagineSection from '~/components/ImagineSection.vue';
 import CustomerMatchingSection from '~/components/customerNeeds/CustomerNeedsSection';
 import BenefitsSection from '~/components/benefits/BenefitsSection';
 import CourseOverviewSection from '~/components/courseOverview/CourseOverviewSection';
@@ -42,7 +41,6 @@ export default {
     components: {
         HeroSection,
         EmpathySection,
-        // ImagineSection,
         CustomerMatchingSection,
         BenefitsSection,
         CourseOverviewSection,
