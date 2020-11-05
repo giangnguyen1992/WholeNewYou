@@ -1,7 +1,7 @@
 <template>
     <a
         class="inline-block bg-primary-base rounded-lg shadow-button lg:hover:shadow-hoverButton focus:shadow-outline outline-none py-3 px-12"
-        href="https://sellfy.com/p/ppsoll/"
+        disabled
         target="_blank"
         rel="noopener"
         @click="fbTrackAddToCart"
@@ -36,3 +36,13 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+a[disabled] {
+    pointer-events: none;
+    cursor: default;
+    background-color: #cccccc;
+    box-shadow: none;
+    color: #666666;
+}
+</style>
