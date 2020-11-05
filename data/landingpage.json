@@ -110,7 +110,6 @@
     "timer": {
         "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. Starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
         "headline": "Zeit bis zum Kursstart",
-        "timerExpiredDate": "November 01, 2020 23:59:59",
         "buttonText": "Melde dich jetzt an!"
     },
     "productOverview": {
@@ -159,7 +158,7 @@
             {
                 "name": "Jule S.",
                 "image": "jule",
-                "text": "Du hast wirklich super guten Input gegeben und ich werde die Informationen nochlange für mich nutzen können."
+                "text": "Du hast wirklich super guten Input gegeben und ich werde die Informationen noch lange für mich nutzen können."
             },
             {
                 "name": "Nadine S.",
@@ -216,7 +215,7 @@
             },
             {
                 "headline": "Gibt es zusätzliche 1:1-Beratungen?",
-                "text": "Viele Kursteilnehmer profitieren von einer persönlichen Begleitung neben dem Onlinekurs, um ihre Ziele noch besser in die Tat umzusetzen und individuelle Empfehlungen zu erhalten. Ein Einzelcoaching kannst du spater individuell über Instagram mit mir vereinbaren."
+                "text": "Viele Kursteilnehmer profitieren von einer persönlichen Begleitung neben dem Onlinekurs, um ihre Ziele noch besser in die Tat umzusetzen und individuelle Empfehlungen zu erhalten. Ein Einzelcoaching kannst du später individuell über Instagram mit mir vereinbaren."
             },
             {
                 "headline": "Bis wann kann ich mich anmelden?",
@@ -240,7 +239,7 @@
     "newsletter": {
         "headline": "Die Anmeldung ist geschlossen",
         "text": "Der Whole New You Starter Course hat bereits begonnen. Du möchtest in der nächsten Runden dabei sein? Melde dich jetzt für den Blooming life Newsletter an und wir informieren dich, wenn die Anmeldung für die nächste Runde wieder öffnet.",
-        "buttonText": "Jetzt anmelden!",
+        "buttonText": "Jetzt eintragen!",
         "signupUrl": "http://eepurl.com/g6scZP"
     },
     "socials": [
