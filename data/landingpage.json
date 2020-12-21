@@ -1,7 +1,7 @@
 {
     "hero": {
         "headline": "Dein Onlinekurs fÜr gesunde Ernährung und Achtsamkeit!",
-        "intro": "Investiere jetzt in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.",
+        "intro": "Ich zeige dir, wie du deine Gesundheit selbst in die Hand nimmst und von nun an selbstbewusst mit deiner Ernährung umgehst. In 6 Wochen arbeiten wir an einem gesunden <strong>Health Mindset</strong>, lernen alles über die <strongHealth>Grundlagen einer gesunden Ernährung</strongHealth> und wie wir unsere <strong>Verdauung und Entgiftung</strong> optimal unterstützen. So kannst du deine Gesundheit und dein Wohlbefinden steigern, sowie dein Immunsystem stärken. ",
         "buttonText": "Jetzt anmelden!",
         "image":{
             "name": "regina-hero",
@@ -14,32 +14,33 @@
     "empathy": {
         "headline": "Ich weiß, wie du dich fühlst",
         "text": [
-            "Du bist verwirrt von vielen Informationen über eine gesunde Ernährung und Lebensweise. Du möchtest körperliche Symptome und Stress loswerden, weißt aber nicht genau, wo und wie du anfangen sollst. Verdauungsbeschwerden, eine unreine Haut, hormonelle Probleme und andere Symptome beeinträchtigen dich in deinem Alltag.",
-            "Du möchtest ein Leben ohne gesundheitliche Probleme, schlechte Gewohnheiten, Unwohlsein und mangelnde Selbstliebe. Genau an diesem Punkt war ich auch. Du bist nicht allein und es gibt einen Weg zu einer langfristigen ganzheitlichen Gesundheit, den wir mit Freude und Leichtigkeit gehen können."  
+            "Du bist verwirrt von den vielen Informationen über eine gesunde Ernährung und Lebensweise. Du möchtest <strong>körperliche Symptome und Stress loswerden</strong>, weißt aber nicht genau, wo und wie du anfangen sollst. Verdauungsbeschwerden, eine unreine Haut, hormonelle Probleme oder andere Symptome beeinträchtigen dich in deinem Alltag.",
+            "Du möchtest ein <strong>Leben ohne gesundheitliche Probleme, schlechte Gewohnheiten, Unwohlsein und mangelnde Selbstliebe</strong> führen. Genau an diesem Punkt war ich auch. Du bist nicht allein und es gibt einen Weg zu einer langfristigen ganzheitlichen Gesundheit, den wir mit Freude und Leichtigkeit gehen können."  
         ],
-        "lastline": "JETZT ist die Zeit, in deine Gesundheit und dein Wohlbefinden zu investieren! Du hast deine Probleme lange genug mit dir herumgetragen. Nimm deine Gesundheit selbst in die Hand, triff eine Gruppe von Gleichgesinnten und gehe endlich den Weg zu einem gesünderen und glücklicheren Leben."
+        "lastline": "JETZT ist die Zeit, in deine Gesundheit und dein Wohlbefinden zu investieren! Du hast deine Probleme lange genug mit dir herumgetragen. Nimm deine Gesundheit selbst in die Hand, und gehe mit einer Gruppe von Gleichgesinnten endlich den Weg zu einem gesünderen und glücklicheren Leben."
     },
     "customerNeeds": {
         "headline": "Für wen ist dieser Kurs?",
         "text": [
-            "Du möchtest mehr über gesunde Ernährung lernen und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern.", 
-            "Dein Ziel ist keine kurzfristige Diät, du bist nicht an kurzfristigen Erfolgen interessiert, sondern deiner langfristigen ganzheitlichen Gesundheit.",
-            "Du möchtest mehr Entspannung und Wohlbefinden in deinen Alltag bringen und suchst Motivation für eine gesunde Ernährungs und Lebensweise.",
-            "Du möchtest das Thema Gesundheit mit Freude angehen, gesundheitliche Probleme aus dem Weg räumen und dich gut in deinem Körper fühlen."
+            "Du möchtest <strong>mehr über eine gesunde Ernährung lernen</strong> und dein Selbstbewusstsein im Umgang mit deiner Ernährung steigern.", 
+            "Dein Ziel ist keine kurzfristige Diät und du bist nicht an kurzfristigen Erfolgen interessiert, sondern an deiner <strong>langfristigen ganzheitlichen Gesundheit</strong>.",
+            "Du möchtest <strong>mehr Entspannung und Wohlbefinden</strong> in deinen Alltag bringen und suchst Motivation für mehr Achtsamkeit und eine gesunde Ernährung im Alltag.",
+            "Du möchtest das Thema Gesundheit mit Freude angehen, gesundheitliche Probleme aus dem Weg räumen und dich <strong>gut in deinem Körper fühlen</strong>."
         ]
     }, 
     "experienced": {
-        "headline": "Genau dabei habe ich bereits vielen Frauen geholfen",
-        "text": ["Es gibt einen Weg, um all diese Probleme aus dem Weg zu räumen. Ich weiß, dass du nicht länger mühsam nach den richtigen Antworten für deine Probleme suchen möchtest. Deshalb zeige ich dir innerhalb von zwei Wochen, wie du deine Ernährung und dein Wohlbefinden steigern kannst."]
+        "headline": "Genau dabei möchte ich dir helfen",
+        "text": ["Es gibt einen Weg, um all diese Probleme aus dem Weg zu räumen. Ich weiß, dass du nicht länger mühsam nach den richtigen Antworten für deine Probleme suchen möchtest. Deshalb zeige ich dir innerhalb von sechs Wochen, wie du deine Ernährung und dein Wohlbefinden langfristig steigern kannst. Und das Beste: <strong>Wir werden dabei eine wunderbare Zeit haben!</strong>"]
     },
     "afterlife": {
         "headline": "Dein Leben nach dem Onlinekurs",
         "text": [
-            "Du gehst selbstbewusst mit deiner Ernährung um und weißt genau, was du brauchst.",
-            "Du kümmerst dich besser um dich selbst und bringst mehr Entspannung in deinen Alltag.",
-            "Du weißt, wie du deinen Beschwerden langfristig entgegenwirken kannst.",
-            "Du arbeitest voller Freude mit dem neuen Wissen an deiner gesunden Ernährung und deinem gesunden Lebensstil."
-        ]
+            "Du gehst <strong>selbstbewusst</strong> mit deiner Ernährung um und weißt genau, was du brauchst und wie du deine Ernährung im Alltag gestalten kannst.",
+            "Du gehst <strong>achtsam und liebevoll</strong> mit deinem Körper um, kümmerst dich besser um dich selbst und bringst mehr Entspannung und Achtsamkeit in deinen Alltag.",
+            "Du hast ein <strong>besseres Verständnis für deinen Körper</strong> und deine Symptome und weißt, wie du deinen Beschwerden langfristig entgegenwirken kannst.",
+            "Du etablierst <strong>gesunde Gewohnheiten und Routinen</strong> und arbeitest mit Freude an deiner gesunden Ernährung und deinem gesunden Lebensstil."
+        ],
+        "buttonText": "Das möchte ich auch!"
     },
     "preview": {
         "headline": "Der Whole New You Starter Course wird dein Leben positiv verändern",
@@ -56,18 +57,18 @@
         "headline": "Was dich in diesem Kurs erwartet",
         "arguments": [
             {
-                "text": "Der Kurs dauert 2 Wochen und vor Kursbeginn erhältst du ein Vorbereitungsmodul mit ersten Infos und Übungen. Jede Woche gibt es ein neues Modul mit über 20 Seiten Lernmaterial. Dieses kannst du dir über die Woche zeitlich flexibel einteilen und an deinen Alltag anpassen.",
+                "text": "Der Kurs ist in 6 Module gegliedert, die du in 6 Wochen entspannt durcharbeiten kannst. Jede Woche gibt es ein neues Modul zu einem bestimmten Fokusthema. Du erhältst wöchentlich <strong>schriftliches Lernmaterial mit Übungen, eine Audioversion und ein neues Video</strong>. Diese Inhalte kannst du dir über die Woche zeitlich flexibel einteilen und an deinen Alltag anpassen.",
                 "headline": "Begleitende Kursinhalte",
                 "icon": "banana"
             },
             {
-                "text": "Ich begleite dich zudem in Form von Posts und Stories auf Instagram. In unserer privaten Instagram-Gruppe findest du tägliche Inhalte, Motivation und Inspiration. Du hast zudem die Möglichkeit, dich mit anderen Kursteilnehmern auszutauschen. Hier triffst du Gleichgesinnte, die an ihrer Gesundheit und ihrem Wohlbefinden arbeiten wollen.",
+                "text": "Mit dem Kurs erhältst du Zugang zur exklusiven WNY Instagram-Community. Dort begleite ich dich in Form von <strong>Posts und Stories mit Übungen, Motivation und Inspiration</strong> durch die 6 Wochen. Du hast zudem die Möglichkeit, dich mit anderen Kursteilnehmern auszutauschen. Hier triffst du Gleichgesinnte, die genau wie du ihre Gesundheit und ihr Wohlbefinden selbst in die Hand nehmen wollen.",
                 "headline": "Instagram - Community",
                 "icon": "strawberry"
             },
             {
-                "text": "Jeden Donnerstag findet eine Live-Q&A-Session statt. Wir besprechen gemeinsam das Wochenthema und du hast die Möglichkeit, alle deine Fragen loszuwerden. Die Sessions werden um 19 Uhr auf Instagram stattfinden. Wenn du nicht live dabei sein kannst, keine Sorge, die Aufzeichnung wird gespeichert und ist hinterher abrufbar.",
-                "headline": "Wöchentliche Live-Sessions",
+                "text": "Ende Januar findet unsere gemeinsame Live Session statt, in der du alle deine Fragen loswerden kannst! Mit dem Kurs erhältst du zudem <strong>4 aufgezeichnete Live Q&A Sessions</strong>, in denen ich die häufigen Fragen zu den Themen Heißhunger, vegane Ernährung, Nährstoffbedarf, Bio-Lebensmittel, Nahrungsergänzungen, hormonelles Gleichgewicht, Hautunreinheiten, Verdauungsbeschwerden und zur Morgenroutine beantworte.",
+                "headline": "Live Q&A Sessions",
                 "icon": "lettuce"
             }
         ],
@@ -75,80 +76,92 @@
     },
     "courseOverview": {
         "headline": "Kursübersicht",
-        "programHeadline": ["Grundlagen der gesunden Ernährung", "Verdauung und Entgiftung"],
+        "programHeadline": ["Übersicht über die 6 Module"],
         "program": [
             [
                 {
                     "headline": "Das richtige Health Mindset",
-                    "description": "Finde heraus, wie die Kombination aus einer gesunden Ernährung und Achtsamkeit dir dabei hilft, deine Gesundheit und dein Wohlbefinden zu steigern."
+                    "description": "Stärke mit gezielten Übungen dein Health Mindset und entwickle eine positive Einstellung zu deiner Ernährung und deinem Körper."
                 },
                 {
-                    "headline": "Grundlagen einer gesunden Ernährung",
-                    "description": "Wie sieht die optimale Ernährung aus? Lerne mehr über die Makro- und Mikronährstoffe und was dein Körper wirklich braucht."
+                    "headline": "Makronährstoffe: Grundlagen einer gesunden Ernährung",
+                    "description": "Lerne mehr über die Makronährstoffe und wie du deinen Körper optimal mit gesunden Kohlenhydraten, Fetten und Proteinen versorgst."
                 },
                 {
-                    "headline": "Gesunde Ernährung im Alltag",
-                    "description": "Ganzheitliche Handlungsempfehlungen helfen dir dabei, eine gesunde Ernährung Schritt für Schritt in deinen Alltag zu integrieren und dein Leben langfristig gesünder zu gestalten."
-                }
-            ],
-            [
-                {
-                    "headline": "Verdauung",
-                    "description": "Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist und wie Darm und Psyche zusammenhängen."
+                    "headline": "Unser Mikronährstoffbedarf",
+                    "description": "Wir schauen und an, welche vielfältigen Aufgaben Vitamine, Mineralstoffe, Spurenelemente und sekundäre Pflanzenstoffe in unserem Körper übernehmen."
                 },
                 {
-                    "headline": "Entgiftung",
-                    "description": "Erfahre, welche Organe deinen Körper entgiften und wie du deine Entgiftungsprozesse ganzheitlich und natürlich unterstützen kannst. So kannst du deinen Körper auf natürlichem Wege von Abfällen befreien."
+                    "headline": "Gesunde Ernährung im Alltag",
+                    "description": "Wie lässt sich eine gesunde Ernährung im Alltag umsetzen, worauf müssen wir besonders achten und wie sieht die optimale Ernährung überhaupt aus?"
                 },
                 {
-                    "headline": "Bonusmaterial",
-                    "description": "Mit einer Detox Challenge und einem Ernährungstagebuch setzen wir das neue Wissen gleich gemeinsam in die Tat um. Nun bist du bereit mit einer kleinen Herausforderung in eine gesündere Ernährung zu starten."
+                    "headline": "Die optimale Verdauung",
+                    "description": "Wie funktioniert sie und warum spielt sie eine so wichtige Rolle für unsere Gesundheit? Lerne, wieso Entspannung so wichtig für deine Verdauung ist und wie Darm und Psyche zusammenhängen."
+                },
+                {
+                    "headline": "Entgiftung und Superfoods",
+                    "description": "Erfahre, welche Organe deinen Körper entgiften und mit welchen Superfoods du deine Entgiftungsprozesse ganzheitlich und natürlich unterstützen kannst."
                 }
             ]
         ]
     },
     "timer": {
-        "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. Starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
-        "headline": "Zeit bis zum Kursstart",
-        "buttonText": "Melde dich jetzt an!"
+        "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. <strong>Nimm deine Gesundheit selbst in die Hand</strong> und starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
+        "headline": "Christmas Sale endet in",
+        "buttonText": "Melde dich jetzt an!",
+        "timerExpiredDate": "December 26, 2020 23:59:59"
     },
     "productOverview": {
         "headline": "Der Whole New You Starter Course auf einen Blick",
         "includes": [
-            "2 Wochen begleitetes Health & Wellness Online Coaching vom 02.11.2020 – 15.11.2020", 
-            "2 Module mit informativem Lernmaterial", 
-            "2 Live Q&A-Sessions mit Regina",
-            "Zugang zur exklusiven Instagram-Community",
-            "BONUS 1: Vorbereitungsmodul mit Health-Mindset-Übungen",
-            "BONUS 2: Täglich neue Inhalte, Motivation und Übungen in der Instagram-Community",
-            "BONUS 3: Ernährungstagebuch und Detox-Challenge"
+            "<strong>6 Wochen Coaching</strong> für eine gesunde Ernährung und Achtsamkeit vom 04.01.2021 – 14.02.2021", 
+            "<strong>6 Module</strong> mit informativem Lernmaterial: Wöchentliche Skripte, Videos und Audios", 
+            "Gemeinsame <strong>Live Q&A-Session</strong> Ende Januar + 4 aufgezeichnete Live Q&A Sessions zu den häufigsten Fragen",
+            "Zugang zur <strong>exklusiven WNY Instagram-Community</strong> zum Austausch mit Gleichgesinnten",
+            "Alle Inhalte und Materialien stehen zum Download und damit <strong>lebenslang</strong> zur Verfügung",
+            "Optional: 3 zusätzliche <strong>Einzelcoaching-Sessions</strong>, die alle zwei Wochen stattfinden (limitiert)",
+            "<strong>BONUS 1</strong>: Checkliste mit Handlungsempfehlungen für den Alltag",
+            "<strong>BONUS 2</strong>: Ernährungstagebuch zum Ausdrucken und Ausfüllen ",
+            "<strong>BONUS 3</strong>: Detox-Challenge"
         ],
-        "price": "79",
-        "earlyBirdPrice": "47",
-        "priceHeadline": "Jetzt zum Preis von",
-        "buttonText": "Jetzt anmelden!",
+        "priceHeadline": "Early-Bird-Preis bis zum 26. Dezember 2020 ",
         "image":{
             "name": "product",
             "type": "png",
             "alt": "Produktfoto",
             "isProduct": true,
             "lazyload": true
-        }
+        },
+        "product": [
+            {
+                "price": "190",
+                "earlyBirdPrice": "144",
+                "buttonText": "Jetzt anmelden!",
+                "name": "Whole New You Complete Onlinekurs"
+            },
+            {
+                "price": "399",
+                "earlyBirdPrice": "299",
+                "buttonText": "Jetzt anmelden!",
+                "name": "WNY Complete im Coaching-Bundle inklusive 3 Einzelcoaching-Sessions (je 60 min)"
+            }
+        ]
     },
     "bonusmaterial": {
         "headline": "Hat jemand Bonusmaterial gesagt?",
         "modules": [
             {
-                "headline": "Bonus 1 Vorbereitungsmodul",
-                "text": "In diesem ersten Modul, das du noch vor Kursbeginn erhältst, arbeiten wir an deinem Health Mindset. Die Übungen und Inhalte bereiten dich optimal auf den Kurs vor."
+                "headline": "Bonus 1: Checkliste mit Handlungsempfehlungen für den Alltag",
+                "text": "In dieser Checkliste findest du alle Handlungsempfehlungen der 6 Module auf einen Blick. Du kannst die Liste dazu nutzen, um das Erlernte nach und nach optimal in deinen Alltag zu integrieren."
             },
             {
-                "headline": "Bonus 2 Exklusive Instagram-Gruppe",
-                "text": "Hier findest du täglich neue Inhalte, Motivation und Inspiration. Du hast zudem die Möglichkeit, dich mit anderen Kursteilnehmern auszutauschen."
+                "headline": "Bonus 2: Ernährungstagebuch zum Ausdrucken und Ausfüllen",
+                "text": "Mit diesem Tool kannst du herausfinden, welche Lebensmittel du gut verträgst und welche dir individuelle Probleme bereiten. Du kannst dir das Ernährungstagebuch ganz einfach ausdrucken."
             },
             {
-                "headline": "Bonus 3 Ernährungstagebuch und Detox-Challenge",
-                "text": "Mit diesen Tools kannst du herausfinden, welche Lebensmittel du gut verträgst und welche weniger gut. So kannst du ganz leicht herausfinde, welche Lebensmittel dir Probleme bereiten."
+                "headline": "Bonus 3: Detox-Challenge",
+                "text": "Diese zweiwöchige Challenge hilft dir dabei, deine Entgiftungsorgane zu entlasten und deine Entgiftung zu fördern. Du kannst sie direkt im Anschluss an den Kurs durchführen, oder aber zu einem späteren Zeitpunkt."
             }
         ]
     },
@@ -199,34 +212,46 @@
         "faq": [
             {
                 "headline": "Was passiert, wenn ich mich anmelde?",
-                "text": "Direkt nach der Anmeldung erhältst du eine Mail mit allen Kursunterlagen zum Herunterladen. Du kannst dann direkt mit dem Vorbereitungsmodul starten. Damit du Teil der exklusiven Instagram-Community wirst, sind zwei Schritte notwendig: Du erhältst eine Wilkommensmail, auf die du mit deinem Instagram-Namen antwortest. Anschließend folgst du @wholenewyou.de auf Instagram und wirst in die Gruppe aufgenommen. Am 02. November startet dann der begleitende Kurs und du erhältst zwei Wochen lang täglichen Input in der Instagram-Gruppe und jeden Montag eine E-Mail mit Infos zu den Kursunterlagen der Woche. Jeden Donnerstag um 19 Uhr findet außerdem unsere Live-Session in der Instagram-Gruppe statt."
+                "text": "Direkt nach der Anmeldung erhältst du eine Willkommensmail und eine genaue Übersicht über den Kurs. Damit du Teil der Instagram-Community wirst, antwortest du auf diese Mail mit deinem Instagram-Namen. Anschließend folgst du @wholenewyou.de auf Instagram und wirst in die Gruppe aufgenommen. <br /> Am 04. Januar startet dann der Onlinekurs. Du erhältst ab dann jeden Montag eine E-Mail mit Infos zu den Kursinhalten der Woche von mir. Darin findest du alle Inhalte zu dem jeweiligen Modul."
             },
             {
-                "headline": "Wann erhalte ich meine Kursunterlagen?",
-                "text": "Du erhältst alle Module direkt nach deiner Anmeldung per E-Mail und kannst sie ganz bequem herunterladen."
+                "headline": "Wie viel Zeit sollte ich für den Kurs einplanen?",
+                "text": "Der Kurs ist so konzipiert, dass du dich pro Woche mit jeweils einem Modul beschäftigst. Du kannst dir die Inhalte des jeweiligen Moduls über die Woche frei einteilen und solltest dir dafür ca. 1 – 3 Stunden Zeit nehmen. Der Kurs lässt sich wunderbar in den Alltag integrieren, ganz nach deinem Tempo, ob in der Woche oder am Wochenende"
             },
             {
-                "headline": "Was unterscheidet den Kurs von anderen Ernährungskursen?",
-                "text": "Whole New You kombiniert eine gesunde Ernährung und Achtsamkeit und geht damit einen Schritt tiefer. Das Health Mindset spielt eine große Rolle und hilft dir, langfristig deine Ernährung umzustellen. Praktische Handlungsempfehlungen sorgen dafür, dass das neue Wissen auch direkt in die Tat umgesetzt wird."
+                "headline": "Kann ich den Kurs auch als Geschenk kaufen?",
+                "text": "Mit dem WNY Onlinekurs kannst du auch Freunden oder Familie eine Freude machen. Kaufe den Kurs dazu ganz normal und teile mir anschließend per E-Mail an regina@bloominglife.de mit, welche Person und welche E-Mail-Adresse stattdessen an dem Kurs teilnimmt."
+            },
+            {
+                "headline": "Kann ich den Kurs auch ohne Instagram durchführen?",
+                "text": "In unserer Instagram-Gruppe gibt es verschiedene Übungen, Motivation und Inspiration zu den Wochenthemen. Wenn du den Kurs lieber für dich alleine durchführen möchtest, ist das überhaupt kein Problem. Alle wichtigen Inhalte, Skripte, Videos und Audios findest erhältst du von mir per Mail. Die Instagram-Gruppe ergänzt den Kurs, ist aber nicht zwingend."
             },
             {
                 "headline": "Ist der Kurs das richtige für mich, wenn ich abnehmen möchte?",
-                "text": "Die Methoden führen automatisch dazu, dass dein Körper sein eigenes Idealgewicht findet. Viele Coaching-Klienten haben dank der Handlungsempfehlungen und Rezepte ihr optimales Körpergewicht erreicht und können es auch halten. WNY ist allerdings keine kurzfristige Diät, im Fokus steht immer die langfristige ganzheitliche Gesundheit."
+                "text": "Die ganzheitlichen Methoden führen automatisch dazu, dass dein Körper sein eigenes Idealgewicht findet. Viele Coaching-Klienten haben dank der Handlungsempfehlungen und Rezepte ihr optimales Körpergewicht erreicht und können es auch halten. WNY ist allerdings keine kurzfristige Diät, im Fokus steht immer die langfristige ganzheitliche Gesundheit."
             },
             {
-                "headline": "Gibt es zusätzliche 1:1-Beratungen?",
-                "text": "Viele Kursteilnehmer profitieren von einer persönlichen Begleitung neben dem Onlinekurs, um ihre Ziele noch besser in die Tat umzusetzen und individuelle Empfehlungen zu erhalten. Ein Einzelcoaching kannst du später individuell über Instagram mit mir vereinbaren."
+                "headline": "Wann lohnt sich eine zusätzliche 1:1-Beratung?",
+                "text": "Viele Kursteilnehmer profitieren von einer persönlichen Begleitung parallel zum Onlinekurs, um individuelle Probleme gezielt anzugehen. Du kannst den Kurs entweder ohne Begleitung buchen oder im Paket mit 3 Einzelcoaching-Sessions. Dieses lohnt sich vor allem bei (chronischen) gesundheitlichen Beschwerden und Störungen des Essverhaltens. Es kann dich aber auch einfach dabei unterstützen, deine persönlichen Ziele schneller zu erreichen. <br /> Die Einzelcoachings sind auf 10 Teilnehmer limitiert. <br /> Wenn du dir unsicher bist, schreib mit gerne eine Mail an regina@bloominglife.de und wir vereinbaren ein kostenloses Erstgespräch."
             },
             {
-                "headline": "Bis wann kann ich mich anmelden?",
-                "text": "Die Anmeldung schließt am 01.11.20 um 23.59 Uhr."
+                "headline": "Was unterscheidet den Kurs von anderen Ernährungskursen?",
+                "text": "Whole New You kombiniert eine gesunde Ernährung und Achtsamkeit und geht damit einen Schritt tiefer. WNY ist keine kurzfristige Diät, sondern zielt auf eine langfristige ganzheitliche Gesundheit ab. Dabei lernst du, deine Ernährung selbst in die Hand zu nehmen. Das Health Mindset spielt eine große Rolle und hilft dir, langfristig deine Ernährung umzustellen. Das eigene Wohlbefinden und die Freude an der Ernährung stehen dabei immer im Mittelpunkt. Praktische Handlungsempfehlungen sorgen dafür, dass das neue Wissen auch direkt in die Tat umgesetzt wird."
+            },
+            {
+                "headline": "Gibt es einen Rabatt für Schüler*innen, Student*innen, Alleinerziehende und Arbeitslose?",
+                "text": "Ich möchte, dass jeder die Möglichkeit hat, am WNY Onlinekurs teilzunehmen, deshalb biete ich dir gerne einen Rabatt an, wenn du in diese Gruppe fällst. Schicke mir dazu einfach vor dem Kauf des Kurses eine E-Mail an regina@bloominglife.de mit einem entsprechenden Nachweis."
+            },
+            {
+                "headline": "Bis wann kann ich mich anmelden",
+                "text": "Die Anmeldung schließt am 03.01.20 um 23.59 Uhr. Der Early Bird-Rabatt geht noch bis zum 24.12.2020."
             }
         ],
         "buttonText": "Yes, ich bin dabei!"
     },
     "about": {
         "headline": "Über mich",
-        "intro": "Hi, ich bin Regina und ganzheitliche Ernährungsberaterin.",
+        "intro": "Hi, ich bin Regina und ganzheitliche Ernährungsberaterin. Mit Whole New You begleite ich dich 6 Wochen lang auf deiner Reise zu einer gesünderen Ernährung und mehr Wohlbefinden.",
         "text": "Vor einigen Jahren hatte ich selbst mit verschiedenen gesundheitlichen Problemen zu kämpfen und Stress schadete meiner Gesundheit zusätzlich. Wenig Energie, Infektanfälligkeit, chronischer Stress sowie Probleme mit Gewicht, Hormonen und der Verdauung sind heute leider keine Seltenheit. In meiner Ausbildung zur Ernährungsberaterin lernte ich, diesen gesundheitlichen Problemen mit einer natürlichen Ernährung und ganzheitlichen Methoden entgegenzuwirken. Und glaube mir, wenn ich es kann, dann kannst du es auch! Heute helfe ich Frauen wie dir, ihre Gesundheit selbst in die Hand zu nehmen und sich gut um sich selbst zu kümmern.",
         "quote": "Ich bin fest davon überzeugt, dass eine gesunde Ernährung und Achtsamkeit der Schlüssel zu einer langfristigen Gesundheit sind.",
         "image":{

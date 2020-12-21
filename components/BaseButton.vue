@@ -1,7 +1,7 @@
 <template>
     <a
         class="inline-block bg-primary-base rounded-lg shadow-button lg:hover:shadow-hoverButton focus:shadow-outline outline-none py-3 px-12"
-        disabled
+        href="https://sellfy.com/p/ppsoll/"
         target="_blank"
         rel="noopener"
         @click="fbTrackAddToCart"

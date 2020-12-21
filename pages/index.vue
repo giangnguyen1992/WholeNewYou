@@ -19,7 +19,6 @@
             :socials="landingpage.socials"
         />
         <FAQSection :faqs="landingpage.faqs" />
-        <NewsletterSection :newsletter="landingpage.newsletter" />
     </main>
 </template>
 
@@ -36,7 +35,6 @@ import TestimonialsSection from '~/components/TestimonialsSection';
 import FAQSection from '~/components/FAQSection';
 import PreviewSection from '~/components/PreviewSection';
 import BonusSection from '~/components/BonusSection';
-import NewsletterSection from '~/components/newsletter/NewsletterSection';
 
 export default {
     components: {
@@ -51,8 +49,7 @@ export default {
         TestimonialsSection,
         FAQSection,
         BonusSection,
-        PreviewSection,
-        NewsletterSection
+        PreviewSection
     },
     async asyncData({ $axios }) {
         const landingpage = await $axios.get(`/.netlify/functions/landingpage`);
@@ -66,4 +63,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+mark {
+    background-color: #fddf9a;
+    color: #425966;
+}
+</style>
