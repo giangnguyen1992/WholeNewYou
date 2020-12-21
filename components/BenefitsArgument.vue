@@ -15,7 +15,7 @@
         >
             {{ argument.headline }}
         </h3>
-        <p class="text-sec-base text-left">{{ argument.text }}</p>
+        <p class="text-sec-base text-left" v-html="argument.text"></p>
     </div>
 </template>
 

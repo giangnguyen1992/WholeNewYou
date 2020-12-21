@@ -6,7 +6,7 @@
         <div
             class="mx-auto max-w-5xl flex md:flex-col sm:flex-col items-center justify-center"
         >
-            <div class="self-center lg:max-w-6xl md:max-w-xl lg:mr-24 mb-8">
+            <div class="self-center lg:max-w-xl md:max-w-xl lg:mr-24 mb-8">
                 <h1
                     v-if="sectionHeadline || hero.intro"
                     class="text-sec-base flex flex-col lg:mb-8"
@@ -19,8 +19,8 @@
                     <span
                         v-if="hero.intro"
                         class="md:hidden sm:hidden lg:mt-8"
-                        >{{ hero.intro }}</span
-                    >
+                        v-html="hero.intro"
+                    ></span>
                 </h1>
 
                 <BaseButton
@@ -37,9 +37,8 @@
             <p
                 v-if="hero.intro"
                 class="lg:hidden md:max-w-xl text-sec-base md:mt-12 sm:mt-12"
-            >
-                {{ hero.intro }}
-            </p>
+                v-html="hero.intro"
+            ></p>
             <BaseButton
                 v-if="hero.buttonText"
                 class="lg:hidden md:mt-12 sm:mt-12"

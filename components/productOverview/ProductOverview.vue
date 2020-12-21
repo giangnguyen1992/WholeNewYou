@@ -17,39 +17,107 @@
                     v-for="(product, index) in productOverview.includes"
                     :key="index"
                     class="productList mb-2 last:mb-0"
-                >
-                    {{ product }}
-                </li>
+                    v-html="product"
+                ></li>
             </ul>
 
-            <p
+            <h3
                 v-if="productOverview.priceHeadline"
-                class="text-xl leading-none mt-8"
+                class="font-sans text-sec-base font-semibold text-2xl mt-8"
             >
                 {{ productOverview.priceHeadline }}
-            </p>
+            </h3>
             <div
-                v-if="productOverview.earlyBirdPrice"
-                class="flex flex-col text-sec-base leading-none items-center justify-center lg:my-8 md:my-8 sm:my-8"
+                class="flex md:flex-col sm:flex-col items-center justify-between my-8"
             >
-                <p
-                    class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-2"
+                <div
+                    v-if="productOverview.product[0].earlyBirdPrice"
+                    class="flex-1 flex flex-col text-sec-base leading-none items-center justify-center lg:border-r-2 md:border-b-2 sm:border-b-2 md:pb-8 sm:pb-8 border-primary-base"
                 >
-                    {{ `${productOverview.earlyBirdPrice} €` }}
-                </p>
+                    <p
+                        v-if="productOverview.product[0].name"
+                        class="text-xl text-center leading-none mb-4"
+                    >
+                        {{ productOverview.product[0].name }}
+                    </p>
+                    <p
+                        class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-2"
+                    >
+                        {{ `${productOverview.product[0].earlyBirdPrice} €` }}
+                    </p>
 
-                <p v-if="productOverview.price" class="text-lg">
-                    {{ `danach ${productOverview.price}€` }}
-                </p>
+                    <p
+                        v-if="productOverview.product[0].price"
+                        class="text-lg mb-4"
+                    >
+                        {{ `danach ${productOverview.product[0].price}€` }}
+                    </p>
+                    <a
+                        v-if="productOverview.product[0].buttonText"
+                        class="inline-block bg-primary-base rounded-lg shadow-button lg:hover:shadow-hoverButton focus:shadow-outline outline-none py-3 px-12"
+                        href="https://sellfy.com/p/ppsoll/"
+                        target="_blank"
+                        rel="noopener"
+                        @click="fbTrackAddToCart"
+                    >
+                        <span
+                            class="flex align-middle justify-center tracking-wider"
+                            ><span
+                                class="font-sans font-bold text-white text-base"
+                            >
+                                {{ productOverview.product[0].buttonText }}
+                            </span>
+                        </span>
+                    </a>
+                </div>
+                <div
+                    v-if="productOverview.product[1].earlyBirdPrice"
+                    class="flex-1 flex flex-col text-sec-base leading-none items-center justify-center md:pt-8 sm:pt-8"
+                >
+                    <p
+                        v-if="productOverview.product[1].name"
+                        class="text-xl text-center leading-none mb-4"
+                    >
+                        {{ productOverview.product[1].name }}
+                    </p>
+                    <p
+                        class="font-heading lg:text-6xl md:text-5xl sm:text-5xl mb-2"
+                    >
+                        {{ `${productOverview.product[1].earlyBirdPrice} €` }}
+                    </p>
+
+                    <p
+                        v-if="productOverview.product[1].price"
+                        class="text-lg mb-4"
+                    >
+                        {{ `danach ${productOverview.product[1].price}€` }}
+                    </p>
+                    <a
+                        v-if="productOverview.product[1].buttonText"
+                        class="inline-block bg-primary-base rounded-lg shadow-button lg:hover:shadow-hoverButton focus:shadow-outline outline-none py-3 px-12"
+                        href="https://sellfy.com/blooming-life/p/whole-new-complete-course-jn63qw/"
+                        target="_blank"
+                        rel="noopener"
+                        @click="fbTrackAddToCart"
+                    >
+                        <span
+                            class="flex align-middle justify-center tracking-wider"
+                            ><span
+                                class="font-sans font-bold text-white text-base"
+                            >
+                                {{ productOverview.product[1].buttonText }}
+                            </span>
+                        </span>
+                    </a>
+                </div>
             </div>
-            <BaseButton v-if="productOverview.buttonText">
-                {{ productOverview.buttonText }}
-            </BaseButton>
         </div>
     </BaseSection>
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
     props: {
         productOverview: {
@@ -58,10 +126,24 @@ export default {
         }
     },
     computed: {
+        ...mapGetters('user', ['showCookieBanner']),
         sectionHeadline() {
             return this.productOverview
                 ? this.productOverview.headline.toUpperCase()
                 : '';
+        }
+    },
+    methods: {
+        fbTrackAddToCart() {
+            if (
+                this.showCookieBanner ||
+                typeof this.$fb !== 'object' ||
+                typeof this.$fb.track !== 'function'
+            ) {
+                return;
+            }
+
+            this.$fb.track('AddToCart');
         }
     }
 };

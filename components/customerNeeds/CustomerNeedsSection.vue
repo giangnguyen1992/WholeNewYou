@@ -18,9 +18,7 @@
                             class="text-primary-base lg:text-5xl md:text-4xl sm:text-4xl font-semibold leading-none pr-6"
                             >{{ `0${index + 1}` }}</span
                         >
-                        <p class="text-sec-base">
-                            {{ row }}
-                        </p>
+                        <p class="text-sec-base" v-html="row"></p>
                     </li>
                 </ul>
             </div>
@@ -32,9 +30,7 @@
                 >
                     {{ experienced.headline }}
                 </h3>
-                <p class="text-sec-base">
-                    {{ experienced.text[0] }}
-                </p>
+                <p class="text-sec-base" v-html="experienced.text[0]"></p>
             </div>
         </BaseSection>
         <BaseSection class="bg-primary-light">
@@ -43,15 +39,13 @@
             >
                 {{ afterlife.headline }}
             </BaseSectionHeadline>
-            <ul class="flex flex-col items-center mt-8 space-y-8">
+            <ul class="flex flex-col items-left mt-8 space-y-8">
                 <li
                     v-for="(row, index) in afterlife.text"
                     :key="index"
                     class="checkmarks flex flex-1 items-center"
                 >
-                    <p class="text-sec-base">
-                        {{ row }}
-                    </p>
+                    <p class="text-sec-base" v-html="row"></p>
                 </li>
             </ul>
         </BaseSection>
