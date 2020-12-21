@@ -4,9 +4,8 @@
             <p
                 v-if="timer.text"
                 class="text-sec-base text-center max-w-2xl mb-8"
-            >
-                {{ timer.text }}
-            </p>
+                v-html="timer.text"
+            ></p>
             <BaseSectionHeadline
                 v-if="sectionHeadline"
                 class="lg:mb-8 md:mb-4 sm:mb-4 text-sec-base"

@@ -39,9 +39,7 @@ export default {
     },
     computed: {
         weekHeadline() {
-            return `Woche ${this.program.index + 1}: ${this.programHeadline[
-                this.program.index
-            ].toUpperCase()}`;
+            return `${this.programHeadline[this.program.index].toUpperCase()}`;
         }
     }
 };

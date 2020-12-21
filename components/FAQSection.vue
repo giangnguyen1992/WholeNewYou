@@ -17,7 +17,7 @@
                         class="font-sans text-sec-base font-semibold text-lg"
                         >{{ faq.headline }}</summary
                     >
-                    <p class="p-4">{{ faq.text }}</p>
+                    <p class="p-4" v-html="faq.text"></p>
                 </details>
             </div>
             <BaseButton v-if="faqs.buttonText" class="mt-8">

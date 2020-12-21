@@ -9,9 +9,8 @@
                     v-for="(row, index) in empathy.text"
                     :key="index"
                     class="text-sec-base mt-4"
-                >
-                    {{ row }}
-                </li>
+                    v-html="row"
+                ></li>
             </ul>
             <p
                 class=" mx-auto w-4/5 text-center font-semibold text-sec-base mt-8 bg-white p-4 shadow-lg rounded-lg"
