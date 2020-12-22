@@ -5,19 +5,19 @@
             <div
                 class="flex justify-center align-middle font-sans text-sec-base mb-4"
             >
-                <a
-                    href="https://www.bloominglife.de/datenschutzerklaerung/"
+                <nuxt-link
+                    to="/datenschutz"
                     class="mr-10 hover:text-sec-light"
                     target="_blank"
                     rel="noopener"
-                    >Datenschutz</a
+                    >Datenschutz</nuxt-link
                 >
-                <a
-                    href="https://www.bloominglife.de/impressum/"
+                <nuxt-link
+                    to="/impressum"
                     class="hover:text-sec-light"
                     target="_blank"
                     rel="noopener"
-                    >Impressum</a
+                    >Impressum</nuxt-link
                 >
             </div>
             <div class="text-center text-sec-base">
