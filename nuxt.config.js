@@ -25,7 +25,7 @@ export default {
                 hid: 'description',
                 name: 'description',
                 content:
-                    'Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
+                    'Ich zeige dir, wie du deine Gesundheit selbst in die Hand nimmst und von nun an selbstbewusst mit deiner Ernährung umgehst. In 6 Wochen arbeiten wir an einem gesunden Health Mindset, lernen alles über die Grundlagen einer gesunden Ernährung und wie wir unsere Verdauung und Entgiftung optimal unterstützen.'
             },
             {
                 name: 'title',
@@ -48,7 +48,7 @@ export default {
             {
                 property: 'og:description',
                 content:
-                    'Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
+                    'Ich zeige dir, wie du deine Gesundheit selbst in die Hand nimmst und von nun an selbstbewusst mit deiner Ernährung umgehst. In 6 Wochen arbeiten wir an einem gesunden Health Mindset, lernen alles über die Grundlagen einer gesunden Ernährung und wie wir unsere Verdauung und Entgiftung optimal unterstützen.'
             },
             {
                 property: 'og:image',
@@ -70,7 +70,7 @@ export default {
             {
                 property: 'twitter:description',
                 content:
-                    'Investiere im Juli zwei Wochen in dich selbst, deine Gesundheit und dein Wohlbefinden. Lerne die Grundlagen einer gesunden Ernährung kennen und wie du diese nachhaltig in deinen Alltag zu integrierst – für mehr Energie, ein stärkeres Immunsystem und ein gesteigertes Wohlbefinden.'
+                    'Ich zeige dir, wie du deine Gesundheit selbst in die Hand nimmst und von nun an selbstbewusst mit deiner Ernährung umgehst. In 6 Wochen arbeiten wir an einem gesunden Health Mindset, lernen alles über die Grundlagen einer gesunden Ernährung und wie wir unsere Verdauung und Entgiftung optimal unterstützen.'
             },
             {
                 property: 'twitter:image',

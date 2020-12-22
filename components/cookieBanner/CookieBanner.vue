@@ -12,10 +12,11 @@
             Wir geben Informationen zur Nutzung unserer Webseite an Partner für
             soziale Medien und Analysen weiter. Mit einem Klick auf Akzeptieren
             stimmst Du dieser Nutzung zu. Weitere Infos findest Du in unserer
-            <a
+            <nuxt-link
+                to="/datenschutz"
                 class="underline hover:text-sec-base"
-                href="https://www.bloominglife.de/datenschutzerklaerung/"
-                >Datenschutzerklärung</a
+                target="_blank"
+                >Datenschutzerklärung</nuxt-link
             >.
         </p>
         <div class="flex items-center justify-evenly">

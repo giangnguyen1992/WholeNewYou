@@ -1,7 +1,7 @@
 {
     "hero": {
-        "headline": "Dein Onlinekurs fÜr gesunde Ernährung und Achtsamkeit!",
-        "intro": "Ich zeige dir, wie du deine Gesundheit selbst in die Hand nimmst und von nun an selbstbewusst mit deiner Ernährung umgehst. In 6 Wochen arbeiten wir an einem gesunden <strong>Health Mindset</strong>, lernen alles über die <strongHealth>Grundlagen einer gesunden Ernährung</strongHealth> und wie wir unsere <strong>Verdauung und Entgiftung</strong> optimal unterstützen. So kannst du deine Gesundheit und dein Wohlbefinden steigern, sowie dein Immunsystem stärken. ",
+        "headline": "Starte 2021 in ein gesundes und glückliches Jahr!",
+        "intro": "Wie möchtest du dich 2021 fühlen? Genau da wollen wir hin! Ich zeige dir, wie du deine Gesundheit selbst in die Hand nimmst und von nun an selbstbewusst mit deiner Ernährung umgehst. In 6 Wochen arbeiten wir an einem gesunden <strong>Health Mindset</strong>, lernen alles über die <strong>Grundlagen einer gesunden Ernährung</strong> und wie wir unsere <strong>Verdauung und Entgiftung</strong> optimal unterstützen.",
         "buttonText": "Jetzt anmelden!",
         "image":{
             "name": "regina-hero",
@@ -43,7 +43,7 @@
         "buttonText": "Das möchte ich auch!"
     },
     "preview": {
-        "headline": "Der Whole New You Starter Course wird dein Leben positiv verändern",
+        "headline": "Der Whole New You Complete Course wird dein Leben positiv verändern",
         "image":{
             "name": "preview",
             "type": "png",
@@ -113,7 +113,7 @@
         "timerExpiredDate": "December 26, 2020 23:59:59"
     },
     "productOverview": {
-        "headline": "Der Whole New You Starter Course auf einen Blick",
+        "headline": "Der Whole New You Complete Course auf einen Blick",
         "includes": [
             "<strong>6 Wochen Coaching</strong> für eine gesunde Ernährung und Achtsamkeit vom 04.01.2021 – 14.02.2021", 
             "<strong>6 Module</strong> mit informativem Lernmaterial: Wöchentliche Skripte, Videos und Audios", 
@@ -125,7 +125,7 @@
             "<strong>BONUS 2</strong>: Ernährungstagebuch zum Ausdrucken und Ausfüllen ",
             "<strong>BONUS 3</strong>: Detox-Challenge"
         ],
-        "priceHeadline": "Early-Bird-Preis bis zum 26. Dezember 2020 ",
+        "priceHeadline": "40% Christmas Special bis zum 26. Dezember 2020 ",
         "image":{
             "name": "product",
             "type": "png",
@@ -136,7 +136,7 @@
         "product": [
             {
                 "price": "190",
-                "earlyBirdPrice": "144",
+                "earlyBirdPrice": "114",
                 "buttonText": "Jetzt anmelden!",
                 "name": "Whole New You Complete Onlinekurs"
             },
@@ -144,7 +144,7 @@
                 "price": "399",
                 "earlyBirdPrice": "299",
                 "buttonText": "Jetzt anmelden!",
-                "name": "WNY Complete im Coaching-Bundle inklusive 3 Einzelcoaching-Sessions (je 60 min)"
+                "name": "WNY Complete im Coaching-Bundle inklusive 3 Einzelcoaching-Sessions (stark limitiert)"
             }
         ]
     },
@@ -212,7 +212,7 @@
         "faq": [
             {
                 "headline": "Was passiert, wenn ich mich anmelde?",
-                "text": "Direkt nach der Anmeldung erhältst du eine Willkommensmail und eine genaue Übersicht über den Kurs. Damit du Teil der Instagram-Community wirst, antwortest du auf diese Mail mit deinem Instagram-Namen. Anschließend folgst du @wholenewyou.de auf Instagram und wirst in die Gruppe aufgenommen. <br /> Am 04. Januar startet dann der Onlinekurs. Du erhältst ab dann jeden Montag eine E-Mail mit Infos zu den Kursinhalten der Woche von mir. Darin findest du alle Inhalte zu dem jeweiligen Modul."
+                "text": "Damit du Teil der Instagram-Community wirst, antwortest du auf diese Mail mit deinem Instagram-Namen. Anschließend folgst du @wholenewyou.de auf Instagram und wirst in die Gruppe aufgenommen. <br /> Am 04. Januar startet dann der Onlinekurs. Du erhältst ab dann jeden Montag eine E-Mail mit Infos zu den Kursinhalten der Woche von mir. Darin findest du alle Inhalte zu dem jeweiligen Modul."
             },
             {
                 "headline": "Wie viel Zeit sollte ich für den Kurs einplanen?",
@@ -224,7 +224,7 @@
             },
             {
                 "headline": "Kann ich den Kurs auch ohne Instagram durchführen?",
-                "text": "In unserer Instagram-Gruppe gibt es verschiedene Übungen, Motivation und Inspiration zu den Wochenthemen. Wenn du den Kurs lieber für dich alleine durchführen möchtest, ist das überhaupt kein Problem. Alle wichtigen Inhalte, Skripte, Videos und Audios findest erhältst du von mir per Mail. Die Instagram-Gruppe ergänzt den Kurs, ist aber nicht zwingend."
+                "text": "In unserer Instagram-Gruppe gibt es verschiedene Übungen, Motivation und Inspiration zu den Wochenthemen. Wenn du den Kurs lieber für dich alleine durchführen möchtest, ist das überhaupt kein Problem. Alle wichtigen Inhalte, Skripte, Videos und Audios erhältst du von mir per Mail. Die Instagram-Gruppe ergänzt den Kurs, ist aber nicht zwingend."
             },
             {
                 "headline": "Ist der Kurs das richtige für mich, wenn ich abnehmen möchte?",
@@ -244,7 +244,7 @@
             },
             {
                 "headline": "Bis wann kann ich mich anmelden",
-                "text": "Die Anmeldung schließt am 03.01.20 um 23.59 Uhr. Der Early Bird-Rabatt geht noch bis zum 24.12.2020."
+                "text": "Die Anmeldung schließt am 03.01.20 um 23.59 Uhr. Der Early Bird-Rabatt geht noch bis zum 26.12.2020."
             }
         ],
         "buttonText": "Yes, ich bin dabei!"
@@ -263,7 +263,7 @@
     },
     "newsletter": {
         "headline": "Die Anmeldung ist geschlossen",
-        "text": "Der Whole New You Starter Course hat bereits begonnen. Du möchtest in der nächsten Runden dabei sein? Melde dich jetzt für den Blooming life Newsletter an und wir informieren dich, wenn die Anmeldung für die nächste Runde wieder öffnet.",
+        "text": "Der Whole New You Complete Course hat bereits begonnen. Du möchtest in der nächsten Runden dabei sein? Melde dich jetzt für den Blooming life Newsletter an und wir informieren dich, wenn die Anmeldung für die nächste Runde wieder öffnet.",
         "buttonText": "Jetzt eintragen!",
         "signupUrl": "http://eepurl.com/g6scZP"
     },
