@@ -50,7 +50,7 @@
                         v-if="productOverview.product[0].price"
                         class="text-lg mb-4"
                     >
-                        {{ `danach ${productOverview.product[0].price}€` }}
+                        {{ `anstatt ${productOverview.product[0].price}€` }}
                     </p>
                     <a
                         v-if="productOverview.product[0].buttonText"
