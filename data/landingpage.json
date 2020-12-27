@@ -108,9 +108,9 @@
     },
     "timer": {
         "text": "Melde dich jetzt an und investiere in dich und deine Gesundheit. <strong>Nimm deine Gesundheit selbst in die Hand</strong> und starte gleichzeitig mit einer Gruppe von Gleichgesinnten eine Reise zu einer gesunden Ernährung und mehr Wohlbefinden im Alltag.",
-        "headline": "Christmas Sale endet in",
+        "headline": "Zeit bis zum Kursstart",
         "buttonText": "Melde dich jetzt an!",
-        "timerExpiredDate": "December 26, 2020 23:59:59"
+        "timerExpiredDate": "January 03, 2021 23:59:59"
     },
     "productOverview": {
         "headline": "Der Whole New You Complete Course auf einen Blick",
@@ -125,7 +125,7 @@
             "<strong>BONUS 2</strong>: Ernährungstagebuch zum Ausdrucken und Ausfüllen ",
             "<strong>BONUS 3</strong>: Detox-Challenge"
         ],
-        "priceHeadline": "40% Christmas Special bis zum 26. Dezember 2020 ",
+        "priceHeadline": "Jetzt bis zum 04. Januar 2021 anmelden",
         "image":{
             "name": "product",
             "type": "png",
@@ -135,14 +135,14 @@
         },
         "product": [
             {
-                "price": "190",
-                "earlyBirdPrice": "114",
+                "price": "390",
+                "earlyBirdPrice": "190",
                 "buttonText": "Jetzt anmelden!",
                 "name": "Whole New You Complete Onlinekurs"
             },
             {
-                "price": "399",
-                "earlyBirdPrice": "299",
+                "price": "599",
+                "earlyBirdPrice": "399",
                 "buttonText": "Jetzt anmelden!",
                 "name": "WNY Complete im Coaching-Bundle inklusive 3 Einzelcoaching-Sessions (stark limitiert)"
             }
@@ -275,10 +275,6 @@
         {
             "name": "Youtube",
             "url": "https://www.youtube.com/channel/UCNGsn-nsqStKzQAr_2-9Kow"
-        },
-        {
-            "name": "Worldwideweb",
-            "url": "https://www.bloominglife.de/"
         }
     ]
 }
