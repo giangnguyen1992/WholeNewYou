@@ -4,6 +4,7 @@
         href="https://sellfy.com/p/ppsoll/"
         target="_blank"
         rel="noopener"
+        disabled
         @click="fbTrackAddToCart"
     >
         <span class="flex align-middle justify-center tracking-wider"
