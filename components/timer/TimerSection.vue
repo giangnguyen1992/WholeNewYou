@@ -12,11 +12,11 @@
             >
                 {{ sectionHeadline }}
             </BaseSectionHeadline>
-            <Timer
+            <!-- <Timer
                 v-if="timerExpiredDate"
                 :expired-date="timerExpiredDate"
                 class="mb-8"
-            />
+            /> -->
             <BaseButton v-if="timer.buttonText">
                 {{ timer.buttonText }}
             </BaseButton>
@@ -27,7 +27,7 @@
 <script>
 export default {
     components: {
-        Timer: () => import('~/components/Timer')
+        // Timer: () => import('~/components/Timer')
     },
     props: {
         timer: {

@@ -1,6 +1,7 @@
 <template>
     <main>
         <HeroSection :hero="landingpage.hero" />
+        <NewsletterSection :newsletter="landingpage.newsletter" />
         <EmpathySection :empathy="landingpage.empathy" />
         <PreviewSection :preview="landingpage.preview" />
         <CustomerMatchingSection
@@ -35,6 +36,7 @@ import TestimonialsSection from '~/components/TestimonialsSection';
 import FAQSection from '~/components/FAQSection';
 import PreviewSection from '~/components/PreviewSection';
 import BonusSection from '~/components/BonusSection';
+import NewsletterSection from '~/components/newsletter/NewsletterSection';
 
 export default {
     components: {
@@ -49,7 +51,8 @@ export default {
         TestimonialsSection,
         FAQSection,
         BonusSection,
-        PreviewSection
+        PreviewSection,
+        NewsletterSection
     },
     async asyncData({ $axios }) {
         const landingpage = await $axios.get(`/.netlify/functions/landingpage`);
