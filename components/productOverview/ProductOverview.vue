@@ -58,6 +58,7 @@
                         href="https://sellfy.com/p/ppsoll/"
                         target="_blank"
                         rel="noopener"
+                        disabled
                         @click="fbTrackAddToCart"
                     >
                         <span
@@ -98,6 +99,7 @@
                         href="https://sellfy.com/blooming-life/p/whole-new-complete-course-jn63qw/"
                         target="_blank"
                         rel="noopener"
+                        disabled
                         @click="fbTrackAddToCart"
                     >
                         <span
@@ -170,5 +172,13 @@ export default {
     transition: all 0.3s;
     transform-origin: 50% 50%;
     backface-visibility: hidden;
+}
+
+a[disabled] {
+    pointer-events: none;
+    cursor: default;
+    background-color: #cccccc;
+    box-shadow: none;
+    color: #666666;
 }
 </style>
